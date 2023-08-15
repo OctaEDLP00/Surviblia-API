@@ -1,0 +1,40 @@
+{
+  "exclude": [
+    "./node_modules",
+    "./ignoreFile.ts",
+    "./src/utils/Dom.ts",
+    "./src/utils/parserEnchantments.ts",
+    "./src/utils/requireJson.ts",
+    "./restClient"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "es2022",
+    "moduleResolution": "Node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./build",
+    // "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "paths": {
+      "@controllers/*": [ "src/controllers/*" ],
+      "@middlewares/*": [ "src/middlewares/*" ],
+      "@models/*": [ "src/models/*" ],
+      "@router/*": [ "src/router/*" ],
+      "@schemas/*": [ "src/schemas/*" ],
+      "@setup/*": [ "src/setup/*" ],
+      "@utils/*": [ "src/utils/*" ],
+      "@views/*": [ "src/views/*" ]
+    }
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
