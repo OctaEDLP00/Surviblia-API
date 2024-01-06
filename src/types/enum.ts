@@ -17,4 +17,4 @@ export enum Version {
   onePointEightteen = "1.18",
   onePointNineteen = "1.19",
   onePointTwenty = "1.20",
-};
+}

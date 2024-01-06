@@ -11,14 +11,17 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "es2022",
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "module": "ES2022",
     "moduleResolution": "Node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./build",
-    // "removeComments": true,
+    "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
@@ -26,12 +29,13 @@
     "paths": {
       "@controllers/*": [ "src/controllers/*" ],
       "@middlewares/*": [ "src/middlewares/*" ],
+      "@schemas/*": [ "src/schemas/*" ],
       "@models/*": [ "src/models/*" ],
       "@router/*": [ "src/router/*" ],
-      "@schemas/*": [ "src/schemas/*" ],
       "@setup/*": [ "src/setup/*" ],
       "@utils/*": [ "src/utils/*" ],
-      "@views/*": [ "src/views/*" ]
+      "@views/*": [ "src/views/*" ],
+      "@data/*": [ "src/data/*" ]
     }
   },
   "ts-node": {

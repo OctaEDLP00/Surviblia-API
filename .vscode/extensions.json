@@ -14,6 +14,7 @@
     "dbaeumer.vscode-eslint",
     "yoavbls.pretty-ts-errors",
     "bradlc.vscode-tailwindcss",
-    "humao.rest-client"
+    "humao.rest-client",
+    "chakrounanas.turbo-console-log"
   ]
 }

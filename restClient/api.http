@@ -1,2 +1,38 @@
-# Get all API
-GET http://localhost:3000/api
+GET http://localhost:3000/api/armors/diamond
+
+###
+POST http://localhost:3000/api/add/tools HTTP/1.1
+Content-Type: 'application/json'
+
+{
+  "tools": {
+    "pickaxe": [
+      {
+        "apparition_episodes": "",
+        "version": "1.x",
+        "name_of_tool": "",
+        "material": "minecraft:diamond_pickaxe",
+        "enchantments": [
+          {
+            "id": "minecraft:efficiency",
+            "lvl": "5"
+          },
+          {
+            "id": "minecraft:fortune",
+            "lvl": "3"
+          },
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": "3"
+          },
+          {
+            "id": "minecraft:mending",
+            "lvl": "1"
+          }
+        ],
+        "use_of_tool": "",
+        "others": ""
+      }
+    ]
+  }
+}

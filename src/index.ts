@@ -1,5 +1,4 @@
-import app from '@setup/expressMain'
-import { log } from '@utils/logs'
-import PORT from '@setup/port'
+import { SurviAPIModel } from '@models/SurviAPIModel.ts'
+import { createAPP } from './setup/main.ts'
 
-app.listen(PORT, () => log(`🚀 Server listening 👂🏼 on port: http://localhost:${PORT}`))
+createAPP(SurviAPIModel)

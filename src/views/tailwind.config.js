@@ -1,6 +1,6 @@
 export default {
   content: [
-    './src/views/*.{js,ts}'
+    './*/**.{js,ts}'
   ],
   theme: {
     extend: {

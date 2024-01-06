@@ -6,14 +6,8 @@
       "name_tool": "Almofár Eterno",
       "material": "minecraft:chainmail_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra incendios"
     },
@@ -23,14 +17,8 @@
       "name_tool": "Blazer Nitroglicerógino",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra explosiones"
     },
@@ -39,12 +27,7 @@
       "version": "1.x",
       "name_tool": "Blindaje Antiderrumbamientos",
       "material": "minecraft:iron_chestplate",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "3"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "3" } ],
       "use_of_tool": ""
     },
     {
@@ -53,18 +36,9 @@
       "name_tool": "Borceguí Flotolueno",
       "material": "minecraft:iron_boots",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feather_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura básica contra explosiones"
     },
@@ -73,12 +47,7 @@
       "version": "1.x",
       "name_tool": "Bombachos Explosivos",
       "material": "minecraft:diamond_leggings",
-      "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:blast_protection", "lvl": "4" } ],
       "use_of_tool": "Armadura básica contra explosiones"
     },
     {
@@ -87,14 +56,8 @@
       "name_tool": "Botas Polares Anti-Cerdos",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
+        { "id": "minecraft:feather_falling", "lvl": "4" },
+        { "id": "minecraft:protection", "lvl": "4" }
       ],
       "use_of_tool": "Armadura básica contra pigmans"
     },
@@ -104,14 +67,8 @@
       "name_tool": "Caparazón Antidisturbios",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -120,12 +77,7 @@
       "version": "1.4",
       "name_tool": "Casco NoTengoNombreCachi",
       "material": "minecraft:diamond_helmet",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "4" } ],
       "use_of_tool": "Armadura para caza de mobs"
     },
     {
@@ -133,12 +85,7 @@
       "version": "1.x",
       "name_tool": "Casco Polar Anti-Cerdos",
       "material": "minecraft:diamond_helmet",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "4" } ],
       "use_of_tool": "Armadura básica contra pigmans"
     },
     {
@@ -147,14 +94,8 @@
       "name_tool": "Chaleco Antidisturbios",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada"
     },
@@ -164,18 +105,9 @@
       "name_tool": "Chaleco de Espinas Congeladas",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:thorns",
-          "lvl": "2"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:thorns", "lvl": "2" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -185,14 +117,8 @@
       "name_tool": "Chaleco Refigerante",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra incendios"
     },
@@ -202,14 +128,8 @@
       "name_tool": "Colisionador de Proyectiles",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra Proyectiles"
     },
@@ -219,18 +139,9 @@
       "name_tool": "Coraza Cataclísmica",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:thorns",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:thorns", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada de espinas"
     },
@@ -240,18 +151,9 @@
       "name_tool": "Corazón Mastodóntico",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:mending",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:mending", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -261,14 +163,8 @@
       "name_tool": "Cota de Mallas Actualizada",
       "material": "minecraft:chainmail_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra el fuego"
     },
@@ -278,14 +174,8 @@
       "name_tool": "Cráneo de Centauro",
       "material": "minecraft:iron_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica"
     },
@@ -295,14 +185,8 @@
       "name_tool": "Defelector de Metralla",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra explosiones"
     },
@@ -312,22 +196,10 @@
       "name_tool": "Desionizador de H2O",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:respiration",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:aqua_affinity",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:respiration", "lvl": "3" },
+        { "id": "minecraft:aqua_affinity", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura de buceo avanzada"
     },
@@ -337,14 +209,8 @@
       "name_tool": "Envoltura de Alto Rango",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": ""
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "" }
       ],
       "use_of_tool": "Armadura básica"
     },
@@ -354,14 +220,8 @@
       "name_tool": "Escafandra Termo-Vulcánica",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra incendios"
     },
@@ -371,18 +231,9 @@
       "name_tool": "Escarpines Flotabilizadores",
       "material": "minecraft:chainmail_boots",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:feather_falling", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra el fuego"
     },
@@ -392,14 +243,8 @@
       "name_tool": "Espinilleras de Guerra",
       "material": "minecraft:iron_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica"
     },
@@ -409,22 +254,10 @@
       "name_tool": "Eternabotas",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:mending",
-          "lvl": "1"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:feather_falling", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
       ],
       "use_of_tool": "Armadura avanzada"
     },
@@ -434,14 +267,8 @@
       "name_tool": "Evazor de Cauterizaciones",
       "material": "minecraft:",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra incendios"
     },
@@ -451,18 +278,9 @@
       "name_tool": "Explotabotas \"Smash & Run\"",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feather_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura avanzada contra explosiones"
     },
@@ -472,18 +290,9 @@
       "name_tool": "Flotabotas",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:feather_falling", "lvl": "4" },
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzda",
       "others": "La última version de las flotabotas tenia los mismos encantamientos + Depth Strider III"
@@ -494,14 +303,8 @@
       "name_tool": "Flotabotas Cortafuego",
       "material": "minecraft:iron_boots",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:feather_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura basica contra incendios"
     },
@@ -511,18 +314,9 @@
       "name_tool": "Flotabotas Estabilizadoras",
       "material": "minecraft:iron_boots",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feaher_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feaher_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura básica contra proyectiles"
     },
@@ -532,18 +326,9 @@
       "name_tool": "Flotabotas Metálicas",
       "material": "minecraft:iron_boots",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feather_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura Básica"
     },
@@ -553,22 +338,10 @@
       "name_tool": "Flotabotas Supernova",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:thorns",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feather_falling", "lvl": "4" },
+        { "id": "minecraft:thorns", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -578,14 +351,8 @@
       "name_tool": "Gafas de Jeb",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada",
       "others": "Sucesor del Gorro de Notch"
@@ -596,14 +363,8 @@
       "name_tool": "Gorro de Notch",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada"
     },
@@ -613,14 +374,8 @@
       "name_tool": "Grebas Inmunizadas",
       "material": "minecraft:chainmail_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra el fuego"
     },
@@ -630,14 +385,8 @@
       "name_tool": "Guetres Blindados",
       "material": "minecraft:iron_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armafura basica contra proyectiles"
     },
@@ -647,14 +396,8 @@
       "name_tool": "Maillot para Demoliciones",
       "material": "minecraft:iron_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura básica contra explosiones"
     },
@@ -664,14 +407,8 @@
       "name_tool": "Mallas Reforzadas",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -681,14 +418,8 @@
       "name_tool": "Neovisor Vulcanológico",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra incendios"
     },
@@ -698,14 +429,8 @@
       "name_tool": "Obstructor Cefálico",
       "material": "minecraft:iron_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura basica contra proyectiles"
     },
@@ -715,14 +440,8 @@
       "name_tool": "Pechera Refigerante",
       "material": "minecraft:iron_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura basica contra incendios"
     },
@@ -732,14 +451,8 @@
       "name_tool": "Perneras Enteras",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura para cazar mobs"
     },
@@ -749,18 +462,9 @@
       "name_tool": "Perneras Permanentes",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:mending",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:mending", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -769,12 +473,7 @@
       "version": "1.x",
       "name_tool": "Perneras Polares Anti-Cerdos",
       "material": "minecraft:diamond_leggings",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "4" } ],
       "use_of_tool": "Armadura Avanzada contra pigmans"
     },
     {
@@ -782,12 +481,7 @@
       "version": "1.x",
       "name_tool": "Peto Completo",
       "material": "minecraft:diamond_chestplate",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "4" } ],
       "use_of_tool": "Armadura para caza mobs"
     },
     {
@@ -795,12 +489,7 @@
       "version": "1.x",
       "name_tool": "Peto Polar Anti-Cerdos",
       "material": "minecraft:diamond_chestplate",
-      "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "4" } ],
       "use_of_tool": "Armadura avanzada contra pigmans"
     },
     {
@@ -809,14 +498,8 @@
       "name_tool": "Prótesis Balística",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra proyectiles"
     },
@@ -826,18 +509,9 @@
       "name_tool": "Protopantalones Cuánticos",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:thorns",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:thorns", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada de espinas"
     },
@@ -847,18 +521,9 @@
       "name_tool": "Reactobotas Anti-Snipers",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feaher_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feaher_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura avanzada contra proyectiles"
     },
@@ -868,14 +533,8 @@
       "name_tool": "Repeledardos Cristalizado",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura Avanzada contra proyectiles"
     },
@@ -885,14 +544,8 @@
       "name_tool": "Ros Fulminante",
       "material": "minecraft:iron_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura basica contra explosiones"
     },
@@ -902,18 +555,9 @@
       "name_tool": "Sombrerete de Vu Bui",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:mending",
-          "lvl": ""
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:mending", "lvl": "" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": ""
     },
@@ -923,14 +567,8 @@
       "name_tool": "Sombrero Perdigonero",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:projectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra proyectiles"
     },
@@ -940,18 +578,9 @@
       "name_tool": "Surcafuegos Dinamométricos",
       "material": "minecraft:diamond_boots",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:feather_falling",
-          "lvl": "4"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:feather_falling", "lvl": "4" }
       ],
       "use_of_tool": "Armadura avanzada conta incendios"
     },
@@ -961,14 +590,8 @@
       "name_tool": "Tecnoarmadura Electroactiva",
       "material": "minecraft:diamond_chestplate",
       "enchantments": [
-        {
-          "id": "minecraft:blast_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:blast_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra explosiones"
     },
@@ -978,14 +601,8 @@
       "name_tool": "Termocinturon Nebulizador",
       "material": "minecraft:diamond_leggings",
       "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        }
+        { "id": "minecraft:fire_protection", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada contra incendios"
     },
@@ -994,12 +611,7 @@
       "version": "1.x",
       "name_tool": "vaqueros Aislantes",
       "material": "minecraft:iron_leggings",
-      "enchantments": [
-        {
-          "id": "minecraft:fire_protection",
-          "lvl": "4"
-        }
-      ],
+      "enchantments": [ { "id": "minecraft:fire_protection", "lvl": "4" } ],
       "use_of_tool": "Armadura basica contra incendios"
     },
     {
@@ -1008,18 +620,9 @@
       "name_tool": "Wordtear Footwear",
       "material": "minecraft:leather_boots",
       "enchantments": [
-        {
-          "id": "minecraft:frost_walker",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:protection",
-          "lvl": "1"
-        }
+        { "id": "minecraft:frost_walker", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "1" },
+        { "id": "minecraft:protection", "lvl": "1" }
       ],
       "use_of_tool": "Utilizadas como parte de la paleta (en un armor stand) para conseguir el bloque de end gateway"
     },
@@ -1029,50 +632,26 @@
       "name_tool": "Yelmo de Titán",
       "material": "minecraft:diamond_helmet",
       "enchantments": [
-        {
-          "id": "minecraft:protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:aqua_affinity",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:respiration",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:thorns",
-          "lvl": "3"
-        }
+        { "id": "minecraft:protection", "lvl": "4" },
+        { "id": "minecraft:aqua_affinity", "lvl": "1" },
+        { "id": "minecraft:respiration", "lvl": "3" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:thorns", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada de espinas"
     }
   ],
   "tools": {
-    "shovels": [
+    "shovel": [
       {
         "apparition_episodes": "",
         "version": "1.x",
         "name_tool": "Desenterrador de Delicias",
         "material": "minecraft:diamond_shovel",
         "enchantments": [
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          }
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:silk_touch", "lvl": "1" }
         ],
         "use_of_tool": "Pala principal Silk Touch en el anterior arco de survival",
         "others": "Predecesor de Desentierrajoyas"
@@ -1083,22 +662,10 @@
         "name_tool": "Desentierrajoyas",
         "material": "minecraft:diamond_shovel",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ],
         "use_of_tool": "Pala principal Silk Touch en el arco actual de survival",
         "others": "Sucesor de Desenterrador de Delicias"
@@ -1109,14 +676,8 @@
         "name_tool": "Instrumento del Enterrador",
         "material": "minecraft:diamodn_shovel",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Pala principal en un arco anterior de survival",
         "others": "Predecesor del Instrumento del Terraformador"
@@ -1127,18 +688,9 @@
         "name_tool": "Instrumento del Terraformador",
         "material": "minecraft:diamond_shovel",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:mending", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Pala Principal en el arco actual de Survival",
         "others": "Sucesor del Instrumento del Entrrador"
@@ -1151,18 +703,9 @@
         "name_tool": "Deforestador Galáctico",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ],
         "use_of_tool": "Hacha principal en uno de los arcos de Survival",
         "others": "Sucesor del Deforestador Planetario; El nombre inicial era Deforastor Galactico (por un error inicial, el cual fue corregido en el episodio 157 y oficializado en el episodio 158)"
@@ -1173,22 +716,10 @@
         "name_tool": "Deforestador Omnipotente",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Hacha principal en uno de los arcos de Survival",
         "others": "Predecesor del Omnitrozador Supremo"
@@ -1199,14 +730,8 @@
         "name_tool": "Deforestador Planetario",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Hacha principal en uno de los arcos de Survival",
         "others": "Predecesor de Deforastor Galáctico"
@@ -1217,22 +742,10 @@
         "name_tool": "Ejecutor de Entidades",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ],
         "others": "Sucesor de la Guillotina del Instructor"
       },
@@ -1242,22 +755,10 @@
         "name_tool": "Falce de la Fortuna",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:fortune",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          }
+          { "id": "minecraft:fortune", "lvl": "3" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:sharpness", "lvl": "5" }
         ],
         "use_of_tool": "Hacha principal de fortuna en el mundo",
         "others": "Predecesor de la Guadaña Invocadora"
@@ -1268,26 +769,11 @@
         "name_tool": "Guadaña Invocadora",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:fortune",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:mending", "lvl": "1" },
+          { "id": "minecraft:fortune", "lvl": "3" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Hacha principal de fortuna en el mundo",
         "others": "Sucesor del Falce de la Fortuna"
@@ -1298,33 +784,19 @@
         "name_tool": "Guillotina del Instructor",
         "material": "minecraft:diamond_axe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:sharpness", "lvl": "5" }
         ], "others": "Predecesor del Ejecutor de Entidades"
       }
     ],
-    "pickaxes": [
+    "pickaxe": [
       {
         "apparition_episodes": "135",
         "version": "1.7",
         "name_tool": "Chunk Norich",
         "material": "minecraft:wooden_pickaxe",
-        "enchantments": [
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          }
-        ],
+        "enchantments": [ { "id": "minecraft:silk_touch", "lvl": "1" } ],
         "use_of_tool": "Picar el ultimo bloque del Multi-Dust"
       },
       {
@@ -1340,14 +812,8 @@
         "name_tool": "Ender Quatum",
         "material": "minecraft:diamond_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Proyecto Terra; Pico principal del mundo",
         "others": "Predecesor de Perimetrizador Ligero"
@@ -1366,18 +832,9 @@
         "name_tool": "Instacristalizador",
         "material": "minecraft:diamodn_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "2"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "2"
-          }
+          { "id": "minecraft:efficiency", "lvl": "2" },
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "2" }
         ]
       },
       {
@@ -1385,12 +842,7 @@
         "version": "1.x",
         "name_tool": "Mi Primer Fortuna 3",
         "material": "minecraft:diamond_pickaxe",
-        "enchantments": [
-          {
-            "id": "minecraft:fortune",
-            "lvl": "3"
-          }
-        ],
+        "enchantments": [ { "id": "minecraft:fortune", "lvl": "3" } ],
         "use_of_tool": "Picar ores con el máximmo beneficio",
         "others": "No me pone nombre en el capitulo 13 de survival 1.3;En el anterior intento obtiene un pico de fortuna(fortune) 2 irrompibilidad(unbreaking) 3 y efficiencia(efficiency) 4"
       },
@@ -1400,22 +852,10 @@
         "name_tool": "Perimetrizador Ligero",
         "material": "minecraft:diamond_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ],
         "use_of_tool": "Pico principal",
         "others": "Sucesor de Elder Quantum como herramienta principal"
@@ -1426,18 +866,9 @@
         "name_tool": "Quartzeador Desalmado",
         "material": "minecraft:diamond_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:fortune",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:fortune", "lvl": "3" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Picar cuarzo"
       },
@@ -1447,18 +878,9 @@
         "name_tool": "Taladros de exquisiteces",
         "material": "minecraft:diamond_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          }
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:silk_touch", "lvl": "1" }
         ]
       },
       {
@@ -1467,14 +889,8 @@
         "name_tool": "Tulenadora de Suscripciones",
         "material": "minecraft:diamond_pickaxe",
         "enchantments": [
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "3"
-          }
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:efficiency", "lvl": "3" }
         ]
       }
     ],
@@ -1485,77 +901,47 @@
         "name_tool": "Desmantelador de Mineshafts",
         "material": "minecraft:shears",
         "enchantments": [
-          {
-            "id": "minecraft:silk_touch",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:efficiency",
-            "lvl": "4"
-          }
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:efficiency", "lvl": "4" }
         ],
         "use_of_tool": "Tijeras para obtener Cobwebs"
       }
     ],
-    "shields": [
+    "shield": [
       {
         "apparition_episodes": "162",
         "version": "1.12",
         "name_tool": "Steve Head Hype!",
         "material": "minecraft:shield",
-        "enchantments": [
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
-        ],
+        "enchantments": [ { "id": "minecraft:mending", "lvl": "1" } ],
         "use_of_tool": "Fue usado para conseguir la primera cabeza de Steve del mundo con la ayuda de Universal Datatrap",
         "others": "Fue el primer escudo con 3 de damage del mundo"
       }
     ]
   },
   "weapons": {
-    "bows": [
+    "bow": [
       {
         "apparition_episodes": "",
         "version": "1.x",
         "name_tool": "Arco de ElRichMC",
+        "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:power",
-            "lvl": "4"
-          },
-          {
-            "id": "minecraft:flame",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          }
+          { "id": "minecraft:power", "lvl": "4" },
+          { "id": "minecraft:flame", "lvl": "1" },
+          { "id": "minecraft:infinity", "lvl": "1" }
         ]
       },
       {
         "apparition_episodes": "",
         "version": "1.x",
         "name_tool": "Arco Incinerante",
+        "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:power",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:flame",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          }
+          { "id": "minecraft:power", "lvl": "3" },
+          { "id": "minecraft:flame", "lvl": "1" },
+          { "id": "minecraft:infinity", "lvl": "1" }
         ],
         "use_of_tool": "Encender la TNT para crear la gran explosion en el incinerador"
       },
@@ -1563,27 +949,13 @@
         "apparition_episodes": "",
         "version": "1.x",
         "name_tool": "Ballesta de Spider Jockey",
+        "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:power",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:flame",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:punch",
-            "lvl": "2"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:power", "lvl": "5" },
+          { "id": "minecraft:flame", "lvl": "1" },
+          { "id": "minecraft:punch", "lvl": "2" },
+          { "id": "minecraft:infinity", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ]
       },
       {
@@ -1592,18 +964,9 @@
         "name_tool": "Puchshot Maker",
         "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:punch",
-            "lvl": "2"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          }
+          { "id": "minecraft:punch", "lvl": "2" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:infinity", "lvl": "1" }
         ],
         "use_of_tool": "Utilizado para impulsarse y poder planear con las elytras antes de la llegada de los cohetes en la version 1.10 al modo survival"
       },
@@ -1613,14 +976,8 @@
         "name_tool": "Sr.Arco",
         "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:power",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          }
+          { "id": "minecraft:power", "lvl": "5" },
+          { "id": "minecraft:infinity", "lvl": "1" }
         ]
       },
       {
@@ -1629,48 +986,24 @@
         "name_tool": "⧼ Ultrasupresor de Spawns ⧽",
         "material": "minecraft:bow",
         "enchantments": [
-          {
-            "id": "minecraft:power",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:flame",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:infinity",
-            "lvl": "1"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:punch",
-            "lvl": "2"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:power", "lvl": "5" },
+          { "id": "minecraft:flame", "lvl": "1" },
+          { "id": "minecraft:infinity", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:punch", "lvl": "2" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ], "others": "Su primer nombre fue Ultrasupresor de Spawns (sin los simbolos)"
       }
     ],
-    "swords": [
+    "sword": [
       {
         "apparition_episodes": "",
         "version": "1.x",
         "name_tool": "Botinificador de Ultratumba",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:smite",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          }
+          { "id": "minecraft:smite", "lvl": "5" },
+          { "id": "minecraft:looting", "lvl": "3" }
         ]
       },
       {
@@ -1679,22 +1012,10 @@
         "name_tool": "Botinificador Infinito",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:looting", "lvl": "3" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ],
         "use_of_tool": "Espada principal del mundo",
         "others": "Sucesor de Botinificador Masivo"
@@ -1705,14 +1026,8 @@
         "name_tool": "Botinificador Masivo",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          }
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:looting", "lvl": "3" }
         ], "others": "Predecesor de Botinificador Infinito"
       },
       {
@@ -1721,18 +1036,9 @@
         "name_tool": "Diseccionador de Tarántulas",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:bane_of_arthropds",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:bane_of_arthropds", "lvl": "5" },
+          { "id": "minecraft:looting", "lvl": "3" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ]
       },
       {
@@ -1741,14 +1047,8 @@
         "name_tool": "Espada Anti Cerdos (sin nombre)",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          }
+          { "id": "minecraft:sharpness", "lvl": "3" },
+          { "id": "minecraft:looting", "lvl": "3" }
         ],
         "use_of_tool": "Espada contra Pigmans"
       },
@@ -1758,14 +1058,8 @@
         "name_tool": "Espada de Zerdios",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:smite",
-            "lvl": "5"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:smite", "lvl": "5" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ],
         "use_of_tool": "Espada contra Pigmans"
 
@@ -1776,14 +1070,8 @@
         "name_tool": "Masacrador de Adminium",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "4"
-          },
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
+          { "id": "minecraft:sharpness", "lvl": "4" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
         ]
       },
       {
@@ -1792,14 +1080,8 @@
         "name_tool": "\"On a hurry\"",
         "material": "minecraft:diamond_sword",
         "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "4"
-          },
-          {
-            "id": "minecraft:looting",
-            "lvl": "3"
-          }
+          { "id": "minecraft:sharpness", "lvl": "4" },
+          { "id": "minecraft:looting", "lvl": "3" }
         ],
         "use_of_tool": "Espada \"temporal\" (Ep.152 minuto 3:03 craftea la espada y menciona que solo tendra \"una tarea y listo\") aunque la sigue usando... xD",
         "others": "Sigue usandola hasta hoy (Ep.155); En el episodio 153 se ve con nuevos encantamientos (Sharpness V, looting III, Unbreaking III)"
@@ -1809,12 +1091,7 @@
         "version": "1.x",
         "name_tool": "Shield Waster",
         "material": "minecraft:diamond_sword",
-        "enchantments": [
-          {
-            "id": "minecraft:sharpness",
-            "lvl": "5"
-          }
-        ],
+        "enchantments": [ { "id": "minecraft:sharpness", "lvl": "5" } ],
         "use_of_tool": "Obtener escudos con 3 de damage para la posterior obtencion de las cabezas con el mismo nivel de damage",
         "others": "Los Shieldestroyers fueron los portadores de tres ejemplares de esta espada"
       }
@@ -1847,70 +1124,44 @@
         "others": "Se generaron 15 en el episodio 152 y una adicional en el episodio 153; Utilizo extracto de carbon(dye;ink_sack) para su confeccion"
       }
     ],
-    "book": {
-      "apparition_episodes": "121",
-      "version": "1.7",
-      "name_tool": "Libro del Creador",
-      "material": "minecraft:book",
-      "enchantments": [
-        {
-          "id": "minecraft:proyectile_protection",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:smite",
-          "lvl": "4"
-        },
-        {
-          "id": "minecraft:unbreaking",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:lure",
-          "lvl": "3"
-        },
-        {
-          "id": "minecraft:efficiency",
-          "lvl": "5"
-        },
-        {
-          "id": "minecraft:aqua_affinity",
-          "lvl": "1"
-        },
-        {
-          "id": "minecraft:power",
-          "lvl": "5"
-        },
-        {
-          "id": "minecraft:knockback",
-          "lvl": "2"
-        }
-      ],
-      "use_of_tool": "Tener un libro para crear una herramienta OP rápidamente",
-      "others": "Para crearlo Rich busco cual es la cantidad maxima de encantamientos que se puede poner a un ítem"
-    },
-    "map": {
-      "apparition_episodes": "",
-      "version": "1.x",
-      "name_tool": "Mapamundi 0,0",
-      "material": "minecraft:map",
-      "use_of_tool": "Ubicar zona de 0,0"
-    },
-    "elytra": [
+    "books": [
+      {
+        "apparition_episodes": "121",
+        "version": "1.7",
+        "name_tool": "Libro del Creador",
+        "material": "minecraft:book",
+        "enchantments": [
+          { "id": "minecraft:proyectile_protection", "lvl": "4" },
+          { "id": "minecraft:smite", "lvl": "4" },
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:lure", "lvl": "3" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:aqua_affinity", "lvl": "1" },
+          { "id": "minecraft:power", "lvl": "5" },
+          { "id": "minecraft:knockback", "lvl": "2" }
+        ],
+        "use_of_tool": "Tener un libro para crear una herramienta OP rápidamente",
+        "others": "Para crearlo Rich busco cual es la cantidad maxima de encantamientos que se puede poner a un ítem"
+      }
+    ],
+    "maps": [
+      {
+        "apparition_episodes": "",
+        "version": "1.x",
+        "name_tool": "Mapamundi 0,0",
+        "material": "minecraft:map",
+        "use_of_tool": "Ubicar zona de 0,0"
+      }
+    ],
+    "elytras": [
       {
         "apparition_episodes": "49",
         "version": "1.9",
         "name_tool": "Orbitamundos",
         "material": "minecraft:elytra",
         "enchantments": [
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          },
-          {
-            "id": "minecraft:mending",
-            "lvl": "1"
-          }
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
         ]
       },
       {
@@ -1918,17 +1169,13 @@
         "version": "1.9",
         "name_tool": "Primera Elytra de Survival 1.9",
         "material": "minecraft:elytra",
-        "enchantments": [
-          {
-            "id": "minecraft:unbreaking",
-            "lvl": "3"
-          }
-        ], "others": "Al principio solo se les pone el encantamiento de Unbreaking III y luego off camera las renombra"
+        "enchantments": [ { "id": "minecraft:unbreaking", "lvl": "3" } ],
+        "others": "Al principio solo se les pone el encantamiento de Unbreaking III y luego off camera las renombra"
       }
     ]
   },
   "mobs": {
-    "zombie": [
+    "zombies": [
       {
         "apparition_episodes": "162",
         "version": "1.12",

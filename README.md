@@ -25,70 +25,155 @@ Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
 
 <details>
   <summary>📝 Table of Contents</summary>
-    <br>
-    <ol>
-      <li>
-        <a
-          href='#usage'
-        >Usage</a>
-      </li>
-      <li>
-        <a
-          href='#api_documentation'
-          >Api Documentation</a>
-      </li>
-      <li>
-        <a
-          href='#endpoints'
-        >Endpoints</a>
-      </li>
-      <li>
-        <a
-          href='#built_using'
-        >Built Using</a>
-      </li>
-      <li>
-        <a
-          href='#authors'
-        >Authors</a>
-      </li>
-      <li>
-        <a
-          disabled
-          href='#acknowledgement'
-        >Acknowledgments</a>
-      </li>
-    </ol>
-    <ul>
-      <li>
-        <a
-          href='./TODO.md'
-        >TODO</a>
-      </li>
-      <li>
-        <a
-          href='./CONTRIBUTING.md'
-        >CONTRIBUTING</a>
-      </li>
-      <li>
-        <a
-          href='./CHANGELOG.md'
-        >CHANGELOG</a>
-      </li>
-    </ul>
+  <br>
+  <ol>
+    <li>
+      <a
+        href='#project_structure'
+      >Project Structure</a>
+    </li>
+    <li>
+      <a
+        href='#usage'
+      >Usage</a>
+    </li>
+    <li>
+      <a
+        href='#api_documentation'
+        >Api Documentation</a>
+    </li>
+    <li>
+      <a
+        href='#endpoints'
+      >Endpoints</a>
+    </li>
+    <li>
+      <a
+        href='#built_using'
+      >Built Using</a>
+    </li>
+    <li>
+      <a
+        href='#authors'
+      >Authors</a>
+    </li>
+    <li>
+      <a
+        disabled
+        href='#acknowledgement'
+      >Acknowledgments</a>
+    </li>
+  </ol>
+  <ul>
+    <li>
+      <a
+        href='./TODO.md'
+      >TODO</a>
+    </li>
+    <li>
+      <a
+        href='./CONTRIBUTING.md'
+      >CONTRIBUTING</a>
+    </li>
+    <li>
+      <a
+        href='./CHANGELOG.md'
+      >CHANGELOG</a>
+    </li>
+  </ul>
 </details>
 
 <br/>
+
+## Project Structure <a id='project_structure'></a>
+
+```
+|
+|- .vscode
+|    |- extensions.json
+|    |- settings.json
+|- public
+|    |- fonts
+|        |- Minecraft-Regular.woff2
+|        |- SgaSmoothRegular.woff2
+|- resClient
+|    |- api.http
+|- src
+|   controllers
+|    |- SrviAPIController.ts
+|   data
+|    |- SurviAPI.json
+|   middlewares
+|    |- cors.ts
+|   models
+|    |- SurviAPIModel.ts
+|   router
+|    |- SurviAPIRouter.ts
+|   schemas
+|    |- SurviAPISchema.ts (with zod*)
+|    |- utils.ts (functions that have to do with zod*)
+|   setup
+|    |- acceptedOrigins.ts
+|    |- containsTools.ts
+|    |- errorschema.ts
+|    |- main.ts
+|    |- port.ts
+|   types
+|    |- enum.ts
+|    |- main.d.ts
+|    |- SurviAPI.d.ts
+|   utils
+|    |- createRequire.ts
+|    |- Dom.ts
+|    |- logs.ts
+|    |- parserEnchantments.ts
+|    |- readFile.ts
+|    |- setHeadersOnStatic.ts
+|   views
+|    |- html.ts ('/' api, home page API)
+|    |- htmlAdd.ts ('/api/add' api, add page API)
+|    |- tailwind.config.js
+|   index.js
+|- .editorconfig
+|- .env
+|- .gitignore
+|- CHANGELOG.md
+|- LICENSE
+|- package.json
+|- README.md
+|- tsconfig.json
+|
+```
 
 <div align='center'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
 ## 😏 Usage <a id='usage'></a>
+
 Hacemos la llamada a la api usando [Fetch](hhtps://developer.mosilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)
 ...También puede usar [Axios](https://axios-http.com/es/docs/intro)
 
-Archivo consts/index.js
+### ESTRUCTURA DE TU PROYECTO
+
+- con node
+```
+|
+|- .vscode (achivos de config del workspace de vscode) (no requerido)
+|    |- extensions.json
+|    |- settings.json
+|- public (con imagenes de los items que aparezcan el la API para pintarlos en la web)
+|- src
+|   consts
+|    |- main.js
+|   utils
+|    |- FetchSurviAPI.js
+|   index.js
+|- package.json
+|
+```
+
+- Archivo consts/main.js
 ```js
 export const Endpoint = 'https://api.surviblia.com/api'
 export const ArmorsEndpoint = 'https://api.surviblia.com/api/armors'
@@ -98,66 +183,131 @@ export const ItemsEndpoint = 'https://api.surviblia.com/api/items'
 export const MobsEndpoint = 'https://api.surviblia.com/api/mobs'
 ```
 
-Archivo FetchSurviAPI.js
+- Archivo FetchSurviAPI.js
+
 ```mjs
 // Archivo ubicado en lib/FetchSurviAPI.js
-// creando un funcion asycrona esta puede estar en un archivo por separado el cual despues vas a tener que importar de la siguiente manera
+// creando un funcion asycrona esta puede estar en un archivo por separado
+// el cual despues vas a tener que importar de la siguiente manera
+// import {FetchSurviAPI} from '../lib/FetchSurviAPI.mjs'
+
 // fetchSurviAPI.mjs
-export async function FetchSurviAPI(url) {
-  return fetch(url)
-    .then(response => response.json())
-    .then(res => res)
-    .catch(e => console.error(`Ha ocurrido un Error ${e}`))
-}
+export const FetchSurviAPI = async (url) => await fetch(url)
 ```
 
-En el caso de que estes usando javascript en una pagina tendras que hacerlo de esta manera
-1. Crear un archivo con extension `.mjs (Modulos JavaScript)` para poder usar el `TLA (Top Level Await)`
-  - dentro del archivo haras lo siguiente:
+<br>
+<br>
+
+En el caso de que estes haciendo una pagina con (html, css y javascript) tendras que hacerlo de esta manera o poniendo el tag script con el atributo type en __module__
+
+<br>
+<br>
+
 ```mjs
-  // Primera Forma
+  <script type="module">
+    // llamada a la api y pintado en el body del html
+  </script>
+```
+
+<br>
+<br>
+
+1. Crear un archivo con extension `.mjs (Modulos JavaScript)` para poder usar el __Top Level Await__
+  - dentro del archivo haras lo siguiente:
+
+<br>
+<br>
+
+```mjs
+  // Primera Forma solo usando fetch sin crear la funcion de fetchSurviAPI
   import { Endpoint } from './const/index.js'
   import FetchSurviAPI from './lib/FetchSurviAPI.js'
 
+ // deberas manejas los errores usando try catch
+
   try {
-    const response = await fetchSurviAPI(Endpoint)
-    return response
+    const response = await FetchSurviAPI(Endpoint)
+    const data = await response.json()
+    return data
   } catch (e) {
     console.error(`Ha ocurrido un Error ${e}`)
   }
 ```
 
 ```mjs
-  // Segunda Forma
-import { Endpoint } from './const/index.js'
-  import FetchSurviAPI from './lib/FetchSurviAPI.js'
+// Segunda Forma creando la funcion
+import { Endpoint } from '../const/index.js'
+import FetchSurviAPI from '../lib/FetchSurviAPI.js'
 
-  const API = await fetchSurviAPI(Endpoint)
+// si manejas la transformacion en json de la respuesta
+// y los errores desde la funcion FetchSurviAPI solo tienes el response del fetch
+// y desde ahi pintar en html la api con imagenes
+const response = await FetchSurviAPI(Endpoint)
 
-  // ...
+// ...
 ```
 
-2. Si usas [Node.js]() deberas seguir estos pasos
+2. Si usas [Node.js](https://nodejs.org/) deberas seguir estos pasos
 
-  1. si usas fetch solo crear a estructura de el repo
+- Si no tienes instalado node puedes hacerlo desde la pagina oficial descargando el paquete o instalador segun el sistema operativo ***(Instalar la version LTS)*** y siguiendo las instrucciones o instalando fnm (Fast Node Manager) o nvm (Node Version Manager)
+
+- usando fnm
+<!-- con linux, mac o windows -->
+```sh
+# Con Linux, Mac o Windows
+curl -fsSL https://fnm.vercel.app/install | bash
 ```
-|
-|- package.json
-|- package-lock.json
-|- src
-|   lib
-|    |- FetchSurviAPI.js
-|   consts
-|    |- index.js
-|   index.js
-|
+
+<!-- Installacion manual -->
+
+<!-- Window, Mac o Linux -->
+Con cualquier sistema operativo con [rust](hhtps://rustlang.org/) ejecutando
+```sh
+cargo install fnm
+```
+<!-- Mac o Linux -->
+Con Mac o Linux teniendo el instalador de [brew](https://brewsh.com)
+```sh
+brew install fnm
+```
+<!-- Windows -->
+Con Windows con cualquiera de los siguientes instaladores
+- winget (ya instalado en window por defecto)
+- [scoop](https://)
+- [choco](https://)
+```sh
+winget install Schinz.fnm
+# o
+scoop install fnm
+# o
+choco install fnm
+```
+
+despues de installar deberas configurar la shell para que identifique el comando de fnm y poder instalar segun tu necesidades diferentes versiones de node
+<!-- Shell Setup -->
+<!-- .bashrc or .zshrc -->
+```bash
+# Shell Setup
+# .bashrc or .zshrc (MAC, LINUX O WINDOWS CON WSL)
+eval "$(fnm env --use-on-cd)"
+```
+<!-- fishShell profile file -->
+```bash
+# fishShell profile file (MAC, LINUX O WINDOWS CON WSL)
+fnm env --use-on-cd | source
+```
+<!-- powershell profile file -->
+```bash
+# powershell profile file (only WINDOWS)
+fnm env --use-on-cd | Out-String | Invoke-Expression
 ```
 <!--
-Puede usar para la creacion del repo
-npm(se instala con node cuando lo instalas),
-pnpm o yarn (tenes que instalarlo)
-requerimientos: NODE.JS
+  Puede usar para la creacion del repo
+  npm (viene instalado con node),
+  pnpm o yarn (tenes que instalarlo)
+  requerimientos: NODE.JS
 -->
+
 ```bash
 # con npm
 npm init -y
@@ -236,11 +386,11 @@ Lo que obtendras al hacer la llamada:
 
   ### Tools
   - GET `/api/tools`
-  - GET `/api/tools/:tool/:material`
+  - GET `/api/tools/:tool/:material?`
 
   ### Weapons
   - GET `/api/weapons`
-  - GET `/api/weapons/:weapon/:material`
+  - GET `/api/weapons/:weapon/:material?`
 
   ### Items
   - GET `/api/items`
@@ -248,8 +398,7 @@ Lo que obtendras al hacer la llamada:
 
   ### Mobs
   - GET `/api/mobs`
-  - GET `/api/mobs/:mob`
-  - GET `/api/mobs/:mob?type=<TYPO>`
+  - GET `/api/mobs/:mob` (**aun no añanido**)
 
   ### Add
   - GET `/api/add`
@@ -289,7 +438,8 @@ See also the list of [CONTRIBUTORS](https://github.com/OctaEDLP00/API_THEME/cont
 
 ## 🎉 Acknowledgements <a id="acknowledgement"></a>
 
-- Pagina Oficial de la [Wiki del Survival de ElRichMC]('https://surviblia.com/')
+- Pagina Oficial de la [Wiki del Survival de ElRichMC](https://surviblia.com/)(Oficial)
+- Rediseño de la pagina Oficial de la [Wiki del Survival de ElRichMC](https://)(NO OFICIAL)
 
 <br/>
 

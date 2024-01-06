@@ -1,81 +1,54 @@
-export const html = /* html */ `
+export const html = /* html */`
 <!DOCTYPE html>
 <html lang='es'>
   <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset=UTF-8>
+    <meta name=viewport content='width=device-width, initial-scale=1.0'>
+    <meta name=description content='' />
+    <meta name=keywords content='' />
+    <meta name=languge content=ES />
+    <meta name=robots content='index, follow' />
+    <meta name=author content='MrOctaMC, octavio.pincha@gmail.com' />
+    <meta name=url content='https://surviblia.com' />
+    <link rel='shortcut icon' href='/favicon.svg' type='image/xml+svg' />
+    <script src='https://cdn.tailwindcss.com'></script>
+    <script defer type=module src='/assets/js/add.mjs'></script>
+    <style type="text/css"> body { font-family: sans-serif; } </style>
     <title>Add Info API | Surviblia</title>
-    <script
-      type='module'
-      src='https://cdn.tailwindcss.com'
-    >
-      tailwind.config = {
-        content: [
-          './*.js'
-        ],
-        theme: {
-          extend: {
-            fontFamily: {
-              minecraft: ['minecraft', 'sans-serif'],
-              minecraftEnch: ['minecraftEnch', 'sans-serif']
-            }
-          }
-        }
-      }
-    </script>
-    <script type='module'>
-      import DOM from '../../public/js/Dom.js';
-      const _ = new DOM();
-
-      const $select = _.$('#options-data');
-      const $divForm = _.$('#form-add-data');
-      const event = _.aEL(
-        $select,
-        'click',
-        (e) => {
-          const defaultValue = e.target.value === 'Select Add Data';
-          if (defaultValue) return;
-
-          console.log(e.target.value)
-
-          //const {  } = e.target.value
-        }
-      );
-    </script>
-    <style>
-      @font-face {
-        font-family: 'minecraft';
-        font-weight: normal;
-        src: url('../fonts/Minecraft-Regular.woff2') format('woff2');
-      }
-      @font-face {
-        font-family: 'minecraftEnch';
-        font-weight: normal;
-        src: url('../fonts/SgaSmoothRegular.woff2') format('woff2');
-      }
-      body {
-        font-family: 'minecraft', sans-serif;
-      }
-    </style>
   </head>
   <body class='bg-[#ccc] text-[#222] dark:bg-[#222] dark:text-[#ccc]'>
-    <div id='App' class='grid grid-cols-2 place-content-center h-screen w-96 m-auto p-4'>
-      <div>
-        <label for='options-data' class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>Select an option</label>
-        <select name='options-data' id='options-data' class='block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer'>
-          <option selected>Select Add Data</option>
-          <option value='armors'>Armors</option>
-          <option value='tools'>Tools</option>
-          <option value='weapons'>Weapons</option>
-          <option value='mobs'>Mobs</option>
-          <option value='items'>Items</option>
-        </select>
+    <div id='App' class='grid grid-cols-2 place-content-center h-screen max-w-screen-xs gap-4'>
+      <span>
+        Working progress
+      </span>
+    <!--
+      <div class='col-span-1 flex items-center justify-center'>
+        <label class='block mb-2 text-sm font-medium'>
+          Select an option
+          <select id=optionsData class='mt-2 border border-neutral-300 text-sm rounded-lg focus:ring-cyan-700 focus:border-cyan-500 block w-full p-2 dark:border-neutral-700 dark:placeholder-neutral-500 dark:focus:ring-cyan-500 dark:focus:border-cyan-500'>
+            <option selected value=default>Select Add Data</option>
+            <option value=armors>Armors</option>
+            <option value=tools>Tools</option>
+            <option value=weapons>Weapons</option>
+            <option value=items>Items</option>
+            <option value=mobs>Mobs</option>
+          </select>
+        </label>
       </div>
-
-      <form>
-        <div id='form-add-data' class='grid gap-4 text-center place-content-center'>
-        </div>
-      </form>
+      <div class='col-span-1 flex items-center justify-center h-full'>
+        <form id=formAddData action="" method=POST class="flex flex-col justify-center items-center gap-2 p-2">
+          <fieldset>
+            <legend class="text-lg font-semibold p-2">Agregar Información</legend>
+            <div id="container" class="md:columns-2 p-2"></div>
+          </fieldset>
+          <button class='relative inline-flex items-center justify-center p-0.5 text-sm font-medium rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800'>
+            <span class='relative px-20 py-2.5 transiton-all ease-in duration-75 rounded-md bg-[#ccc] dark:bg-[#222] group-hover:bg-opacity-0'>
+              Fetching Data
+            </span>
+          </button>
+        </form>
+      </div>
+      -->
     </div>
   </body>
 </html>
