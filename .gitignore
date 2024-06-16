@@ -36,3 +36,4 @@ node_modules/
 
 ignoreFile.ts
 .trash
+profile.jsonc
