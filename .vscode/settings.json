@@ -1,3 +1,4 @@
 {
-  "license.default": "mit"
+  "license.default": "mit",
+  "IDX.aI.enableInlineCompletion": true
 }
