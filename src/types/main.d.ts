@@ -1,109 +1,30 @@
+import {
+  ARMOR_PART_TYPE,
+  TOOL_TYPE,
+  OTHERS_ITEMS,
+  ENCHANT_NAME_TYPE,
+  MOB_TYPE,
+  LEVEL_NUMBER,
+  LEVEL_WITH_NUMBER_ROMAN,
+  WEIGHTS,
+  ARMOR_TYPE
+} from './const'
+
 type Map = 'map' | 'empty_map'
-
-type Armor =
-  'diamond_boots'
-  | 'diamond_leggigns'
-  | 'diamond_chestplate'
-  | 'diamond_helmet'
-  | 'iron_boots'
-  | 'iron_leggings'
-  | 'iron_chestplate'
-  | 'iron_helmet'
-  | 'gold_boots'
-  | 'gold_leggings'
-  | 'gold_chestplate'
-  | 'gold_helmet'
-  | 'chainmail_boots'
-  | 'chainmail_leggings'
-  | 'chainmail_chestplate'
-  | 'chainmail_helmet'
-
-type Tool =
-  'diamond_pickaxe'
-  | 'diamond_axe'
-  | 'diamond_shovel'
-  | 'diamond_sword'
-  | 'diamond_hoe'
-  | 'iron_pickaxe'
-  | 'iron_axe'
-  | 'iron_hoe'
-  | 'iron_sword'
-  | 'iron_shovel'
-  | 'gold_pickaxe'
-  | 'gold_axe'
-  | 'gold_hoe'
-  | 'gold_sword'
-  | 'gold_shovel'
-  | 'wodden_pickaxe'
-
-type ArmorsAndTools = Armor | Tool
-
-type ItemsType =
-  ArmorsAndTools
-  | 'bow'
-  | 'shield'
-  | 'shulker_box'
-  | Map
-  | 'empty_map'
-  | 'elytra'
-  | 'shears'
-  | 'book'
-
-type Sweeping = 'sweeping' | 'sweeping_edge'
-
-type EnchantName =
-  'protection'
-  | 'unbreaking'
-  | 'mending'
-  | 'looting'
-  | Sweeping
-  | 'respiration'
-  | 'feather_falling'
-  | 'depth_strider'
-  | 'efficiency'
-  | 'fortune'
-  | 'silk_touch'
-  | 'power'
-  | 'infinity'
-  | 'punch'
-  | 'flame'
-  | 'fire_aspect'
-  | 'aqua_affinity'
-  | 'bane_of_arthropds'
-  | 'blast_protection'
-  | 'fire_protection'
-  | 'frost_walker'
-  | 'knockback'
-  | 'luck_of_the_sea'
-  | 'lure'
-  | 'projectile_protection'
-  | 'sharpness'
-  | 'smite'
-  | 'thorns'
-
-type Piglin = 'zombified_piglin' | 'zombie_pigman'
-
-type Zombie = 'zombie' | 'zombie_villager'
-
-type Mob =
-  Zombie
-  | 'skeleton'
-  | 'wither_skeleton'
-  | 'magma_cube'
-  | 'horse'
-  | 'wolf'
-  | Piglin
-
+type Armor = (typeof ARMOR_PART_TYPE)[keyof typeof ARMOR_PART_TYPE]
+type Tool = (typeof TOOL_TYPE)[keyof typeof TOOL_TYPE]
+type OtherItems = (typeof OTHERS_ITEMS)[keyof typeof OTHERS_ITEMS]
+type ItemsType = Armor | Tool | Map
+type EnchantName = (typeof ENCHANT_NAME_TYPE)[keyof typeof ENCHANT_NAME_TYPE]
+type Mob = (typeof MOB_TYPE)[keyof typeof MOB_TYPE]
 export type IdItemsType = `minecraft:${ItemsType}`
 export type IdMob = `minecraft:${Mob}`
 export type IdEnchantName = `minecraft:${EnchantName}`
-
-export type LevelWithNumberRoman = 'I' | 'II' | 'III' | 'IV' | 'V'
-export type LevelWithNumber = '1' | '2' | '3' | '4' | '5'
+export type LevelWithNumberRoman = (typeof LEVEL_WITH_NUMBER_ROMAN)[keyof typeof LEVEL_WITH_NUMBER_ROMAN]
+export type LevelWithNumber = (typeof LEVEL_NUMBER)[keyof typeof LEVEL_NUMBER]
 export type Comment = string | '' | null
-
-type Weights = 'low' | 'medium' | 'high'
-type ArmorType = 'chainmail' | 'leather' | 'gold' | 'iron' | 'diamond' | 'netherite'
+type Weights = (typeof WEIGHTS)[keyof typeof WEIGHTS]
+type ArmorType = (typeof ARMOR_TYPE)[keyof typeof ARMOR_TYPE]
 
 export const ArmorWeight: Record<ArmorType, Weights> = {
   chainmail: 'low',
