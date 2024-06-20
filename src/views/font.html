@@ -1,4 +1,3 @@
-export const html = /* html */`
 <!DOCTYPE html>
 <html lang='es'>
   <head>
@@ -11,23 +10,20 @@ export const html = /* html */`
     <meta name=author content='MrOctaMC, octavio.pincha@gmail.com' />
     <meta name=url content='https://surviblia.com' />
     <link rel='shortcut icon' href='/favicon.svg' type='image/xml+svg' />
-    <style type="text/css">
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
       @font-face {
         font-family: 'minecraft';
         src: url('assets/fonts/MinecraftRegular.woff2') format('woff2'),
-        url('assets/fonts/MinecraftRegular.ttf') format('truetype'),
-        url('assets/fonts/MinecraftRegular.otf') format('opentype');
+          url('assets/fonts/MinecraftRegular.ttf') format('truetype'),
+          url('assets/fonts/MinecraftRegular.otf') format('opentype');
       }
+
       @font-face {
         font-family: 'minecraftEnch';
         font-weight: normal;
         src: url('assets/fonts/SgaSmoothRegular.woff2') format('woff2');
       }
-      body { font-family: sans-serif; }
-      /*
-      .font-minecraft { font-family: 'minecraft' }
-      .font-minecraftEnch { font-family: 'minecraftEnch' }
-      */
     </style>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css' rel=stylesheet></link>
     <script src='https://cdn.tailwindcss.com'></script>
@@ -101,9 +97,9 @@ export const html = /* html */`
     <title>API | Surviblia</title>
   </head>
   <body class='bg-[#353535] text-[#222] dark:bg-[#222] dark:text-[#ccc]'>
-    <div id='App' class='grid place-content-center h-screen w-full'>
+    <div id='App' class='flex justify-center items-center w-screen h-screen'>
       <main>
-        <ul class='flex items-center justify-center gap-6 text-center'>
+        <ul class='flex gap-6 justify-center items-center text-center'>
           <li>
             <a
               href="/assets/fonts/MinecraftRegular.woff2"
@@ -111,7 +107,7 @@ export const html = /* html */`
               data-tooltip-target=tooltip-hover1
             >
               Download MinecraftRegular
-              <div id='tooltip-hover1' role='tooltip' class='absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium font-minecraft text-white bg-gray-900 rounded-lg shadow-sm opcaity-0 tooltip dark:bg-gray-700'>
+              <div id='tooltip-hover1' role='tooltip' class='inline-block absolute invisible z-10 px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm font-minecraft opcaity-0 tooltip dark:bg-gray-700'>
                 MinecraftRegular
                 <div class='tooltip-arrow' data-popper-arrow></div>
               </div>
@@ -124,7 +120,7 @@ export const html = /* html */`
               data-tooltip-target=tooltip-hover2
             >
               Download SgaSmoothRegular font
-              <div id='tooltip-hover2' role='tooltip' class='absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium font-minecraftEnch text-white bg-gray-900 rounded-lg shadow-sm opcaity-0 tooltip dark:bg-gray-700'>
+              <div id='tooltip-hover2' role='tooltip' class='inline-block absolute invisible z-10 px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm font-minecraftEnch opcaity-0 tooltip dark:bg-gray-700'>
                 SgaSmoothRegular
                 <div class='tooltip-arrow' data-popper-arrow></div>
               </div>
@@ -135,4 +131,3 @@ export const html = /* html */`
     </div>
   </body>
 </html>
-`

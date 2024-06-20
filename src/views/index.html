@@ -1,4 +1,3 @@
-export const html = /* html */`
 <!DOCTYPE html>
 <html lang='es'>
   <head>
@@ -11,15 +10,15 @@ export const html = /* html */`
     <meta name=author content='MrOctaMC, octavio.pincha@gmail.com' />
     <meta name=url content='https://surviblia.com' />
     <link rel='shortcut icon' href='/favicon.svg' type='image/xml+svg' />
+    <link rel="stylesheet" href="./css/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style type="text/css"> body { font-family: sans-serif; } </style>
     <title>API | Surviblia</title>
   </head>
   <body class='bg-[#ccc] text-[#222] dark:bg-[#222] dark:text-[#ccc]'>
-    <div id='App' class='grid place-content-center container h-auto max-w-[770px] m-auto'>
+    <div id='App' class='grid place-content-center w-full h-full max-w-[770px] m-auto'>
       <nav class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='max-w-screen flex flex-wrap items-center justify-between mx-auto p-4'>
-          <ul class='flex justify-around items-center w-full gap-x-4'>
+        <div class='flex flex-wrap justify-between items-center p-4 mx-auto max-w-screen'>
+          <ul class='flex gap-x-4 justify-around items-center w-full'>
             <li>
               <a
                 target='_blank'
@@ -64,7 +63,7 @@ export const html = /* html */`
           <tbody>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/</td>
               <td class='px-6 py-3'>
@@ -79,7 +78,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/font</td>
               <td class='px-6 py-3'>
@@ -94,7 +93,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api</td>
               <td class='px-6 py-3'>
@@ -109,7 +108,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/armors</td>
               <td class='px-6 py-3'>
@@ -124,7 +123,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/armors/:material</td>
               <td class='px-6 py-3'>
@@ -139,7 +138,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/tools</td>
               <td class='px-6 py-3'>
@@ -154,7 +153,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/tools/:tool/:material?</td>
               <td class='px-6 py-3'>
@@ -169,7 +168,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/weapons</td>
               <td class='px-6 py-3'>
@@ -184,7 +183,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/weapons/:weapon</td>
               <td class='px-6 py-3'>
@@ -199,7 +198,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/weapons/:weapon/:material?</td>
               <td class='px-6 py-3'>
@@ -214,7 +213,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/items</td>
               <td class='px-6 py-3'>
@@ -229,7 +228,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/items/:item</td>
               <td class='px-6 py-3'>
@@ -244,7 +243,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/items/:item/:material</td>
               <td class='px-6 py-3'>
@@ -259,7 +258,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
               <td class='px-6 py-3'>/api/mobs</td>
               <td class='px-6 py-3'>
@@ -275,7 +274,7 @@ export const html = /* html */`
             <!--
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-green-700 rounded py-2 px-3'>POST</span>
+                <span class='px-3 py-2 bg-green-700 rounded'>POST</span>
               </th>
               <td class='px-6 py-3'>/api/add</td>
               <td class='px-6 py-3'>
@@ -290,7 +289,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-teal-700 rounded py-2 px-3'>PUT</span>
+                <span class='px-3 py-2 bg-teal-700 rounded'>PUT</span>
                 <span class='sr-only'>
                   En caso de que el recurso no exista lo crea sino lo actualiza
                 </span>
@@ -308,7 +307,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-lime-700 rounded py-2 px-3'>PATCH</span>
+                <span class='px-3 py-2 bg-lime-700 rounded'>PATCH</span>
               </th>
               <td class='px-6 py-3'>/api/update</td>
               <td class='px-6 py-3'>
@@ -323,7 +322,7 @@ export const html = /* html */`
             </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-red-700 rounded py-2 px-3'>DELETE</span>
+                <span class='px-3 py-2 bg-red-700 rounded'>DELETE</span>
               </th>
               <td class='px-6 py-3'>/api/delete</td>
               <td class='px-6 py-3'>
@@ -344,7 +343,7 @@ export const html = /* html */`
                 <span class='font-bold'>Anotaciones</span>
               </th>
               <td colspan=3>
-                - Los paths que sean de esta forma <span class='bg-neutral-500/25 rounded px-1'>:path</span> son segmentos dinamicos de la ruta el cual deben ser ingresados por el usuario para buscar algo en concreto según la url
+                - Los paths que sean de esta forma <span class='px-1 rounded bg-neutral-500/25'>:path</span> son segmentos dinamicos de la ruta el cual deben ser ingresados por el usuario para buscar algo en concreto según la url
               </td>
             </tr>
             <tr>
@@ -357,11 +356,10 @@ export const html = /* html */`
         </table>
       </main>
       <footer class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='max-w-screen flex flex-wrap items-center justify-between mx-auto p-4'>
+        <div class='flex flex-wrap justify-between items-center p-4 mx-auto max-w-screen'>
 
         </div>
       </footer>
     </div>
   </body>
 </html>
-`;
