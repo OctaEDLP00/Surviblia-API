@@ -1,24 +1,26 @@
 import { SurviAPIController } from '@controllers/SurviAPIController.ts'
 import { Router, type Request, type Response } from 'express'
-import { html as _HTML } from '../views/html.ts'
-import { html as _HTMLFONT } from '../views/htmlFont.ts'
-/**
- * import { html as _HTMLADD } from '../views/html.ts'
- * import { html as _HTMLUPDATE } from '../views/html.ts'
- * import { html as _HTMLDELETE } from '../views/html.ts'
- * import { join } from 'node:path'
- * import { publicPath } from '../setup/main.ts'
- */
-export function createRouter(_SurviAPIModel: any) {
+import { join } from 'node:path'
+import { __dirname } from '@utils/setHeaderOnStatic.ts'
+
+export function createRouter(_SurviAPIModel: unknown) {
   const router = Router()
 
-  router.get('/', (_req: Request, res: Response) => res.send(_HTML))
-  router.get('/font', (_req: Request, res: Response) => res.send(_HTMLFONT))
-  /**
-   * router.get('/api/add', (_req: Request, res: Response) => res.send(_HTMLADD))
-   * router.get('/api/update', (_req: Request, res: Response) => res.send(_HTMLUPDATE))
-   * router.get('/api/delete', (_req: Request, res: Response) => res.send(_HTMLDELETE))
-   */
+  /** router GET / return index.html */
+  router.get('/', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/index.html')))
+
+  /** router GET /font return font.html */
+  router.get('/font', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/font.html')))
+
+  /** router GET /api/add return add.html */
+  router.get('/api/add', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/add.html')))
+
+  /** router GET /api/update return update.html */
+  router.get('/api/update', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/update.html')))
+
+  /** router GET /api/delete return delete.html */
+  router.get('/api/delete', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/delete.html')))
+
   router.get('/api', SurviAPIController.getSurviAPI)
   router.get('/api/armors', SurviAPIController.getArmors)
   router.get('/api/armors/:material', SurviAPIController.getArmorMaterial)
@@ -33,12 +35,10 @@ export function createRouter(_SurviAPIModel: any) {
   router.get('/api/items/:item', SurviAPIController.getItem)
   router.get('/api/mobs', SurviAPIController.getMobs)
 
-  /**
-   * router.post('/api/add/:add', SurviAPIController.create)
-   * router.patch('/api/update/:update', SurviAPIController.update)
-   * router.put('/api/update/:update', SurviAPIController.update)
-   * router.delete('/api/delete/:delete', SurviAPIController.delete)
-   */
+  router.post('/api/add/:add', SurviAPIController.create)
+  router.patch('/api/update/:update', SurviAPIController.update)
+  router.put('/api/update/:update', SurviAPIController.update)
+  router.delete('/api/delete/:delete', SurviAPIController.delete)
 
   return router
 }
