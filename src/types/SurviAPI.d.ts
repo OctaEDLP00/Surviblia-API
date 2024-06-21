@@ -8,17 +8,12 @@ import {
   LevelWithNumberRoman
 } from './main.d.ts'
 
-
-export interface SurviAPI {
-  armors: Array<Armors>
-  items: Items
-  mobs: Mobs
-  tools: Tools
-  weapons: Weapons
+export interface Enchantment {
+  id: IdEnchantName
+  lvl: LevelWithNumberRoman | LevelWithNumber
 }
 
-export type ItemsWithoutEnchantments = Omit<Armors, 'enchantments'>
-export type ArmorWhitout = Omit<Armors, 'material' | 'name_tool' | 'use_of_tool' | 'enchantments'>
+// ENUM VERSION
 
 export interface Armors {
   apparitionEpisodes: string
@@ -30,22 +25,14 @@ export interface Armors {
   version: Version
 }
 
-export interface Enchantment {
-  id: IdEnchantName
-  lvl: LevelWithNumberRoman | LevelWithNumber
-}
-
-// ENUM VERSION
+export type ItemsWithoutEnchantments = Omit<Armors, 'enchantments'>
+export type ArmorWhitout = Omit<Armors, 'material' | 'name_tool' | 'use_of_tool' | 'enchantments'>
 
 export interface Items {
   books: Array<Armors>
   elytras: Array<Armors>
   maps: Array<ItemsWithoutEnchantments>
   shulkers: Array<ItemsWithoutEnchantments>
-}
-
-export interface Mobs {
-  zombies: Array<Mob>
 }
 
 export interface Mob extends ArmorWhitout {
@@ -55,6 +42,10 @@ export interface Mob extends ArmorWhitout {
   nameMob: string
   species: IdMob
   state: string
+}
+
+export interface Mobs {
+  zombies: Array<Mob>
 }
 
 export interface Tools {
@@ -69,4 +60,12 @@ export interface Tools {
 export interface Weapons {
   bow: Array<Armors>
   sword: Array<Armors>
+}
+
+export interface SurviAPI {
+  armors: Array<Armors>
+  items: Items
+  mobs: Mobs
+  tools: Tools
+  weapons: Weapons
 }
