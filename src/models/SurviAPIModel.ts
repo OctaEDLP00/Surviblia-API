@@ -6,13 +6,36 @@ import type { Armors, Items, Mobs, SurviAPI, Tools, Weapons } from '../types/Sur
 const API: SurviAPI = readFile('@data/SurviAPI.json')
 
 interface Props {
-  armors?: any
-  items?: any
-  mobs?: any
-  tools?: any
-  weapons?: any
+  armors?: Armors
+  items?: Items
+  mobs?: Mobs
+  tools?: Tools
+  weapons?: Weapons
 }
-
+/*
+interface ISurviAPIModel {
+  getSurviAPI(): Promise<SurviAPI>
+  getArmors(): Promise<Array<Armors>>
+  getTools(): Promise<Tools>
+  getWeapons(): Promise<Weapons>
+  getItems(): Promise<Items>
+  getMobs(): Promise<Mobs>
+  getArmorMaterial({ material }: { material: string }): Promise<Array<Armors> | void>
+  getArmorFromArmorMaterial(
+    { material, armor }: { material: string, armor: string }
+  ): Promise<Array<Armors> | void>
+  getToolMaterial(
+    { tool, material }: { tool: string, material: string }
+  ): Promise<Array<Armors> | void>
+  getWeaponMaterial(
+    { weapon, material }: { weapon: string, material: string }
+  ): Promise<Array<Armors> | void>
+  getItem({ item }: { item: string }): Promise<Array<Armors> | void>
+  create({ armors, items, mobs, tools, weapons }: Props): Promise<void>
+  update({ armors, items, mobs, tools, weapons }: Props): Promise<void>
+  delete({ armors, items, mobs, tools, weapons }: Props): Promise<void>
+}
+*/
 export class SurviAPIModel {
   // private static filePath = resolve(import.meta.url, 'surviData.json')
 
@@ -32,16 +55,18 @@ export class SurviAPIModel {
   static getItems = async (): Promise<Items> => API.items
   static getMobs = async (): Promise<Mobs> => API.mobs
 
-  static async getArmorMaterial({ material }: any): Promise<Array<Armors> | void> {
+  static async getArmorMaterial({ material }: { material: string }): Promise<Array<Armors> | void> {
     const { armors } = API
     const armorMaterial = armors.filter((a) => {
-      const [materialType,] = sanitize(a.material)
+      const [materialType, _itemType] = sanitize(a.material)
       return material === materialType
     })
     return armorMaterial
   }
 
-  static async getArmorFromArmorMaterial({ material, armor }: any): Promise<Array<Armors> | void> {
+  static async getArmorFromArmorMaterial(
+    { material, armor }: { material: string, armor: string }
+  ): Promise<Array<Armors> | void> {
     const { armors } = API
     const armorMaterial = armors.filter((a) => {
       const [materialType, armorType] = sanitize(a.material)
@@ -51,7 +76,9 @@ export class SurviAPIModel {
     // return weaponArray.filter((a) => sanitizeMaterial(a.material) === material)
   }
 
-  static async getToolMaterial({ tool, material }: any): Promise<Array<Armors> | void> {
+  static async getToolMaterial(
+    { tool, material }: { tool: string, material: string }
+  ): Promise<Array<Armors> | void> {
     const { axe, hoes, pickaxe, shears, shield, shovel } = API.tools
     const toolArray = ({ axe, hoes, pickaxe, shears, shield, shovel } as { [key: string]: Array<Armors> })[tool]
     if (!toolArray) return
@@ -66,7 +93,9 @@ export class SurviAPIModel {
     return toolMaterial
   }
 
-  static async getWeaponMaterial({ weapon, material }: any): Promise<Array<Armors> | void> {
+  static async getWeaponMaterial(
+    { weapon, material }: { weapon: string, material: string }
+  ): Promise<Array<Armors> | void> {
     const { bow, sword } = API.weapons
     const weaponArray = ({ sword, bow } as { [key: string]: Array<Armors> })[weapon]
     if (!weaponArray) return
@@ -80,7 +109,7 @@ export class SurviAPIModel {
     })
   }
 
-  static async getItem({ item }: any): Promise<Array<Armors> | void> {
+  static async getItem({ item }: { item: string }): Promise<Array<Armors> | void> {
     const { books, elytras, maps, shulkers } = API.items
     const itemArray = ({ books, elytras, maps, shulkers } as { [key: string]: Array<Armors> })[item]
     if (!itemArray) return
@@ -88,80 +117,90 @@ export class SurviAPIModel {
     return itemItem
   }
 
-  private static async createArmors(_armor: Armors) {
-    console.log('createArmors', { _armor })
-  }
-  private static async updateArmors(_armor: Armors) {
-    console.log('updateArmors', { _armor })
-  }
-  private static async deleteArmors(_armor: Armors) {
-    console.log('deleteArmors', { _armor })
+  private static async createArmors(armor: Armors) {
+    console.log('createArmors', { armor })
   }
 
-  private static async createItems(_item: Items) {
-    console.log('createItems', { _item })
-  }
-  private static async updateItems(_item: Items) {
-    console.log('updateItems', { _item })
-  }
-  private static async deleteItems(_item: Items) {
-    console.log('deleteItems', { _item })
+  private static async updateArmors(armor: Armors) {
+    console.log('updateArmors', { armor })
   }
 
-  private static async createWeapons(_weapon: Weapons) {
-    console.log('createWeapons', { _weapon })
-  }
-  private static async updateWeapons(_weapon: Weapons) {
-    console.log('updateWeapons', { _weapon })
-  }
-  private static async deleteWeapons(_weapon: Weapons) {
-    console.log('deleteWeapons', { _weapon })
+  private static async deleteArmors(armor: Armors) {
+    console.log('deleteArmors', { armor })
   }
 
-  private static async createTools(_tool: Tools) {
-    console.log('createTools', { _tool })
-  }
-  private static async updateTools(_tool: Tools) {
-    console.log('updateTools', { _tool })
-  }
-  private static async deleteTools(_tool: Tools) {
-    console.log('deleteTools', { _tool })
+  private static async createItems(item: Items) {
+    console.log('createItems', { item })
   }
 
-  private static async createMobs(_mob: Mobs) {
-    console.log('createMobs', { _mob })
+  private static async updateItems(item: Items) {
+    console.log('updateItems', { item })
   }
-  private static async updateMobs(_mob: Mobs) {
-    console.log('updateMobs', { _mob })
+
+  private static async deleteItems(item: Items) {
+    console.log('deleteItems', { item })
   }
-  private static async deleteMobs(_mob: Mobs) {
-    console.log('deleteMobs', { _mob })
+
+  private static async createWeapons(weapon: Weapons) {
+    console.log('createWeapons', { weapon })
+  }
+
+  private static async updateWeapons(weapon: Weapons) {
+    console.log('updateWeapons', { weapon })
+  }
+
+  private static async deleteWeapons(weapon: Weapons) {
+    console.log('deleteWeapons', { weapon })
+  }
+
+  private static async createTools(tool: Tools) {
+    console.log('createTools', { tool })
+  }
+
+  private static async updateTools(tool: Tools) {
+    console.log('updateTools', { tool })
+  }
+
+  private static async deleteTools(tool: Tools) {
+    console.log('deleteTools', { tool })
+  }
+
+  private static async createMobs(mob: Mobs) {
+    console.log('createMobs', { mob })
+  }
+
+  private static async updateMobs(mob: Mobs) {
+    console.log('updateMobs', { mob })
+  }
+
+  private static async deleteMobs(mob: Mobs) {
+    console.log('deleteMobs', { mob })
   }
 
   static async create({ armors, items, mobs, tools, weapons }: Props): Promise<void> {
     console.log('console.log() desde create', { armors, items, mobs, tools, weapons })
-    this.createArmors(armors)
-    this.createItems(items)
-    this.createMobs(mobs)
-    this.createTools(tools)
-    this.createWeapons(weapons)
+    this.createArmors(armors!)
+    this.createItems(items!)
+    this.createMobs(mobs!)
+    this.createTools(tools!)
+    this.createWeapons(weapons!)
   }
 
   static async update({ armors, items, mobs, tools, weapons }: Props): Promise<void> {
     console.log('console.log() desde update', { armors, items, mobs, tools, weapons })
-    this.updateArmors(armors)
-    this.updateItems(items)
-    this.updateMobs(mobs)
-    this.updateTools(tools)
-    this.updateWeapons(weapons)
+    this.updateArmors(armors!)
+    this.updateItems(items!)
+    this.updateMobs(mobs!)
+    this.updateTools(tools!)
+    this.updateWeapons(weapons!)
   }
 
   static async delete({ armors, items, mobs, tools, weapons }: Props): Promise<void> {
     console.log('console.log() desde delete', { armors, items, mobs, tools, weapons })
-    this.deleteArmors(armors)
-    this.deleteItems(items)
-    this.deleteMobs(mobs)
-    this.deleteTools(tools)
-    this.deleteWeapons(weapons)
+    this.deleteArmors(armors!)
+    this.deleteItems(items!)
+    this.deleteMobs(mobs!)
+    this.deleteTools(tools!)
+    this.deleteWeapons(weapons!)
   }
 }

@@ -8,24 +8,14 @@ import {
   null as zNull
 } from 'zod'
 
-export type SurviAPI = zInfer<typeof SurviAPISchema>
-export type Armor = zInfer<typeof ArmorSchema>
-export type Enchantment = zInfer<typeof EnchantmentSchema>
-export type Items = zInfer<typeof ItemsSchema>
-export type Mobs = zInfer<typeof MobsSchema>
-export type Zombie = zInfer<typeof ZombieSchema>
-export type Tools = zInfer<typeof ToolsSchema>
-export type Weapons = zInfer<typeof WeaponsSchema>
-export type Version = zInfer<typeof VersionSchema>
-
 export const VersionSchema = zEnum([
-  "1.12",
-  "1.11",
-  "1.9",
-  "1.7",
-  "1.5",
-  "1.4",
-  "1.x"
+  '1.12',
+  '1.11',
+  '1.9',
+  '1.7',
+  '1.5',
+  '1.4',
+  '1.x'
 ])
 
 export const EnchantmentSchema = object({
@@ -88,3 +78,12 @@ export const SurviAPISchema = object({
   mobs: MobsSchema
 })
 
+export type SurviAPI = zInfer<typeof SurviAPISchema>
+export type Armor = zInfer<typeof ArmorSchema>
+export type Enchantment = zInfer<typeof EnchantmentSchema>
+export type Items = zInfer<typeof ItemsSchema>
+export type Mobs = zInfer<typeof MobsSchema>
+export type Zombie = zInfer<typeof ZombieSchema>
+export type Tools = zInfer<typeof ToolsSchema>
+export type Weapons = zInfer<typeof WeaponsSchema>
+export type Version = zInfer<typeof VersionSchema>

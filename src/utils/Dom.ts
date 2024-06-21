@@ -1,5 +1,5 @@
 type ElementWithAttributes = HTMLElement & {
-  [key: string]: any;
+  [key: string]: unknown;
 }
 /**
  * DOM
@@ -17,17 +17,18 @@ type ElementWithAttributes = HTMLElement & {
  * ```
 */
 export class DOM {
-
   $query: (selector: string) => Element | null
   $queryAll: (selector: string) => NodeListOf<Element>
   $id: (id: string) => HTMLElement | null
   $clsName: (cls: string) => HTMLCollectionOf<Element>
   $byName: (name: string) => void
   $byTagName: (tagName: string) => void
+
   $create: <T extends keyof HTMLElementTagNameMap>(
     tag: T,
     attrs?: ElementWithAttributes
-  ) => HTMLElementTagNameMap[T];
+  ) => HTMLElementTagNameMap[T]
+
   $append: (children: Element, father: Element | HTMLElement) => void
   $remove: (el: Element) => void
   $aEL: (el: Element, typeEvent: string, callbackfn: () => void) => void

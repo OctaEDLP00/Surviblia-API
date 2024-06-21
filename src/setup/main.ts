@@ -8,7 +8,7 @@ import { __dirname, staticOptions } from '../utils/setHeaderOnStatic.ts'
 
 export const publicPath = join(__dirname, '../../public/')
 
-export function createAPP({ SurviAPIModel }: any) {
+export function createAPP({ SurviAPIModel }: { SurviAPIModel: unknown }) {
   const app = express()
   const router = createRouter({ SurviAPIModel })
 

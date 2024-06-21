@@ -51,7 +51,7 @@ export class SurviAPIController {
     return res.json(tool)
   }
 
-  static getToolMaterial = async ({ params, }: Request, res: Response) => {
+  static getToolMaterial = async ({ params }: Request, res: Response) => {
     const { tool, material } = params
     const toolMaterial = await SurviAPIModel.getToolMaterial({ tool, material })
     if (!toolMaterial) {
@@ -108,40 +108,33 @@ export class SurviAPIController {
     return res.json(mob)
   }
 
-  static create = async (req: Request, _res: Response) => {
-    const result = req.body
+  static create = async ({ body }: Request, _res: Response) => {
+    const result = body
     console.log(result)
-    if (result === 'armors')
-      SurviAPIModel.create({ armors: result })
-    if (result === 'items')
-      SurviAPIModel.create({ items: result })
-    if (result === 'mobs')
-      SurviAPIModel.create({ mobs: result })
-    if (result === 'weapons')
-      SurviAPIModel.create({ weapons: result })
-    if (result === 'tools')
-      SurviAPIModel.create({ tools: result })
+    if (result === 'armors') SurviAPIModel.create({ armors: result })
+    if (result === 'items') SurviAPIModel.create({ items: result })
+    if (result === 'mobs') SurviAPIModel.create({ mobs: result })
+    if (result === 'weapons') SurviAPIModel.create({ weapons: result })
+    if (result === 'tools') SurviAPIModel.create({ tools: result })
   }
 
-  static update = async (req: Request, _res: Response) => {
-    const result = req.body
-    console.log(result,)
-    if (result === 'armors')
-      SurviAPIModel.create({ armors: result })
-    if (result === 'items')
-      SurviAPIModel.create({ items: result })
-    if (result === 'mobs')
-      SurviAPIModel.create({ mobs: result })
-    if (result === 'weapons')
-      SurviAPIModel.create({ weapons: result })
-    if (result === 'tools')
-      SurviAPIModel.create({ tools: result })
+  static update = async ({ body }: Request, _res: Response) => {
+    const result = body
+    console.log(result)
+    if (result === 'armors') SurviAPIModel.update({ armors: result })
+    if (result === 'items') SurviAPIModel.update({ items: result })
+    if (result === 'mobs') SurviAPIModel.update({ mobs: result })
+    if (result === 'weapons') SurviAPIModel.update({ weapons: result })
+    if (result === 'tools') SurviAPIModel.update({ tools: result })
   }
 
-  static delete = async (req: Request, _res: Response) => {
-    const { armors, weapons, items, mobs, tools } = req.params
-    // console.log({ armors, weapons, items, mobs, tools })
-    SurviAPIModel.delete({ armors, weapons, items, mobs, tools })
+  static delete = async ({ body }: Request, _res: Response) => {
+    const result = body
+    console.log(result)
+    if (result === 'armors') SurviAPIModel.delete({ armors: result })
+    if (result === 'items') SurviAPIModel.delete({ items: result })
+    if (result === 'mobs') SurviAPIModel.delete({ mobs: result })
+    if (result === 'weapons') SurviAPIModel.delete({ weapons: result })
+    if (result === 'tools') SurviAPIModel.delete({ tools: result })
   }
-
 }
