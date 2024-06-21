@@ -1,8 +1,6 @@
 {
   "exclude": [
     "./node_modules",
-    "./ignoreFile.ts",
-    "./src/utils/Dom.ts",
     "./src/utils/parserEnchantments.ts",
     "./src/utils/requireJson.ts",
     "./restClient"
