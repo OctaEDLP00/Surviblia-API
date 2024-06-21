@@ -3,8 +3,7 @@ import { fileURLToPath } from 'node:url'
 import { dirname as DN } from 'node:path'
 import { Response } from 'express'
 
-const URL_WITH_ESM = import.meta.url
-const __fileName = fileURLToPath(URL_WITH_ESM)
+const __fileName = fileURLToPath(import.meta.url)
 const __dirname = DN(__fileName)
 const setHeaderOnStatic = (res: Response, path: string) => res.set('Content-Type', mime.getType(path)!)
 const staticOptions = { setHeaders: setHeaderOnStatic }
