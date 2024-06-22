@@ -9,7 +9,7 @@ lerna-debug.log*
 
 # Packages
 pnpm-lock.yaml
-npm-lock.json
+package-lock.json
 yarn.lock
 
 # Md
@@ -26,6 +26,8 @@ node_modules/
 
 # Optional npm cache directory
 .npm
+.npmrc
+.nvmrc
 
 # dotenv environment variable files
 .env
@@ -38,3 +40,4 @@ ignoreFile.ts
 .trash
 profile.jsonc
 src/views/components
+TEMPLATE.md
