@@ -51,106 +51,7 @@
       </nav>
       <main class='relative oveflow-x-auto'>
         <table class='w-auto h-72 text-sm text-left text-gray-500 dark:text-gray-400'>
-          <thead class='text-xs uppercase bg-neutral-50 dark:bg-neutral-700'>
-            <tr>
-              <th scope='col' class='px-6 py-3'>Type</th>
-              <th scope='col' class='px-6 py-3'>Route</th>
-              <th scope='col' class='px-6 py-3'>Description</th>
-              <th scope='col' class='px-6 py-3'>HTML</th>
-              <th scope='col' class='px-6 py-3'>Link</th>
-            </tr>
-          </thead>
           <tbody>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/</td>
-              <td class='px-6 py-3'>
-                <p>Pagina principal de la API</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/' class='hover:underline hover:text-blue-500'>HOME</a>
-              </td>
-            </tr>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/font</td>
-              <td class='px-6 py-3'>
-                <p>Fonts</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/font' class='hover:underline hover:text-blue-500'>FONT</a>
-              </td>
-            </tr>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api</td>
-              <td class='px-6 py-3'>
-                <p>Obtener la API por completo</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api' class='hover:underline hover:text-blue-500'>API</a>
-              </td>
-            </tr>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api/armors</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las armaduras</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/armors' class='hover:underline hover:text-blue-500'>ARMORS</a>
-              </td>
-            </tr>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api/armors/:material</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las armadura de un material en concreto</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
-              </td>
-            </tr>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api/tools</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las herramientas</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/tools' class='hover:underline hover:text-blue-500'>TOOLS</a>
-              </td>
-            </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -271,7 +172,51 @@
                 <a href='/api/mobs' class='hover:underline hover:text-blue-500'>MOBS</a>
               </td>
             </tr>
-            <!--
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/episodes</td>
+              <td class='px-6 py-3'>
+                <p>Obtener todos los Episodios de la serie</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/api/episodes' class='hover:underline hover:text-blue-500'>EPISODES</a>
+              </td>
+            </tr>
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/episodes/episode?episode=&lt;episode&gt;</td>
+              <td class='px-6 py-3'>
+                <p>Obtener un Episodio de la serie</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='!#' class='hover:underline hover:text-blue-500'>EPISODE</a>
+              </td>
+            </tr>
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/episodes/episode?version=&lt;version&gt;</td>
+              <td class='px-6 py-3'>
+                <p>Obtener todos los episodios por una version</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/api/mobs' class='hover:underline hover:text-blue-500'>VERSION</a>
+              </td>
+            </tr>
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-green-700 rounded'>POST</span>
@@ -335,7 +280,6 @@
                 <a href="/api/delete" class='hover:underline hover:text-blue-500'>Delete</a>
               </td>
             </tr>
-            -->
           </tbody>
           <tfoot>
             <tr class='font-smibold'>
@@ -356,8 +300,50 @@
         </table>
       </main>
       <footer class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='flex flex-wrap justify-between items-center p-4 mx-auto max-w-screen'>
-
+        <div class='flex flex-wrap justify-evenly items-center p-2 mx-auto max-w-screen'>
+          <span>&copy; 2020 - ${new Date().getFullYear()}</span>
+          <ul class='flex gap-4 justify-evenly items-center p-2'>
+            <li>
+              <a
+                class='hover:underline hover:text-blue-500'
+                href="https://instagram.com/octaviocaro_23.tsx"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                class='hover:underline hover:text-blue-500'
+                href="https://threads.com/octaviocaro_23.tsx"
+              >
+                Threads
+              </a>
+            </li>
+            <li>
+              <a
+                class='hover:underline hover:text-blue-500'
+                href="https://twitter.com/CaroOcta00"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                class='hover:underline hover:text-blue-500'
+                href="https://github.com/OctaEDLP00"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                class='hover:underline hover:text-blue-500'
+                href="https://twitch.tv/devMetal00"
+              >
+                Twitch
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
