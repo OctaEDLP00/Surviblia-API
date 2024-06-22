@@ -120,3 +120,13 @@ export const ARMOR_TYPE = {
   DIAMOND: 'diamond',
   NETHERITE: 'netherite'
 } as const
+
+export const GAMEMODE_TYPE = {
+  CREATIVO: 'Creativo',
+  CREATIVE: 'Creative',
+  SURVIVAL: 'Survival',
+  ESPECTADOR: 'Espectador',
+  SPECTATOR: 'Spectator',
+  ADVENTURE: 'Adventure',
+  AVENTURA: 'Aventura'
+} as const

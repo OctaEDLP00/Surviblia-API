@@ -1,9 +1,10 @@
-import { SurviAPIController } from '@controllers/SurviAPIController.ts'
+import { SurviAPIController } from '@controllers/SurviAPI.controller'
+import { SurviAPIControllerEpisodes } from '@controllers/SurviAPIEpisodes.controller.ts'
 import { Router, type Request, type Response } from 'express'
 import { join } from 'node:path'
 import { __dirname } from '@utils/setHeaderOnStatic.ts'
 
-export function createRouter(_SurviAPIModel: unknown) {
+export function createRouter(_SurviAPIModel: unknown, _SurviAPIEpisodesModel: unknown) {
   const router = Router()
 
   /** router GET / return index.html */
@@ -15,8 +16,11 @@ export function createRouter(_SurviAPIModel: unknown) {
   /** router GET /api/add return add.html */
   router.get('/api/add', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/add.html')))
 
-  /** router GET /api/update return update.html */
-  router.get('/api/update', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/update.html')))
+  /** router GET /api/put return update.html */
+  router.get('/api/put', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/put.html')))
+
+  /** router GET /api/patch return update.html */
+  router.get('/api/patch', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/patch.html')))
 
   /** router GET /api/delete return delete.html */
   router.get('/api/delete', (_req: Request, res: Response) => res.sendFile(join(__dirname, '../views/delete.html')))
@@ -35,10 +39,15 @@ export function createRouter(_SurviAPIModel: unknown) {
   router.get('/api/items/:item', SurviAPIController.getItem)
   router.get('/api/mobs', SurviAPIController.getMobs)
 
-  router.post('/api/add/:add', SurviAPIController.create)
-  router.patch('/api/update/:update', SurviAPIController.update)
-  router.put('/api/update/:update', SurviAPIController.update)
-  router.delete('/api/delete/:delete', SurviAPIController.delete)
+  // episodios Survival
+  router.get('/api/episodes', SurviAPIControllerEpisodes.getAllEpisodes)
+  router.get('/api/episodes/episode', SurviAPIControllerEpisodes.getEpisode)
+  router.get('/api/episodes/version', SurviAPIControllerEpisodes.getVersions)
 
-  return router
+  router.post('/add', SurviAPIController.create)
+  router.patch('/patch/:type', SurviAPIController.update)
+  router.put('/put/:type', SurviAPIController.update)
+  router.delete('/delete/:type', SurviAPIController.delete)
+
+  return { router }
 }

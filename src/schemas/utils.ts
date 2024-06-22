@@ -13,6 +13,7 @@ import {
   WeaponsSchema
 } from '@schemas/SurviAPISchema.ts'
 
+// SurviAPI Schema
 export function parseSurviAPISchema(input: SurviAPI) {
   return SurviAPISchema.parse(input)
 }
@@ -49,4 +50,13 @@ export function safeParseItemsSchema(input: Items) {
 }
 export function safeParseMobsSchema(input: Mobs) {
   return MobsSchema.partial().safeParse(input)
+}
+
+// Episode Schema
+export function parseSurviAPIEpisodeSchema(input: SurviAPI) {
+  return SurviAPISchema.parse(input)
+}
+
+export function safeParseSurviAPIEpisodeSchema(input: SurviAPI) {
+  return SurviAPISchema.partial().safeParse(input)
 }

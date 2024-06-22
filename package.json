@@ -1,5 +1,5 @@
 {
-  "name": "surviblia-api",
+  "name": "@octaedlp00/surviblia-api",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,19 +7,17 @@
   "scripts": {
     "dev": "tsx ./src/index.ts",
     "dev:watch": "tsx watch ./src/index.ts",
-    "dev-old": "node --loader ts-node src/index.ts",
-    "dev:nodemon": "nodemon --exec node --loader ts-node/esm src/index.ts",
-    "dev:alternative": "pnpm tsc && node --watch build/index.js",
-    "dev:alt": "node --watch --trace-warnings build/index.js",
+    "gen:episodes": "node src/utils/getInfoEpisodios.cjs",
     "build": "pnpm tsc src/index.ts --resolveJsonModule --esModuleInterop --module es2022 --outDir ./build",
     "lint": "ts-standard",
-    "co": "sui-mono commit"
+    "lint:fix": "ts-standard --fix"
   },
   "dependencies": {
     "cors": "2.8.5",
     "dotenv": "16.4.5",
     "express": "4.19.2",
     "mime": "4.0.3",
+    "youtube-playlist-info": "1.1.2",
     "zod": "3.23.8"
   },
   "devDependencies": {

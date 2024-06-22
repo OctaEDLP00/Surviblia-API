@@ -7,7 +7,8 @@ import {
   LEVEL_NUMBER,
   LEVEL_WITH_NUMBER_ROMAN,
   WEIGHTS,
-  ARMOR_TYPE
+  ARMOR_TYPE,
+  GAMEMODE_TYPE
 } from './const'
 
 type Map = 'map' | 'empty_map'
@@ -25,6 +26,7 @@ export type LevelWithNumber = (typeof LEVEL_NUMBER)[keyof typeof LEVEL_NUMBER]
 export type Comment = string | '' | null
 type Weights = (typeof WEIGHTS)[keyof typeof WEIGHTS]
 type ArmorType = (typeof ARMOR_TYPE)[keyof typeof ARMOR_TYPE]
+export type Gamemode = (typeof GAMEMODE_TYPE)[keyof typeof GAMEMODE_TYPE]
 
 export const ArmorWeight: Record<ArmorType, Weights> = {
   chainmail: 'low',

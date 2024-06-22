@@ -15,6 +15,11 @@
     "yoavbls.pretty-ts-errors",
     "bradlc.vscode-tailwindcss",
     "humao.rest-client",
-    "chakrounanas.turbo-console-log"
+    "chakrounanas.turbo-console-log",
+    "bierner.markdown-preview-github-styles",
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "streetsidesoftware.code-spell-checker",
+    "tobermory.es6-string-html"
   ]
 }

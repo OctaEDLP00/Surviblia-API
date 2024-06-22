@@ -88,61 +88,91 @@ Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
 ## Project Structure <a id='project_structure'></a>
 
 ```
-|
-|- .vscode
-|    |- extensions.json
-|    |- settings.json
-|- public
-|    |- fonts
-|        |- Minecraft-Regular.woff2
-|        |- SgaSmoothRegular.woff2
-|- resClient
-|    |- api.http
-|- src
-|   controllers
-|    |- SrviAPIController.ts
-|   data
-|    |- SurviAPI.json
-|   middlewares
-|    |- cors.ts
-|   models
-|    |- SurviAPIModel.ts
-|   router
-|    |- SurviAPIRouter.ts
-|   schemas
-|    |- SurviAPISchema.ts (with zod*)
-|    |- utils.ts (functions that have to do with zod*)
-|   setup
-|    |- acceptedOrigins.ts
-|    |- containsTools.ts
-|    |- errorschema.ts
-|    |- main.ts
-|    |- port.ts
-|   types
-|    |- enum.ts
-|    |- main.d.ts
-|    |- SurviAPI.d.ts
-|   utils
-|    |- createRequire.ts
-|    |- Dom.ts
-|    |- logs.ts
-|    |- parserEnchantments.ts
-|    |- readFile.ts
-|    |- setHeadersOnStatic.ts
-|   views
-|    |- html.ts ('/' api, home page API)
-|    |- htmlAdd.ts ('/api/add' api, add page API)
-|    |- tailwind.config.js
-|   index.js
-|- .editorconfig
-|- .env
-|- .gitignore
-|- CHANGELOG.md
-|- LICENSE
-|- package.json
-|- README.md
-|- tsconfig.json
-|
+/
+├─ .vscode/
+| └─ extension.json
+| └─ settings.json
+├─ public/
+| └─ assets/
+| | └─ fonts/
+| | | └─ MinecraftRegular.otf
+| | | └─ MinecraftRegular.ttf
+| | | └─ MinecraftRegular.woff2
+| | | └─ SgaSmoothRegular.woff2
+| | └─ image/
+| | | └─ Logo-Surviblia-1-12-(11235x3000).png
+| | | └─ Logo-Surviblia-1-12-(256x256).ico
+| | | └─ Logo-Surviblia-1-12-(3000x3000).png
+| | └─ js/
+| | | └─ add.mjs
+| | | └─ const.mjs
+| | | └─ document.mjs
+| | | └─ variable.mjs
+| └─ favicon.webp
+├─ restClient/
+| └─ api.http
+├─ src/
+| ├─ controllers/
+| | └─ SurviAPI.controller.ts
+| | └─ SurviAPIEpisodes.controller.ts
+| ├─ data/
+| | └─ SurviAPI.json
+| | └─ SurviAPIEpisodes.json
+| ├─ middlewares/
+| | └─ cors.ts
+| ├─ models/
+| | └─ SurviAPI.model.ts
+| | └─ SurviAPIEpisodes.model.ts
+| ├─ router/
+| | └─ SurviAPIRouter.ts
+| └─ schemas/
+| | └─ SurviAPIEpisodesSchema.ts
+| | └─ SurviAPISchema.ts
+| | └─ utils.ts
+| └─ setup/
+| | └─ acceptedOrigins.ts
+| | └─ containsTools.ts
+| | └─ errorSchema.ts
+| | └─ main.ts
+| | └─ port.ts
+| └─ types/
+| | └─ const.ts
+| | └─ enum.ts
+| | └─ main.d.ts
+| | └─ SurviAPI.d.ts
+| | └─ SurviAPIEpisodes.d.ts
+| └─ utils/
+| | └─ const.ts
+| | └─ enum.ts
+| | └─ main.d.ts
+| | └─ SurviAPI.d.ts
+| | └─ SurviAPIEpisodes.d.ts
+| └─ views/
+| | └─ css/
+| | | └─ main.css
+| | | └─ font.css
+| | └─ add.html
+| | └─ delete.html
+| | └─ font.html
+| | └─ index.html
+| | └─ patch.html
+| | └─ put.html
+| | └─ tailwind.config.js
+| └── index.ts
+└─ package.json/
+| └─ .editorconfig
+| └─ .eslintrc
+| └─ .eslintignore
+| └─ .gitignore
+| └─ .prettierignore
+| └─ .prettierrc.cjs
+| └─ CHANGELOG.md
+| └─ CONTRIBUTING.md
+| └─ INFO_FALTANTE.md
+| └─ LICENSE
+| └─ README.md/
+| └─ tsconfig.json
+└─/
 ```
 
 <div align='center'>
