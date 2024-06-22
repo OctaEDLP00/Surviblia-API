@@ -1,4 +1,4 @@
-import { SurviAPIModel } from '@models/SurviAPIModel.ts'
+import { SurviAPIModel } from '@models/SurviAPI.model'
 import { type Request, type Response } from 'express'
 
 export class SurviAPIController {

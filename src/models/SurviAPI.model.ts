@@ -2,7 +2,7 @@ import { readFile } from '@utils/readFile.ts'
 import { sanitize, sanitizeMinecraft } from '@utils/sanitize.ts'
 // import { readFileSync, writeFileSync } from 'node:fs'
 // import { resolve } from 'node:path'
-import type { Armors, Items, Mobs, SurviAPI, Tools, Weapons } from '../types/SurviAPI.d.ts'
+import type { Armors, Items, Mobs, SurviAPI, Tools, Weapons } from '../types/SurviAPI'
 const API: SurviAPI = readFile('@data/SurviAPI.json')
 
 interface Props {
