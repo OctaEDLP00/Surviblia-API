@@ -16,7 +16,7 @@ type ElementWithAttributes = HTMLElement & {
  *  D.id('<id>')
  * ```
 */
-export class DOM {
+class DOM {
   $query: (selector: string) => Element | null
   $queryAll: (selector: string) => NodeListOf<Element>
   $id: (id: string) => HTMLElement | null
@@ -48,3 +48,4 @@ export class DOM {
 }
 
 export default DOM
+export { DOM }
