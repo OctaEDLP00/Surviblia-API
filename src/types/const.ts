@@ -33,7 +33,8 @@ export const TOOL_TYPE = {
   GOLD_HOE: 'gold_hoe',
   GOLD_SWORD: 'gold_sword',
   GOLD_SHOVEL: 'gold_shovel',
-  WODDEN_PICKAXE: 'wodden_pickaxe'
+  WODDEN_PICKAXE: 'wodden_pickaxe',
+  FISHING_ROD: 'fishing_rod'
 } as const
 
 export const OTHERS_ITEMS = {
@@ -43,7 +44,8 @@ export const OTHERS_ITEMS = {
   EMPTY_MAP: 'empty_map',
   ELYTRA: 'elytra',
   SHEARS: 'shears',
-  BOOK: 'book'
+  BOOK: 'book',
+  BOOK_AND_QUILL: 'book_and_quill'
 } as const
 
 export const ENCHANT_NAME_TYPE = {
@@ -99,11 +101,11 @@ export const LEVEL_WITH_NUMBER_ROMAN = {
 } as const
 
 export const LEVEL_NUMBER = {
-  ONE: 1,
-  TWO: 2,
-  THREE: 3,
-  FOUR: 4,
-  FIVE: 5
+  ONE: '1',
+  TWO: '2',
+  THREE: '3',
+  FOUR: '4',
+  FIVE: '5'
 } as const
 
 export const WEIGHTS = {
@@ -129,4 +131,11 @@ export const GAMEMODE_TYPE = {
   SPECTATOR: 'Spectator',
   ADVENTURE: 'Adventure',
   AVENTURA: 'Aventura'
+} as const
+
+export const BIOME_TYPE = {
+  TAIGA: 'taiga',
+  EXTREME_HILLS: 'extreme hills',
+  SWAMP: 'swamp',
+  PLAINS: 'plains'
 } as const

@@ -16,11 +16,11 @@ export interface Enchantment {
 // ENUM VERSION
 
 export interface Armors {
-  apparitionEpisodes: string
+  apparitionEpisodes: string | Array<string>
   enchantments?: Array<Enchantment>
   material: IdItemsType
   nameTool: string
-  others?: Comment
+  others?: Comment | Array<Comment>
   useOfTool?: string
   version: Version
 }
@@ -38,19 +38,29 @@ export interface Items {
 export interface Mob extends ArmorWhitout {
   alias: string
   domestication: string
+  entity: IdMob
   lastSeen: string
   nameMob: string
-  species: IdMob
   state: string
 }
 
-export interface Mobs {
+interface Player {
+  apparitionEpisodes: string | Array<string>
+  entity: 'minecraft:player'
+  namePlayer: string
+  others?: Comment | Array<Comment>
+  useOfTool?: string
+  version: Version
+}
+
+export interface Entities {
+  player: Array<Player>
   zombies: Array<Mob>
 }
 
 export interface Tools {
   axe: Array<Armors>
-  hoes?: Array<Armors>
+  hoes: Array<Armors>
   pickaxe: Array<Armors>
   shears: Array<Armors>
   shield: Array<Armors>
@@ -60,12 +70,21 @@ export interface Tools {
 export interface Weapons {
   bow: Array<Armors>
   sword: Array<Armors>
+  fishingRod: Array<Armors>
+}
+
+export interface WithoutCategory {
+  apparitionEpisodes: string
+  material: IdItemsType
+  nameTool: string
+  version: Version
 }
 
 export interface SurviAPI {
   armors: Array<Armors>
   items: Items
-  mobs: Mobs
+  entities: Entities
   tools: Tools
   weapons: Weapons
+  without_category: Array<WithoutCategory>
 }

@@ -1,0 +1,501 @@
+{
+  "tierS+": [
+    {
+      "animations": "https://youtu.be/ZAWeXj2ZHpg",
+      "blocks_used": [
+        "Obsidiana",
+        "Calaveras de Wither Skeleton",
+        "Endstone",
+        "Bloques de Oro",
+        "Cuarzo",
+        "Bloques de Redstone",
+        "Bloques de Slime"
+      ],
+      "coords": { "x": "-520", "z": "89" },
+      "episode_number": "145",
+      "mechanisms_carried_out": [ "Autocrafters", "Fuente de los Deseos 2" ],
+      "official_name_of_project": "Orogeddon",
+      "project_biome": [ "extreme hills", "swamp", "plains" ],
+      "project_objetives": "Manzanas de Oro Encantadas y solucionar los problemas de Oro en general",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "Obsidiana",
+        "Bloques de Esmeralda",
+        "Cristal Verde",
+        "Cristal Amarrillo",
+        "Cristal Blanco",
+        "Hornos",
+        "Hoopers",
+        "Redstone",
+        "Cofres",
+        "Endstone",
+        "Pistones",
+        "Pistones Pegajosos",
+        "Comparadores",
+        "Repeaters",
+        "Bloques de Hierro",
+        "Bloques de Portales del Nether",
+        "Slabs de Piedra Cocinada",
+        "Lamparas de Redstone",
+        "Bloqies de Cuarzo",
+        "Escaleras de Curzo",
+        "Slabs de Cuarzo",
+        "Bloques de Hielo",
+        "Droppers",
+        "Bloques de Glowstone"
+      ],
+      "curiosities": "En el episodio 170 revela que esta lleno solo a 30%, tambien enseña que hay una congestión de hierro en algunos hoppers",
+      "coords": { "x": "-288", "z": "471" },
+      "episode_number": "134",
+      "mechanisms_carried_out": "DSD",
+      "official_name_of_project": "Permutador Metalúrgico",
+      "others_names_of_project": "Permutador Metalúrgico",
+      "project_biome": "",
+      "project_objetives": "Almacenar 51 millones de items (iron ingot's)",
+      "version": "1.7.2"
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Universal Datatrap",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierS": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Ferrofactoria AEternalis",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Multi-Dust",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Incinerador",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Generador de EnderCrytals",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "The Bedrock Tower",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Sistema Perimetral",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Gnerador automático de EnderCrystals y Diamiantes",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Forwarp",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierA": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Über Orber",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Spawngea",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Blocones",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Proyecto",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Cronódromo del Destino",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Paramo Helado de Piggers",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "La Forja de Tiempo",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Los Rascahielos",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierB": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "F.O.I.",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Catedral Esqueleto",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Proyecto Fractalis",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Granja de Obsidiana",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Granja de Madera",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Impresora de Agua",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Hidro Receptor Infernal",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Ghast Catcher",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Triple Gold Pan",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Skeleton Trap Trap",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "Auto Wither Killer",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "La Chunktera",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "The Pathfinder",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierC": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierD": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ],
+  "tierUnranked": [
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    },
+    {
+      "animations": "",
+      "blocks_used": [ ],
+      "coords": { "x": "", "z": "" },
+      "episode_number": "",
+      "mechanisms_carried_out": [ ],
+      "name_of_project": "",
+      "project_biome": "",
+      "project_objetives": "",
+      "version": ""
+    }
+  ]
+}

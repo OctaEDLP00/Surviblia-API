@@ -1,5 +1,5 @@
 export enum Version {
-  onePointX = '1.X',
+  onePointX = '1.x',
   onePointFour = '1.4',
   onePointFive = '1.5',
   onePointSix = '1.6',
@@ -17,4 +17,5 @@ export enum Version {
   onePointEightteen = '1.18',
   onePointNineteen = '1.19',
   onePointTwenty = '1.20',
+  onePointTwentyOne = '1.21'
 }

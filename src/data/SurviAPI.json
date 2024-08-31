@@ -1,4 +1,5 @@
 {
+  "$ref": "../schemas/json/SurviAPISchema.json",
   "armors": [
     {
       "apparition_episodes": "",
@@ -27,8 +28,7 @@
       "version": "1.x",
       "name_tool": "Blindaje Antiderrumbamientos",
       "material": "minecraft:iron_chestplate",
-      "enchantments": [ { "id": "minecraft:protection", "lvl": "3" } ],
-      "use_of_tool": ""
+      "enchantments": [ { "id": "minecraft:protection", "lvl": "3" } ]
     },
     {
       "apparition_episodes": "",
@@ -69,8 +69,7 @@
       "enchantments": [
         { "id": "minecraft:protection", "lvl": "4" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -108,8 +107,7 @@
         { "id": "minecraft:fire_protection", "lvl": "4" },
         { "id": "minecraft:thorns", "lvl": "2" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -154,8 +152,7 @@
         { "id": "minecraft:protection", "lvl": "4" },
         { "id": "minecraft:mending", "lvl": "1" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -342,8 +339,7 @@
         { "id": "minecraft:unbreaking", "lvl": "3" },
         { "id": "minecraft:feather_falling", "lvl": "4" },
         { "id": "minecraft:thorns", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -409,8 +405,7 @@
       "enchantments": [
         { "id": "minecraft:protection", "lvl": "4" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -465,8 +460,7 @@
         { "id": "minecraft:protection", "lvl": "4" },
         { "id": "minecraft:mending", "lvl": "1" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -558,8 +552,7 @@
         { "id": "minecraft:protection", "lvl": "4" },
         { "id": "minecraft:mending", "lvl": "" },
         { "id": "minecraft:unbreaking", "lvl": "3" }
-      ],
-      "use_of_tool": ""
+      ]
     },
     {
       "apparition_episodes": "",
@@ -639,6 +632,24 @@
         { "id": "minecraft:thorns", "lvl": "3" }
       ],
       "use_of_tool": "Armadura avanzada de espinas"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.x",
+      "name_tool": "Guardapolvos de Excavador",
+      "material": "minecraft:iron_leggings",
+      "enchantments": [
+        { "id": "minecraft:protection", "lvl": "3" }
+      ]
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.x",
+      "name_tool": "Eternobotas",
+      "material": "minecraft:iron_boots",
+      "enchantments": [
+        { "id": "minecraft:protection", "lvl": "3" }
+      ]
     }
   ],
   "tools": {
@@ -694,6 +705,17 @@
         ],
         "use_of_tool": "Pala Principal en el arco actual de Survival",
         "others": "Sucesor del Instrumento del Entrrador"
+      }
+    ],
+    "hoe": [
+      {
+        "apparition_episodes": "",
+        "version": "1.X",
+        "name_tool": "Germinador Infinito",
+        "material": "minecraft:diamond_axe",
+        "enchantments": [
+          { "id": "minecraft:unbreaking", "lvl": "3" }
+        ]
       }
     ],
     "axe": [
@@ -787,7 +809,23 @@
           { "id": "minecraft:efficiency", "lvl": "5" },
           { "id": "minecraft:unbreaking", "lvl": "3" },
           { "id": "minecraft:sharpness", "lvl": "5" }
-        ], "others": "Predecesor del Ejecutor de Entidades"
+        ],
+        "others": "Predecesor del Ejecutor de Entidades"
+      },
+      {
+        "apparition_episodes": [ "157", "175" ],
+        "version": "1.12",
+        "name_tool": "Omnitrozador Supremo",
+        "material": "minecraft:diamond_axe",
+        "enchantments": [
+          { "id": "minecraft:sharpness", "lvl": "5" },
+          { "id": "minecraft:efficiency", "lvl": "5" },
+          { "id": "minecraft:mending", "lvl": "1" },
+          { "id": "minecraft:silk_touch", "lvl": "1" },
+          { "id": "minecraft:unbreaking", "lvl": "3" }
+        ],
+        "use_of_tool": "Hacha principal de Silk Touch en el mundo",
+        "others": "Sucesor del Deforestador Omnipotente"
       }
     ],
     "pickaxe": [
@@ -906,6 +944,15 @@
           { "id": "minecraft:efficiency", "lvl": "4" }
         ],
         "use_of_tool": "Tijeras para obtener Cobwebs"
+      },
+      {
+        "apparition_episodes": "",
+        "version": "1.x",
+        "name_tool": "Esquiladora de Estepicursores",
+        "material": "minecraft:shears",
+        "enchantments": [
+          { "id": "minecraft:unbreaking", "lvl": "3" }
+        ]
       }
     ],
     "shield": [
@@ -1095,6 +1142,20 @@
         "use_of_tool": "Obtener escudos con 3 de damage para la posterior obtencion de las cabezas con el mismo nivel de damage",
         "others": "Los Shieldestroyers fueron los portadores de tres ejemplares de esta espada"
       }
+    ],
+    "fishing_rod": [
+      {
+        "apparition_episodes": "155",
+        "version": "1.12",
+        "name_tool": "Reubicador Hexaédrico",
+        "material": "minecraft:fishing_rod",
+        "enchantments": [
+          { "id": "minecraft:unbreaking", "lvl": "3" },
+          { "id": "minecraft:mending", "lvl": "1" }
+        ],
+        "use_of_tool": "Conseguir bloque de bedrock como item",
+        "others": "Lo usa en el episodio 156, para re ubicar rodos los bloques \"ilegales\" conseguidos en survival, en especial en su forma de falling block"
+      }
     ]
   },
   "items": {
@@ -1142,6 +1203,13 @@
         ],
         "use_of_tool": "Tener un libro para crear una herramienta OP rápidamente",
         "others": "Para crearlo Rich busco cual es la cantidad maxima de encantamientos que se puede poner a un ítem"
+      },
+      {
+        "apparition_episodes": "",
+        "version": "",
+        "name_tool": "Cuaderno de Exloracion",
+        "material": "minecraft:book",
+        "use_of_tool": "Libro para anotar coordenadas y zonas de interés"
       }
     ],
     "maps": [
@@ -1174,14 +1242,14 @@
       }
     ]
   },
-  "mobs": {
+  "entities": {
     "zombies": [
       {
         "apparition_episodes": "162",
         "version": "1.12",
         "name_mob": "Mendified Zombie",
         "state": "Vivo",
-        "species": "minecraft:zombie",
+        "entity": "minecraft:zombie",
         "alias": "Mendified Zombie",
         "domestication": "En un desierto bajo Universal Datatrap",
         "last_seen": "En su Shield Durability Remover Station, debajo del Universal Datatrap en el episodio 162",
@@ -1192,12 +1260,33 @@
         "version": "1.12",
         "name_mob": "Shieldestroyers",
         "state": "Vivo",
-        "species": "minecraft:zombie",
+        "entity": "minecraft:zombie",
         "alias": "Shieldestroyers",
         "domestication": "En una pradera bajo Universal Datatrap",
         "last_seen": "En su Shield Durability Remover Station, debajo del Universal Datatrap en el episodio 162",
         "others": "Son 3 Zombies equipados con una espada de diamante de Sharpness V (Llamada Shield Waster) que dueron empleados para obtener varios escudos con 3 de Damage. Uno de ellos es zurdo"
       }
+    ],
+    "player": [
+      {
+        "apparition_episodes": "118",
+        "version": "1.7",
+        "name_player": "OmniRich",
+        "entity": "minecraft:player",
+        "use_of_tool": "OmniRich es una cuenta secundaria de Rich que sirve como herramienta para ayudar al filmado de la serie mediante grabaciones desde angulos complicados y timelapses",
+        "others": [
+          "Es la primera cuenta secundaria de Rich en Minecraft",
+          "Su skin es una camara cinematografica"
+        ]
+      }
     ]
-  }
+  },
+  "without_category": [
+    {
+      "apparition_episodes": "118",
+      "version": "1.7",
+      "name_tool": "Perla de ElRichMC",
+      "item": "minecraft:ender_pearl"
+    }
+  ]
 }

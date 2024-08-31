@@ -1,34 +1,41 @@
-import { SurviAPIEpisodesModel } from '@models/SurviAPIEpisodes.model.ts'
+import { ISurviAPIEpisodesController } from '@/controllers/SurviAPIEpisodesController'
+import { ISurviAPIEpisodesModel } from '@/models/SurviAPIEpisodesModel'
 import { type Request, type Response } from 'express'
 
-export class SurviAPIControllerEpisodes {
+export class SurviAPIControllerEpisodes implements ISurviAPIEpisodesController {
+  surviEpisodesModel: ISurviAPIEpisodesModel
 
-  static getAllEpisodes = async (_req: Request, res: Response) => {
-    const surviAPIEpisodes = await SurviAPIEpisodesModel.getAllEpisodes()
-    if (!surviAPIEpisodes) {
-      res.status(404).json({ error_message: 'SurviAPIEpisode not found or not exist' })
-      return
-    }
-    return res.json(surviAPIEpisodes)
+  constructor({ surviEpisodesModel }: { surviEpisodesModel: ISurviAPIEpisodesModel }) {
+    this.surviEpisodesModel = surviEpisodesModel
   }
 
-  static getEpisode = async ({ query }: Request, res: Response) => {
-    const { episode } = query as { episode: string }
-    const Episode = await SurviAPIEpisodesModel.getEpisode(episode)
-    if (!Episode) {
-      res.status(404).send({ error_message: 'Episode not found or not exist' })
-      return
-    }
-    return res.json(Episode)
+  getAllEpisodes = async (_req: Request, res: Response): Promise<void> => {
+    const surviAPIEpisodes = await this.surviEpisodesModel.getAllEpisodes()
+    if (!surviAPIEpisodes) res.status(404).json({ error_message: 'SurviAPIEpisodes not found or not exist' })
+    res.json(surviAPIEpisodes)
   }
 
-  static getVersions = async ({ query }: Request, res: Response) => {
-    const { version } = query as { version: string }
-    const Version = await SurviAPIEpisodesModel.getVersions(version)
-    if (!Version) {
-      res.status(404).send({ error_message: 'Version not found or not exist' })
-      return
-    }
-    return res.json(Version)
+  getEpisode = async (req: Request, res: Response): Promise<void> => {
+    const { episode } = req.query as { episode: string }
+    const Episode = await this.surviEpisodesModel.getEpisode(episode)
+    if (!Episode) res.status(404).send({ error_message: 'Episode not found or not exist' })
+    res.json(Episode)
+  }
+
+  getVersions = async (req: Request, res: Response): Promise<void> => {
+    const { version } = req.query as { version: string }
+    const Version = await this.surviEpisodesModel.getVersions(version)
+    if (!Version) res.status(404).send({ error_message: 'Version not found or not exist' })
+    res.json(Version)
+  }
+
+  getAllVersions = async (_req: Request, res: Response): Promise<void> => {
+    const versions = await this.surviEpisodesModel.getAllVersions()
+    res.json(versions)
+  }
+
+  getAllEpisodesTitle = async (_req: Request, res: Response): Promise<void> => {
+    const episodesTitle = await this.surviEpisodesModel.getAllEpisodesTitle()
+    res.json(episodesTitle)
   }
 }
