@@ -33,6 +33,7 @@
       const target1 = $id('#tooltip-hover1')
       const target2 = $id('#tooltip-hover2')
       const trigger = $query('.fatherTooltip')
+      const { log } = console
 
       /**
        * @param {'top'|'left'|'right'|'bottom'} placement
@@ -44,9 +45,9 @@
       const options = {
         placement: 'top',
         triggerType: 'hover',
-        onHide: () => console.log('Hide'),
-        onShow: () => console.log('Show'),
-        onToggle: () => console.log('Toggled')
+        onHide: () => log('Hide'),
+        onShow: () => log('Show'),
+        onToggle: () => log('Toggled')
       }
 
       const instanceOptions = {

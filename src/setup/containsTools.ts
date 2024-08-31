@@ -1,3 +1,5 @@
-import ToolsAndArmors from '@data/SurviAPI.json'
+import SurviAPIData from '@data/SurviAPI.json'
 
-export const containsTools = (tool: string | RegExp) => Object.keys(ToolsAndArmors.tools).find(t => t.match(tool))
+export function containsTools(tool: string | RegExp): string | undefined {
+  return Object.keys(SurviAPIData.tools).find(t => t.match(tool))
+}

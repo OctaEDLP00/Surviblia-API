@@ -24,10 +24,8 @@ export class SurviAPIModel {
   */
 
   // #region methods API
-  static async getSurviAPI(): Promise<Omit<SurviAPI, '$ref'>> {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { $ref, ...restSAPI } = SAPI
-    return { ...restSAPI }
+  static async getSurviAPI(): Promise<SurviAPI> {
+    return SAPI
   }
 
   static async getArmors(): Promise<Array<Armors>> {

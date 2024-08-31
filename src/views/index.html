@@ -10,48 +10,140 @@
     <meta name=author content='MrOctaMC, octavio.pincha@gmail.com' />
     <meta name=url content='https://surviblia.com' />
     <link rel='shortcut icon' href='/favicon.svg' type='image/xml+svg' />
-    <link rel="stylesheet" href="./css/main.css">
+    <style>
+      @font-face {
+        font-family: 'minecraft';
+        src: url('assets/fonts/MinecraftRegular.woff2') format('woff2'),
+          url('assets/fonts/MinecraftRegular.ttf') format('truetype'),
+          url('assets/fonts/MinecraftRegular.otf') format('opentype');
+      }
+
+      @font-face {
+        font-family: 'minecraftEnch';
+        font-weight: normal;
+        src: url('assets/fonts/SgaSmoothRegular.woff2') format('woff2');
+      }
+
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>API | Surviblia</title>
   </head>
   <body class='bg-[#ccc] text-[#222] dark:bg-[#222] dark:text-[#ccc]'>
     <div id='App' class='grid place-content-center w-full h-full max-w-[770px] m-auto'>
-      <nav class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='flex flex-wrap justify-between items-center p-4 mx-auto max-w-screen'>
-          <ul class='flex gap-x-4 justify-around items-center w-full'>
-            <li>
-              <a
-                target='_blank'
-                href="https://surviblia.com"
-                rel='noopener noreferrer'
-              >
-                WEB
-              </a>
-            </li>
-            <li>
-              <a
-                target='_blank'
-                href="https://github.com/OctaEDLP00/surviblia-web"
-                rel='noopener noreferrer'
-              >
-                Repository (WEB)
-              </a>
-            </li>
-            <li>
-              <a
-                target='_blank'
-                href="https://github.com/OctaEDLP00/surviblia-api"
-                rel='noopener noreferrer'
-              >
-                Repository (API)
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
       <main class='relative oveflow-x-auto'>
         <table class='w-auto h-72 text-sm text-left text-gray-500 dark:text-gray-400'>
-          <tbody>
+          <!-- Head Table -->
+          <thead class='text-xs uppercase bg-neutral-50 dark:bg-neutral-700'>
+            <tr>
+              <th scope='col' class='px-6 py-3'>Type</th>
+              <th scope='col' class='px-6 py-3'>Route</th>
+              <th scope='col' class='px-6 py-3'>Description</th>
+              <th scope='col' class='px-6 py-3'>HTML</th>
+              <th scope='col' class='px-6 py-3'>Link</th>
+            </tr>
+          </thead>
+          <!-- Body Table -->
+          <!-- #region tbody -->
+          <tbody class=''>
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/</td>
+              <td class='px-6 py-3'>
+                <p>Pagina principal de la API</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>Si</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/' class='hover:underline hover:text-blue-500'>HOME</a>
+              </td>
+            </tr>
+
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/font</td>
+              <td class='px-6 py-3'>
+                <p>Fonts</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>Si</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/font' class='hover:underline hover:text-blue-500'>FONT</a>
+              </td>
+            </tr>
+
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api</td>
+              <td class='px-6 py-3'>
+                <p>API Info</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/api' class='hover:underline hover:text-blue-500'>API</a>
+              </td>
+            </tr>
+
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/armors</td>
+              <td class='px-6 py-3'>
+                <p>Obtener las armaduras</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/api/armors' class='hover:underline hover:text-blue-500'>ARMORS</a>
+              </td>
+            </tr>
+
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/armors/:material</td>
+              <td class='px-6 py-3'>
+                <p>Obtener las armadura de un material en concreto</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              </td>
+            </tr>
+
+            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
+              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
+                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+              </th>
+              <td class='px-6 py-3'>/api/tools</td>
+              <td class='px-6 py-3'>
+                <p>Obtener las herramientas</p>
+              </td>
+              <td class='px-6 py-3'>
+                <p>No</p>
+              </td>
+              <td class='px-6 py-3'>
+                <a href='/api/tools' class='hover:underline hover:text-blue-500'>TOOLS</a>
+              </td>
+            </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -67,6 +159,7 @@
                 <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -82,6 +175,7 @@
                 <a href='/api/weapons' class='hover:underline hover:text-blue-500'>WEAPONS</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -97,6 +191,7 @@
                 <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -112,6 +207,7 @@
                 <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -127,6 +223,7 @@
                 <a href='/api/items' class='hover:underline hover:text-blue-500'>ITEMS</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -142,6 +239,7 @@
                 <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -157,6 +255,7 @@
                 <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -172,6 +271,7 @@
                 <a href='/api/mobs' class='hover:underline hover:text-blue-500'>MOBS</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -187,6 +287,7 @@
                 <a href='/api/episodes' class='hover:underline hover:text-blue-500'>EPISODES</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
@@ -199,14 +300,15 @@
                 <p>No</p>
               </td>
               <td class='px-6 py-3'>
-                <a href='!#' class='hover:underline hover:text-blue-500'>EPISODE</a>
+                <a href='!#' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
               </th>
-              <td class='px-6 py-3'>/api/episodes/episode?version=&lt;version&gt;</td>
+              <td class='px-6 py-3'>/api/episodes/version?version=&lt;version&gt;</td>
               <td class='px-6 py-3'>
                 <p>Obtener todos los episodios por una version</p>
               </td>
@@ -214,14 +316,15 @@
                 <p>No</p>
               </td>
               <td class='px-6 py-3'>
-                <a href='/api/mobs' class='hover:underline hover:text-blue-500'>VERSION</a>
+                <a href='!#' class='hover:underline hover:text-blue-500'></a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-green-700 rounded'>POST</span>
               </th>
-              <td class='px-6 py-3'>/api/add</td>
+              <td class='px-6 py-3'>/add/:type</td>
               <td class='px-6 py-3'>
                 <p>Agregar/crear Armors, Tools, Mobs, Weapons, Items a la API</p>
               </td>
@@ -232,14 +335,12 @@
                 <a href="/api/add" class='hover:underline hover:text-blue-500'>Add</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-teal-700 rounded'>PUT</span>
-                <span class='sr-only'>
-                  En caso de que el recurso no exista lo crea sino lo actualiza
-                </span>
               </th>
-              <td class='px-6 py-3'>/api/update</td>
+              <td class='px-6 py-3'>/put/:type</td>
               <td class='px-6 py-3'>
                 <p>Actualizar o Crear Armors, Tools, Mobs, Weapons, Items en la API</p>
               </td>
@@ -250,11 +351,12 @@
                 <a href="/api/update" class='hover:underline hover:text-blue-500'>Update</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-lime-700 rounded'>PATCH</span>
               </th>
-              <td class='px-6 py-3'>/api/update</td>
+              <td class='px-6 py-3'>/patch/:type</td>
               <td class='px-6 py-3'>
                 <p>Actualizar Armors, Tools, Mobs, Weapons, Items a la API</p>
               </td>
@@ -265,11 +367,12 @@
                 <a href="/api/update" class='hover:underline hover:text-blue-500'>Update</a>
               </td>
             </tr>
+
             <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
               <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
                 <span class='px-3 py-2 bg-red-700 rounded'>DELETE</span>
               </th>
-              <td class='px-6 py-3'>/api/delete</td>
+              <td class='px-6 py-3'>/delete/:type</td>
               <td class='px-6 py-3'>
                 <p>Eliminar/Borrar Armors, Tools, Mobs, Weapons, Items a la API</p>
               </td>
@@ -281,8 +384,10 @@
               </td>
             </tr>
           </tbody>
+          <!-- #endregion -->
+          <!-- End -->
           <tfoot>
-            <tr class='font-smibold'>
+            <tr class='font-semibold'>
               <th scope='row' class='px-6 py-3 text-base'>
                 <span class='font-bold'>Anotaciones</span>
               </th>
@@ -293,15 +398,23 @@
             <tr>
               <th scope='row' class='px-6 py-3 text-base'></th>
               <td colspan=3>
-                - aqui va la diferencia entre patch y put
+                <p>
+                  - POST: crea un nuevo elemento/recurso en el servidor
+                </p>
+                <p>
+                  - PUT: Actualiza totalmente un elemento/recurso existente o lo crea si no existe
+                </p>
+                <p>
+                  - PATCH: Actualiza parcialmente un elemento/recurso
+                </p>
               </td>
             </tr>
           </tfoot>
         </table>
       </main>
       <footer class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='flex flex-wrap justify-evenly items-center p-2 mx-auto max-w-screen'>
-          <span>&copy; 2020 - ${new Date().getFullYear()}</span>
+        <div class='flex flex-wrap justify-evenly items-center p-2 max-w-screen'>
+          <span>&copy; 2024 - Todos los Derechos Reservados</span>
           <ul class='flex gap-4 justify-evenly items-center p-2'>
             <li>
               <a
@@ -338,9 +451,40 @@
             <li>
               <a
                 class='hover:underline hover:text-blue-500'
-                href="https://twitch.tv/devMetal00"
+                href="https://planetminecraft.com/member/mroctamc"
               >
-                Twitch
+                PlanetMinecraft
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='list-pages' class='flex flex-wrap justify-evenly items-center p-2 max-w-screen'>
+          <ul class='flex gap-4 justify-evenly items-center p-2'>
+            <li>
+              <a
+                href="https://surviblia.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                WEB (official)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/OctaEDLP00/surviblia-web"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Repository (WEB unofficial)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/OctaEDLP00/surviblia-api"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Repository (API Unoffocial)
               </a>
             </li>
           </ul>
