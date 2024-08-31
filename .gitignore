@@ -41,3 +41,5 @@ ignoreFile.ts
 profile.jsonc
 src/views/components
 TEMPLATE.md
+src/schemas/errorSchema.ts
+.node-version
