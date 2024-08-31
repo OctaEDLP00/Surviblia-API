@@ -1,8 +1,6 @@
 {
   "exclude": [
     "./node_modules",
-    "./src/utils/parserEnchantments.ts",
-    "./src/utils/requireJson.ts",
     "./restClient"
   ],
   "compilerOptions": {
@@ -25,18 +23,17 @@
     "strict": true,
     "target": "ES2022",
     "paths": {
+      "@/*": [ "src/*" ],
       "@controllers/*": [ "src/controllers/*" ],
+      "@data/*": [ "src/data/*" ],
       "@middlewares/*": [ "src/middlewares/*" ],
-      "@schemas/*": [ "src/schemas/*" ],
       "@models/*": [ "src/models/*" ],
       "@router/*": [ "src/router/*" ],
+      "@schemas/*": [ "src/schemas/*" ],
       "@setup/*": [ "src/setup/*" ],
+      "@types/*": [ "src/types/*" ],
       "@utils/*": [ "src/utils/*" ],
-      "@views/*": [ "src/views/*" ],
-      "@data/*": [ "src/data/*" ]
+      "@views/*": [ "src/views/*" ]
     }
-  },
-  "ts-node": {
-    "esm": true
   }
 }

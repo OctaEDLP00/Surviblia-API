@@ -1,145 +1,145 @@
 # Cascos
-- [x] Almófar Eterno
-- [x] Casco NoTengoNombreChachi
-- [x] Casco Polar Anti-Cerdos
-- [ ] Casco de Espinas Congeladas ????
-- [x] Cráneo de Centauro
-- [x] Deflector de Metralla
-- [x] Desionizador de H2O
-- [x] Explotabotas "Smash & Run"
-- [x] Gafas de Jeb
-- [x] Gorro de Notch
-- [x] Neovisor Vulcanológico
-- [x] Obstructor Cefálico
-- [x] Ros Fulminante
-- [x] Sombrerete de Vu Bui
-- [x] Sombrero Perdigonero
-- [x] Yelmo de Titán
+- [X] Almófar Eterno
+- [X] Casco NoTengoNombreChachi
+- [X] Casco Polar Anti-Cerdos
+- [X] Casco de Espinas Congeladas ????
+- [X] Cráneo de Centauro
+- [X] Deflector de Metralla
+- [X] Desionizador de H2O
+- [X] Explotabotas "Smash & Run"
+- [X] Gafas de Jeb
+- [X] Gorro de Notch
+- [X] Neovisor Vulcanológico
+- [X] Obstructor Cefálico
+- [X] Ros Fulminante
+- [X] Sombrerete de Vu Bui
+- [X] Sombrero Perdigonero
+- [X] Yelmo de Titán
 
 # Peto
-- [x] Blazer Nitroglicerógino
-- [x] Blindaje Antiderrumbamientos
-- [x] Caparazón antidisturbios
-- [x] Chaleco Antidisturbios
-- [x] Chaleco Refrigerante
-- [x] Colisionador de Proyectiles
-- [x] Coraza Cataclísmica
-- [x] Corazón Mastodóntico
-- [x] Cota de Mallas Actualizada
-- [x] Envoltura de Alto Rango
-- [x] Escafandra Termo-Vulcánica
-- [x] Evasor de Cauterizaciones
-- [x] Pechera Refrigerante
-- [x] Repeledardos Cristalizado
-- [x] Tecnoarmadura Electroactiva
+- [X] Blazer Nitroglicerógino
+- [X] Blindaje Antiderrumbamientos
+- [X] Caparazón antidisturbios
+- [X] Chaleco Antidisturbios
+- [X] Chaleco Refrigerante
+- [X] Colisionador de Proyectiles
+- [X] Coraza Cataclísmica
+- [X] Corazón Mastodóntico
+- [X] Cota de Mallas Actualizada
+- [X] Envoltura de Alto Rango
+- [X] Escafandra Termo-Vulcánica
+- [X] Evasor de Cauterizaciones
+- [X] Pechera Refrigerante
+- [X] Repeledardos Cristalizado
+- [X] Tecnoarmadura Electroactiva
 
 # Grebas
-- [x] Bombachos explosivos
-- [x] Espinilleras de Guerra
-- [x] Grebas Inmunizadas
-- [ ] Guardapolvos de Excavador
-- [x] Guetres Blindados
-- [x] Maillot para Demoliciones
-- [x] Mallas Reforzadas
-- [x] Perneras Enteras
-- [x] Perneras Permanentes
-- [x] Perneras polares anticerdos
-- [x] Prótesis Balística
-- [x] Protopantalones Cuánticos
-- [x] Termocinturón Nebulizador
-- [x] Vaqueros Aislantes
+- [X] Bombachos explosivos
+- [X] Espinilleras de Guerra
+- [X] Grebas Inmunizadas
+- [X] Guardapolvos de Excavador
+- [X] Guetres Blindados
+- [X] Maillot para Demoliciones
+- [X] Mallas Reforzadas
+- [X] Perneras Enteras
+- [X] Perneras Permanentes
+- [X] Perneras polares anticerdos
+- [X] Prótesis Balística
+- [X] Protopantalones Cuánticos
+- [X] Termocinturón Nebulizador
+- [X] Vaqueros Aislantes
 
 # Botas
-- [x] Borceguí Flotolueno
-- [x] Botas polares anticerdos
-- [x] Escarpines Flotabilizadores
-- [ ] Eternobotas
-- [x] Flotabotas
-- [x] Flotabotas Cortafuegos
-- [x] Flotabotas Estabilizadoras
-- [x] Flotabotas Metálicas
-- [x] Flotabotas Supernova
-- [x] Reactobotas Anti-Snipers
-- [x] Surcafuegos Dinamométricos
-- [x] Wordtear Footwear
+- [X] Borceguí Flotolueno
+- [X] Botas polares anticerdos
+- [X] Escarpines Flotabilizadores
+- [X] Eternobotas
+- [X] Flotabotas
+- [X] Flotabotas Cortafuegos
+- [X] Flotabotas Estabilizadoras
+- [X] Flotabotas Metálicas
+- [X] Flotabotas Supernova
+- [X] Reactobotas Anti-Snipers
+- [X] Surcafuegos Dinamométricos
+- [X] Wordtear Footwear
 
 # Elytras
-- [x] Orbitamundos
-- [x] Primera Elytra de Survival 1.9
+- [X] Orbitamundos
+- [X] Primera Elytra de Survival 1.9
 
 # Escudo
-- [x] Steve Head Hype!
+- [X] Steve Head Hype!
 
 # Espadas
-- [x] Diseccionador de Tarántulas
-- [x] Espada anticerdos sin nombre
-- [x] Espada de Zerdios
-- [x] Masacrador de Adminium
-- [x] "On a hurry"
-- [x] Shield Waster
+- [X] Diseccionador de Tarántulas
+- [X] Espada anticerdos sin nombre
+- [X] Espada de Zerdios
+- [X] Masacrador de Adminium
+- [X] "On a hurry"
+- [X] Shield Waster
 
 # Arcos
-- [x] Arco de ElRichMC
-- [x] Arco Incinerante
-- [x] Ballesta de SpiderJockey
-- [x] Sr.Arco
-- [x] ⧼ Ultrasupresor de Spawns ⧽
+- [X] Arco de ElRichMC
+- [X] Arco Incinerante
+- [X] Ballesta de SpiderJockey
+- [X] Sr.Arco
+- [X] ⧼ Ultrasupresor de Spawns ⧽
+- [X] Punchshot Maker
 
 # Picos
-- [x] Chunk Norich
-- [x] Endeater
-- [x] Ender Quantum
-- [x] Gran Pico de la 1.9
-- [x] Instacristalizador
-- [x] Mi primer fortuna III
-- [x] Perimetrizador Ligero
-- [x] Quartzeador Desalmado
-- [x] Taladro de exquisiteces
-- [x] Tulenadora de Suscripciones
+- [X] Chunk Norich
+- [X] Endeater
+- [X] Ender Quantum
+- [X] Gran Pico de la 1.9
+- [X] Instacristalizador
+- [X] Mi primer fortuna III
+- [X] Perimetrizador Ligero
+- [X] Quartzeador Desalmado
+- [X] Taladro de exquisiteces
+- [X] Tulenadora de Suscripciones
 
 # Hachas
-- [x] Deforestador Galáctico
-- [x] Deforestador omnipotente
-- [x] Deforestador Planetario
-- [x] Ejecutor de Entidades
-- [x] Falce de la fortuna
-- [x] Guadaña Invocadora
-- [x] Guillotina del Instructor
-- [ ] Omnitrozador Supremo
+- [X] Deforestador Galáctico
+- [X] Deforestador omnipotente
+- [X] Deforestador Planetario
+- [X] Ejecutor de Entidades
+- [X] Falce de la fortuna
+- [X] Guadaña Invocadora
+- [X] Guillotina del Instructor
+- [X] Omnitrozador Supremo
 
 # Palas
-- [x] Desenterrador de Delicias
-- [x] Desentierrajoyas
-- [x] Instrumento del Enterrador
-- [x] Instrumento del Terraformador
+- [X] Desenterrador de Delicias
+- [X] Desentierrajoyas
+- [X] Instrumento del Enterrador
+- [X] Instrumento del Terraformador
 
 # Azada
-- [ ] Germinador Infinito
+- [X] Germinador Infinito
 
 # Tijeras
-- [x] Desmantelador de mineshafts
-- [ ] Esquiladora de Estepicursores
-- [x] Punchshot Maker
+- [X] Desmantelador de mineshafts
+- [X] Esquiladora de Estepicursores
 
 # Caña de Pescar
-- [ ] Reubicador Hexaédrico
+- [X] Reubicador Hexaédrico
 
 # Shulker Box
-- [x] ⚠ Tech Trash ⚠
-- [x] ⌚ Time Travel Parcel ⌚
-- [x] ♾ Wither Box ♾
+- [X] ⚠ Tech Trash ⚠
+- [X] ⌚ Time Travel Parcel ⌚
+- [X] ♾ Wither Box ♾
 
 # Libros
-- [ ] Cuaderno de Exploración
-- [x] Libro del Creador
+- [X] Cuaderno de Exploración
+- [X] Libro del Creador
 
 # Mapa
-- [x] Mapamundi
+- [X] Mapamundi
 
 # Mobs
-- [x] Mendified Zombie
-- [x] Shieldstroyers
+- [X] Mendified Zombie
+- [X] Shieldstroyers
 
 # Otros
-- [ ] 🎥 OmniRich
-- [ ] Perla de ElRichMC
+- [X] 🎥 OmniRich
+- [X] Perla de ElRichMC

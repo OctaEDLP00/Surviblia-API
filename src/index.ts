@@ -1,5 +1,8 @@
-import { SurviAPIModel } from '@models/SurviAPI.model.ts'
-import { SurviAPIEpisodesModel } from '@models/SurviAPIEpisodes.model.ts'
+import { SurviAPIModel } from '@models/SurviAPI.models.ts'
+import { SurviAPIEpisodesModel } from '@models/SurviAPIEpisodes.models.ts'
 import { createAPP } from './setup/main.ts'
 
-createAPP({ SurviAPIModel, SurviAPIEpisodesModel })
+createAPP({
+  surviModel: SurviAPIModel,
+  surviEpisodesModel: SurviAPIEpisodesModel
+})
