@@ -4,7 +4,6 @@
     "usernamehw.errorlens",
     "editorconfig.editorconfig",
     "bierner.emojisense",
-    "oliversturm.fix-json",
     "kisstkondoros.vscode-gutter-preview",
     "wix.vscode-import-cost",
     "xabikos.javascriptsnippets",
@@ -18,8 +17,10 @@
     "chakrounanas.turbo-console-log",
     "bierner.markdown-preview-github-styles",
     "yzhang.markdown-all-in-one",
-    "streetsidesoftware.code-spell-checker-spanish",
-    "streetsidesoftware.code-spell-checker",
-    "tobermory.es6-string-html"
+    "rapidapi.vscode-rapidapi-client",
+    "rapidapi.vscode-services",
+    "tobermory.es6-string-html",
+    "bashmish.es6-string-css",
+    "zjcompt.es6-string-javascript"
   ]
 }

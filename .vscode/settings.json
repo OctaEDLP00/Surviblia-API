@@ -1,4 +1,14 @@
 {
-  "license.default": "mit",
-  "IDX.aI.enableInlineCompletion": true
+  "IDX.aI.enableInlineCompletion": true,
+  "explorer.fileNesting.patterns": {
+    "SurviAPI.controller.ts": "SurviAPIController.d.ts",
+    "SurviAPIEpisodes.controller.ts": "SurviAPIEpisodesController.d.ts",
+    "SurviAPIProjects.controller.ts": "SurviAPIProjectsController.d.ts",
+    "SurviAPI.models.ts": "SurviAPIModel.d.ts",
+    "SurviAPIEpisodes.models.ts": "SurviAPIEpisodesModel.d.ts",
+    "SurviAPIProjects.models.ts": "SurviAPIProjectsModel.d.ts",
+    "containsTools.ts": "${basename}.d.ts",
+    "createRequire.ts": "createRequire.d.ts"
+  },
+  "biome.enabled": true
 }
