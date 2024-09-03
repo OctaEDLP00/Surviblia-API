@@ -28,7 +28,6 @@
   },
   "formatter": {
     "enabled": true,
-    "indentSize": 2,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
@@ -41,7 +40,6 @@
       "quoteProperties": "asNeeded",
       "quoteStyle": "single",
       "semicolons": "asNeeded",
-      "trailingComma": "es5",
       "trailingCommas": "es5"
     }
   }
