@@ -38,6 +38,7 @@ node_modules/
 
 ignoreFile.ts
 .trash
+_trash
 profile.jsonc
 src/views/components
 TEMPLATE.md
