@@ -28,6 +28,7 @@ import {
   $domesticationLabel,
   $enchantmentsLabel,
   $enchantmentsSelect,
+  $form,
   $lastSeen,
   $lastSeenLabel,
   $materialLabel,
@@ -38,6 +39,7 @@ import {
   $nameToolLabel,
   $others,
   $othersLabel,
+  $select,
   $species,
   $speciesLabel,
   $state,
@@ -46,11 +48,13 @@ import {
   $useOfToolLabel,
   $version,
   $versionLabel,
-  $form,
-  $select
 } from './variable.mjs'
 
-const { inputTextArea: { class: classInputTextArea }, select: { class: classSelect }, label: { class: classLabel } } = DICTIONARY
+const {
+  inputTextArea: { class: classInputTextArea },
+  select: { class: classSelect },
+  label: { class: classLabel },
+} = DICTIONARY
 
 // input
 $aparitionEpisodes.type = 'text'
@@ -103,10 +107,11 @@ $materialSelect.required = true
 
 /** @type {HTMLOptionElement} */
 const $newOptionMaterial = $create('option')
-
 $newOptionMaterial.textContent = 'Select Material'
 $newOptionMaterial.selected = true
+$newOptionMaterial.disabled = true
 $materialSelect.appendChild($newOptionMaterial)
+
 for (const material of MATERIAL_SELECT) {
   /** @type {HTMLOptionElement} */
   const $optionMaterial = $create('option')
@@ -128,10 +133,11 @@ $enchantmentsSelect.size = 4
 
 /** @type {HTMLOptionElement} */
 const $newOptionEnchantment = $create('option')
-
 $newOptionEnchantment.textContent = 'Select Enchantments'
 $newOptionEnchantment.selected = true
+$newOptionEnchantment.disabled = true
 $enchantmentsSelect.appendChild($newOptionEnchantment)
+
 for (const enchantment of ENCHANTMENTS_SELECT) {
   const { maxLevel } = enchantment
   if (typeof maxLevel === 'number') {
@@ -139,7 +145,7 @@ for (const enchantment of ENCHANTMENTS_SELECT) {
       /** @type {HTMLOptionElement} */
       const $optionEnchantments = $create('option')
       const { name } = enchantment
-      const value = '' + name + ' ' + level
+      const value = `${name} ${level}`
       $optionEnchantments.value = value
       $optionEnchantments.text = value
       $enchantmentsSelect.appendChild($optionEnchantments)
@@ -149,7 +155,7 @@ for (const enchantment of ENCHANTMENTS_SELECT) {
     /** @type {HTMLOptionElement} */
     const $optionEnchantments = $create('option')
     const { name } = enchantment
-    const value = '' + name + ' ' + level
+    const value = `${name} ${level}`
     $optionEnchantments.value = value
     $optionEnchantments.text = value
     $enchantmentsSelect.appendChild($optionEnchantments)
@@ -222,11 +228,14 @@ $stateLabel.appendChild($state)
 $species.id = 'species'
 $species.className = classSelect
 $species.required = true
+
 /** @type {HTMLOptionElement} */
 const $newOptionSpecie = $create('option')
 $newOptionSpecie.textContent = 'Select Mob'
 $newOptionSpecie.selected = true
+$newOptionSpecie.disabled = true
 $species.appendChild($newOptionSpecie)
+
 for (const mobSpecie of MOB_SPECIE_SELECT) {
   /** @type {HTMLOptionElement} */
   const $optionMob = $create('option')

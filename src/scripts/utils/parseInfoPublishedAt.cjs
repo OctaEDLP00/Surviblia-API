@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 /**
  * @param {string} date
  * @returns {string | null}

@@ -1,15 +1,29 @@
+/**
+ * @typedef {{ [key: string]: { class: string } }} DICT
+ * @type {DICT} DICTIONARY
+ */
 export const DICTIONARY = {
   inputTextArea: {
-    class: 'text-sm border rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-[.6rem] dark:placeholder-neutral-500 dark:focus:ring-cyan-500 dark:focus:border-cyan-500 text-[#222]'
+    class:
+      'text-sm border rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-[.6rem] dark:placeholder-neutral-500 dark:focus:ring-cyan-500 dark:focus:border-cyan-500 text-[#222]',
   },
   label: {
-    class: 'block mb-2 text-sm font-medium'
+    class: 'block mb-2 text-sm font-medium',
   },
   select: {
-    class: 'border border-neutral-300 text-sm rounded-lg focus:ring-cyan-700 focus:border-cyan-500 block w-full p-2.5 dark:border-neutral-700 dark:placeholder-neutral-500 dark:focus:ring-cyan-500 dark:focus:border-cyan-500 text-[#222]'
-  }
+    class:
+      'border border-neutral-300 text-sm rounded-lg focus:ring-cyan-700 focus:border-cyan-500 block w-full p-2.5 dark:border-neutral-700 dark:placeholder-neutral-500 dark:focus:ring-cyan-500 dark:focus:border-cyan-500 text-[#222]',
+  },
 }
 
+/**
+ * @typedef {`minecraft:${string}`} Minecraft
+ */
+
+/**
+ * @typedef {Array<{ name: Minecraft }>} MobSpecieSelect
+ * @type {MobSpecieSelect} MOB_SPECIE_SLECT
+ */
 export const MOB_SPECIE_SELECT = [
   { name: 'minecraft:zombified_piglin' },
   { name: 'minecraft:wither_skeleton' },
@@ -17,9 +31,13 @@ export const MOB_SPECIE_SELECT = [
   { name: 'minecraft:zombie_pigman' },
   { name: 'minecraft:magma_cube' },
   { name: 'minecraft:skeleton' },
-  { name: 'minecraft:zombie' }
+  { name: 'minecraft:zombie' },
 ]
 
+/**
+ * @typedef {Array<{ name: Minecraft, maxLevel: '5' | '4' | '3' | '2' | '1' }>} EnchantmentSelect
+ * @type {EnchantmentSelect} MOB_SPECIE_SLECT
+ */
 export const ENCHANTMENTS_SELECT = [
   { name: 'minecraft:projectile_protection', maxLevel: '4' },
   { name: 'minecraft:bane_of_arthropds', maxLevel: '5' },
@@ -49,9 +67,12 @@ export const ENCHANTMENTS_SELECT = [
   { name: 'minecraft:smite', maxLevel: '5' },
   { name: 'minecraft:punch', maxLevel: '2' },
   { name: 'minecraft:flame', maxLevel: '1' },
-  { name: 'minecraft:lure', maxLevel: '3' }
+  { name: 'minecraft:lure', maxLevel: '3' },
 ]
 
+/**
+ * @typedef {Array<Minecraft>}
+ */
 export const MATERIAL_SELECT = [
   'minecraft:chainmail_helmet',
   'minecraft:chainmail_chestplate',
@@ -91,14 +112,17 @@ export const MATERIAL_SELECT = [
   'minecraft:shears',
   'minecraft:shield',
   'minecraft:shulker_box',
-  'minecraft:wodden_pickaxe'
+  'minecraft:wodden_pickaxe',
 ]
 
+/**
+ * @typedef {{ [key: string]: string }}
+ */
 export const VALUE_OPTIONS = {
   SELECT_ADD_DATA: 'default',
   ARMORS: 'armors',
   TOOLS: 'tools',
   WEAPONS: 'weapons',
   ITEMS: 'items',
-  MOBS: 'mobs'
+  MOBS: 'mobs',
 }
