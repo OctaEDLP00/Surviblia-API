@@ -1,4 +1,4 @@
-export enum Version {
+enum Version {
   onePointX = '1.x',
   onePointFour = '1.4',
   onePointFive = '1.5',
@@ -17,5 +17,16 @@ export enum Version {
   onePointEightteen = '1.18',
   onePointNineteen = '1.19',
   onePointTwenty = '1.20',
-  onePointTwentyOne = '1.21'
+  onePointTwentyOne = '1.21',
 }
+
+enum Methods {
+  DELETE = 'DELETE',
+  GET = 'GET',
+  PATCH = 'PATCH',
+  POST = 'POST',
+  PUT = 'PUT',
+}
+
+export { Methods, Version }
+export default { Version, Methods }

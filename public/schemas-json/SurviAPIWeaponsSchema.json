@@ -1,0 +1,288 @@
+{
+  "$ref": "#/definitions/SurviAPIWeapons",
+  "definitions": {
+    "AllVersions": {
+      "enum": [
+        "1.X",
+        "1.4",
+        "1.4.2",
+        "1.4.4",
+        "1.4.5",
+        "1.4.6",
+        "1.4.7",
+        "1.5",
+        "1.5.1",
+        "1.5.2",
+        "1.6",
+        "1.6.1",
+        "1.6.2",
+        "1.6.4",
+        "1.7",
+        "1.7.2",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1,.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "type": "string"
+    },
+    "Comment": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "const": "",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "Enchantment": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/IdEnchantName"
+        },
+        "lvl": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/LevelWithNumberRoman"
+            },
+            {
+              "$ref": "#/definitions/LevelWithNumber"
+            }
+          ]
+        }
+      },
+      "required": ["id", "lvl"],
+      "type": "object"
+    },
+    "IdEnchantName": {
+      "enum": [
+        "minecraft:protection",
+        "minecraft:unbreaking",
+        "minecraft:mending",
+        "minecraft:looting",
+        "minecraft:respiration",
+        "minecraft:feather_falling",
+        "minecraft:depth_strider",
+        "minecraft:efficiency",
+        "minecraft:fortune",
+        "minecraft:silk_touch",
+        "minecraft:power",
+        "minecraft:infinity",
+        "minecraft:punch",
+        "minecraft:flame",
+        "minecraft:fire_aspect",
+        "minecraft:aqua_affinity",
+        "minecraft:bane_of_arthropds",
+        "minecraft:blast_protection",
+        "minecraft:fire_protection",
+        "minecraft:frost_walker",
+        "minecraft:knockback",
+        "minecraft:luck_of_the_sea",
+        "minecraft:lure",
+        "minecraft:projectile_protection",
+        "minecraft:sharpness",
+        "minecraft:smite",
+        "minecraft:thorns",
+        "minecraft:sweeping",
+        "minecraft:sweeping_edge"
+      ],
+      "type": "string"
+    },
+    "IdItemsType": {
+      "enum": [
+        "minecraft:bow",
+        "minecraft:fishing_rod",
+        "minecraft:diamond_sword"
+      ],
+      "type": "string"
+    },
+    "LevelWithNumber": {
+      "enum": ["1", "2", "3", "4", "5"],
+      "type": "string"
+    },
+    "LevelWithNumberRoman": {
+      "enum": ["I", "II", "III", "IV", "V"],
+      "type": "string"
+    },
+    "Props": {
+      "additionalProperties": false,
+      "properties": {
+        "apparition_episodes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          ]
+        },
+        "enchantments": {
+          "items": {
+            "$ref": "#/definitions/Enchantment"
+          },
+          "type": "array"
+        },
+        "material": {
+          "$ref": "#/definitions/IdItemsType"
+        },
+        "name_tool": {
+          "type": "string"
+        },
+        "others": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Comment"
+            },
+            {
+              "items": {
+                "$ref": "#/definitions/Comment"
+              },
+              "type": "array"
+            }
+          ]
+        },
+        "use_of_tool": {
+          "type": "string"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Version"
+            },
+            {
+              "$ref": "#/definitions/AllVersion"
+            }
+          ]
+        }
+      },
+      "required": ["apparition_episodes", "material", "name_tool", "version"],
+      "type": "object"
+    },
+    "SurviAPIWeapons": {
+      "additionalProperties": false,
+      "properties": {
+        "bow": {
+          "items": {
+            "$ref": "#/definitions/Props"
+          },
+          "type": "array"
+        },
+        "fishing_rod": {
+          "items": {
+            "$ref": "#/definitions/Props"
+          },
+          "type": "array"
+        },
+        "sword": {
+          "items": {
+            "$ref": "#/definitions/Props"
+          },
+          "type": "array"
+        }
+      },
+      "required": ["bow", "sword", "fishing_rod"],
+      "type": "object"
+    },
+    "Version": {
+      "enum": [
+        "1.X",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13",
+        "1.14",
+        "1.15",
+        "1.16",
+        "1.17",
+        "1.18",
+        "1.19",
+        "1.20",
+        "1.21"
+      ],
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$ref": "#/definitions/SurviAPISVSG",
+  "definitions": {
+    "SurviAPISVSG": {
+      "type": "object",
+      "properties": {
+        "whats_is_svsg": {
+          "type": "string",
+          "default": ""
+        },
+        "rules_of_the_game": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "default": ""
+          },
+          "default": []
+        },
+        "solutions": {
+          "$ref": "#/definitions/Solutions"
+        },
+        "how_and_where_send_solution": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "default": ""
+          },
+          "default": []
+        }
+      },
+      "default": {},
+      "required": [
+        "whats_is_svsg",
+        "rules_of_the_game",
+        "solutions",
+        "how_and_where_send_solution"
+      ]
+    },
+    "Solutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "episode_number": {
+            "type": "string",
+            "default": ""
+          },
+          "episode_title": {
+            "type": "string",
+            "default": ""
+          },
+          "tracks": {
+            "$ref": "#/definitions/Tracks"
+          }
+        },
+        "required": ["tracks", "episode_title", "episode_number"],
+        "default": {}
+      },
+      "default": []
+    },
+    "Tracks": {
+      "type": "object",
+      "properties": {
+        "track_1": {
+          "type": "string",
+          "default": ""
+        },
+        "track_2": {
+          "type": "string",
+          "default": ""
+        },
+        "track_3": {
+          "type": "string",
+          "default": ""
+        },
+        "track_4": {
+          "type": "string",
+          "default": ""
+        },
+        "track_5": {
+          "type": "string",
+          "default": ""
+        },
+        "solution": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "required": [
+        "track_1",
+        "track_2",
+        "track_3",
+        "track_4",
+        "track_5",
+        "solution"
+      ],
+      "default": {}
+    }
+  },
+  "required": ["SurviAPISVSG"]
+}

@@ -31,410 +31,806 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>API | Surviblia</title>
   </head>
-  <body class='bg-[#ccc] text-[#222] dark:bg-[#222] dark:text-[#ccc]'>
-    <div id='App' class='grid place-content-center w-full h-full max-w-[770px] m-auto'>
-      <main class='relative oveflow-x-auto'>
-        <table class='w-auto h-72 text-sm text-left text-gray-500 dark:text-gray-400'>
-          <!-- Head Table -->
-          <thead class='text-xs uppercase bg-neutral-50 dark:bg-neutral-700'>
+  <body class="bg-[#ccc] text-[#222] dark:bg-[#222] dark:text-[#ccc]">
+    <div
+      id="App"
+      class="grid place-content-center w-full h-full max-w-[770px] m-auto"
+    >
+      <main class="relative oveflow-x-auto">
+        <table
+          class="w-auto h-72 text-sm text-left text-gray-500 dark:text-gray-400"
+        >
+          <thead class="text-xs uppercase bg-neutral-50 dark:bg-neutral-700">
             <tr>
-              <th scope='col' class='px-6 py-3'>Type</th>
-              <th scope='col' class='px-6 py-3'>Route</th>
-              <th scope='col' class='px-6 py-3'>Description</th>
-              <th scope='col' class='px-6 py-3'>HTML</th>
-              <th scope='col' class='px-6 py-3'>Link</th>
+              <th scope="col" class="px-6 py-3">Type</th>
+              <th scope="col" class="px-6 py-3">Route</th>
+              <th scope="col" class="px-6 py-3">Description</th>
+              <th scope="col" class="px-6 py-3">HTML</th>
+              <th scope="col" class="px-6 py-3">Link</th>
             </tr>
           </thead>
-          <!-- Body Table -->
-          <!-- #region tbody -->
-          <tbody class=''>
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+          <tbody>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/</td>
+              <td class="px-6 py-3">
                 <p>Pagina principal de la API</p>
               </td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">
                 <p>Si</p>
               </td>
-              <td class='px-6 py-3'>
-                <a href='/' class='hover:underline hover:text-blue-500'>HOME</a>
+              <td class="px-6 py-3">
+                <a href="/" class="hover:underline hover:text-blue-500">HOME</a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/font</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/fonts</td>
+              <td class="px-6 py-3">
                 <p>Fonts</p>
               </td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">
                 <p>Si</p>
               </td>
-              <td class='px-6 py-3'>
-                <a href='/font' class='hover:underline hover:text-blue-500'>FONT</a>
+              <td class="px-6 py-3">
+                <a href="/fonts" class="hover:underline hover:text-blue-500"
+                  >FONTS</a
+                >
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/api</td>
+              <td class="px-6 py-3">
                 <p>API Info</p>
               </td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">
                 <p>No</p>
               </td>
-              <td class='px-6 py-3'>
-                <a href='/api' class='hover:underline hover:text-blue-500'>API</a>
+              <td class="px-6 py-3">
+                <a href="/api" class="hover:underline hover:text-blue-500"
+                  >API</a
+                >
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/armors</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/api/armors</td>
+              <td class="px-6 py-3">
                 <p>Obtener las armaduras</p>
               </td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">
                 <p>No</p>
               </td>
-              <td class='px-6 py-3'>
-                <a href='/api/armors' class='hover:underline hover:text-blue-500'>ARMORS</a>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/armors"
+                  class="hover:underline hover:text-blue-500"
+                  >ARMORS</a
+                >
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/armors/:material</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las armadura de un material en concreto</p>
+              <td class="px-6 py-3">/api/armors/:material</td>
+              <td class="px-6 py-3">
+                <p>Obtener las armaduras de un material en concreto</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='bg-emerald-700 rounded py-2 px-3'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/tools</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las herramientas</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/tools' class='hover:underline hover:text-blue-500'>TOOLS</a>
+              <td class="px-6 py-3">/api/tools</td>
+              <td class="px-6 py-3"><p>Obtener las herramientas</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/tools"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  TOOLS
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/tools/:tool/:material?</td>
-              <td class='px-6 py-3'>
-                <p>Obtener la herramienta de un material en concreto</p>
+              <td class="px-6 py-3">/api/tools/:tool/:material?</td>
+              <td class="px-6 py-3">
+                <p>Obtener las herramientas de un material en concreto</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/weapons</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las Armas</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/weapons' class='hover:underline hover:text-blue-500'>WEAPONS</a>
+              <td class="px-6 py-3">/api/weapons</td>
+              <td class="px-6 py-3"><p>Obtener las Weapons</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/weapons"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  WEAPONS
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/weapons/:weapon</td>
-              <td class='px-6 py-3'>
-                <p>Obtener la arma en concreto</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3">/api/weapons/:weapon</td>
+              <td class="px-6 py-3"><p>Obtener un arma en concreto</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/weapons/:weapon/:material?</td>
-              <td class='px-6 py-3'>
-                <p>Obtener las armas de un material en concreto</p>
+              <td class="px-6 py-3">/api/weapons/:weapon/:material?</td>
+              <td class="px-6 py-3">
+                <p>Obtener un arma de un material en concreto</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/items</td>
-              <td class='px-6 py-3'>
-                <p>Obtener los Items</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/items' class='hover:underline hover:text-blue-500'>ITEMS</a>
+              <td class="px-6 py-3">/api/items</td>
+              <td class="px-6 py-3"><p>Obtener los Items</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/items"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  ITEMS
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/items/:item</td>
-              <td class='px-6 py-3'>
-                <p>Obtener el item en especifico</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3">/api/items/:item</td>
+              <td class="px-6 py-3"><p>Obtener el item en especifico</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/items/:item/:material</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/api/items/:item/:material</td>
+              <td class="px-6 py-3">
                 <p>Obtener el item en especifico con un material en concreto</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='javascript:void(0)' class='hover:underline hover:text-blue-500'></a>
-              </td>
-            </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api/mobs</td>
-              <td class='px-6 py-3'>
-                <p>Obtener los Mobs</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/mobs' class='hover:underline hover:text-blue-500'>MOBS</a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/episodes</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/api/entities</td>
+              <td class="px-6 py-3"><p>Obtener los Mobs</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/entities"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  ENTITIES
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/entities/:entity</td>
+              <td class="px-6 py-3">
+                <p>Obtener una entidad en especificos de las Entidades</p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/episodes</td>
+              <td class="px-6 py-3">
                 <p>Obtener todos los Episodios de la serie</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='/api/episodes' class='hover:underline hover:text-blue-500'>EPISODES</a>
-              </td>
-            </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
-              </th>
-              <td class='px-6 py-3'>/api/episodes/episode?episode=&lt;episode&gt;</td>
-              <td class='px-6 py-3'>
-                <p>Obtener un Episodio de la serie</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='!#' class='hover:underline hover:text-blue-500'></a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/episodes"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  EPISODES
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-emerald-700 rounded'>GET</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/api/episodes/version?version=&lt;version&gt;</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">
+                /api/episodes/episode?episode=&amp;lt;episode&amp;gt;
+              </td>
+              <td class="px-6 py-3"><p>Obtener un Episodio de la serie</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">
+                /api/episodes/version?version=&amp;lt;version&amp;gt;
+              </td>
+              <td class="px-6 py-3">
                 <p>Obtener todos los episodios por una version</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>No</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href='!#' class='hover:underline hover:text-blue-500'></a>
-              </td>
-            </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-green-700 rounded'>POST</span>
-              </th>
-              <td class='px-6 py-3'>/add/:type</td>
-              <td class='px-6 py-3'>
-                <p>Agregar/crear Armors, Tools, Mobs, Weapons, Items a la API</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href="/api/add" class='hover:underline hover:text-blue-500'>Add</a>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-teal-700 rounded'>PUT</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/put/:type</td>
-              <td class='px-6 py-3'>
-                <p>Actualizar o Crear Armors, Tools, Mobs, Weapons, Items en la API</p>
-              </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href="/api/update" class='hover:underline hover:text-blue-500'>Update</a>
+              <td class="px-6 py-3">/api/tiers</td>
+              <td class="px-6 py-3"><p>Obtener los proyectos</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/tiers"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  Proyectos
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-lime-700 rounded'>PATCH</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
               </th>
-              <td class='px-6 py-3'>/patch/:type</td>
-              <td class='px-6 py-3'>
+              <td class="px-6 py-3">/api/tiers/:tier_name</td>
+              <td class="px-6 py-3"><p>Obtener los proyectos</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/tiers/:tier_name/:project_name</td>
+              <td class="px-6 py-3">
+                <p>
+                  Obtener un proyecto de un tier en especificos de los proyectos
+                </p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/pets</td>
+              <td class="px-6 py-3"><p>Obtener los mascotas de la serie</p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a href="/api/pets" class="hover:underline hover:text-blue-500">
+                  PETS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/pets/official</td>
+              <td class="px-6 py-3">
+                <p>Obtener las mascotas oficiales de la serie</p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/pets/official"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  PETS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/pets/official/pet</td>
+              <td class="px-6 py-3">
+                <p>Obtener una mascota de las mascotas oficiales de la serie</p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/pets/official"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  PETS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/pets/unofficial</td>
+              <td class="px-6 py-3">
+                <p>Obtener las mascotas no oficiales de la serie</p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/pets/unofficial"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  PETS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/pets/unofficial/pet</td>
+              <td class="px-6 py-3">
+                <p>
+                  Obtener una mascota de las mascotas no oficiales de la serie
+                </p>
+              </td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/pets/unofficial/pet"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  PETS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/animaciones</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/animaciones"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  ANIMACIONES
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/cinematicas</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/cinematicas"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  CINEMATICAS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/clips</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/clips"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  CLIPS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/lore</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a href="/api/lore" class="hover:underline hover:text-blue-500">
+                  LORE
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/svsg/info</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/svsg/info"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  INFO
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/svsg/solutions</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/svsg/solutions"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  SOLUTIONS
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-emerald-700 rounded py-2 px-3">GET</span>
+              </th>
+              <td class="px-6 py-3">/api/svsg/solutions/solution</td>
+              <td class="px-6 py-3"><p></p></td>
+              <td class="px-6 py-3"><p>No</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="javascript:void(0)"
+                  class="hover:underline hover:text-blue-500"
+                >
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-green-700 rounded py-2 px-3">POST</span>
+              </th>
+              <td class="px-6 py-3">/api/add</td>
+              <td class="px-6 py-3">
+                <p>Crear Armors, Tools, Mobs, Weapons, Items a la API</p>
+              </td>
+              <td class="px-6 py-3"><p>Si</p></td>
+              <td class="px-6 py-3">
+                <a href="/api/add" class="hover:underline hover:text-blue-500">
+                  Add
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-teal-700 rounded py-2 px-3">PUT</span>
+              </th>
+              <td class="px-6 py-3">/put/update</td>
+              <td class="px-6 py-3">
+                <p>
+                  Actualizar/crear(SI NO EXISTE) Armors, Tools, Mobs, Weapons,
+                  Items a la API
+                </p>
+              </td>
+              <td class="px-6 py-3"><p>Si</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/update"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  Update
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-lime-700 rounded py-2 px-3">POST</span>
+              </th>
+              <td class="px-6 py-3">/patch/:type</td>
+              <td class="px-6 py-3">
                 <p>Actualizar Armors, Tools, Mobs, Weapons, Items a la API</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href="/api/update" class='hover:underline hover:text-blue-500'>Update</a>
+              <td class="px-6 py-3"><p>Si</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/update"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  Update
+                </a>
               </td>
             </tr>
-
-            <tr class='border-b dark:bg-neutral-800 dark:border-neutral-700'>
-              <th scope='row' class='px-6 py-4 font-medium text-gray-900 whitespace-nowrap'>
-                <span class='px-3 py-2 bg-red-700 rounded'>DELETE</span>
+            <tr class="border-b dark:bg-neutral-800 dark:border-neutral-700">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                <span class="bg-red-700 rounded py-2 px-3">DELETE</span>
               </th>
-              <td class='px-6 py-3'>/delete/:type</td>
-              <td class='px-6 py-3'>
-                <p>Eliminar/Borrar Armors, Tools, Mobs, Weapons, Items a la API</p>
+              <td class="px-6 py-3">/delete/:type</td>
+              <td class="px-6 py-3">
+                <p>Eliminar Armors, Tools, Mobs, Weapons, Items a la API</p>
               </td>
-              <td class='px-6 py-3'>
-                <p>Si</p>
-              </td>
-              <td class='px-6 py-3'>
-                <a href="/api/delete" class='hover:underline hover:text-blue-500'>Delete</a>
+              <td class="px-6 py-3"><p>Si</p></td>
+              <td class="px-6 py-3">
+                <a
+                  href="/api/delete"
+                  class="hover:underline hover:text-blue-500"
+                >
+                  Delete
+                </a>
               </td>
             </tr>
           </tbody>
-          <!-- #endregion -->
-          <!-- End -->
           <tfoot>
-            <tr class='font-semibold'>
-              <th scope='row' class='px-6 py-3 text-base'>
-                <span class='font-bold'>Anotaciones</span>
+            <tr class="font-semibold">
+              <th scope="row" class="px-6 py-3 text-base">
+                <span class="font-bold">Anotaciones</span>
               </th>
-              <td colspan=3>
-                - Los paths que sean de esta forma <span class='px-1 rounded bg-neutral-500/25'>:path</span> son segmentos dinamicos de la ruta el cual deben ser ingresados por el usuario para buscar algo en concreto según la url
+              <td colspan="3">
+                - Los paths que sean de esta forma
+                <span class="px-1 rounded bg-neutral-500/25">:path</span> son
+                segmentos dinamicos de la ruta el cual deben ser ingresados por
+                el usuario para buscar algo en concreto según la url
               </td>
             </tr>
             <tr>
-              <th scope='row' class='px-6 py-3 text-base'></th>
-              <td colspan=3>
+              <th scope="row" class="px-6 py-3 text-base"></th>
+              <td colspan="3">
+                <p>- POST: crea un nuevo elemento/recurso en el servidor</p>
                 <p>
-                  - POST: crea un nuevo elemento/recurso en el servidor
+                  - PUT: Actualiza totalmente un elemento/recurso existente o lo
+                  crea si no existe
                 </p>
-                <p>
-                  - PUT: Actualiza totalmente un elemento/recurso existente o lo crea si no existe
-                </p>
-                <p>
-                  - PATCH: Actualiza parcialmente un elemento/recurso
-                </p>
+                <p>- PATCH: Actualiza parcialmente un elemento/recurso</p>
               </td>
             </tr>
           </tfoot>
         </table>
       </main>
-      <footer class='border-neutral-200 dark:bg-neutral-900'>
-        <div class='flex flex-wrap justify-evenly items-center p-2 max-w-screen'>
+      <footer class="border-neutral-200 dark:bg-neutral-900">
+        <div
+          class="flex flex-wrap justify-evenly items-center p-2 max-w-screen"
+        >
           <span>&copy; 2024 - Todos los Derechos Reservados</span>
-          <ul class='flex gap-4 justify-evenly items-center p-2'>
+          <ul class="flex gap-4 justify-evenly items-center p-2">
             <li>
               <a
-                class='hover:underline hover:text-blue-500'
-                href="https://instagram.com/octaviocaro_23.tsx"
+                class="hover:underline hover:text-blue-500"
+                href="https://instagram.com/octaviocaro_24.tsx"
               >
                 Instagram
               </a>
             </li>
             <li>
               <a
-                class='hover:underline hover:text-blue-500'
-                href="https://threads.com/octaviocaro_23.tsx"
+                class="hover:underline hover:text-blue-500"
+                href="https://threads.com/octaviocaro_24.tsx"
               >
                 Threads
               </a>
             </li>
             <li>
               <a
-                class='hover:underline hover:text-blue-500'
+                class="hover:underline hover:text-blue-500"
                 href="https://twitter.com/CaroOcta00"
               >
                 Twitter
@@ -442,7 +838,7 @@
             </li>
             <li>
               <a
-                class='hover:underline hover:text-blue-500'
+                class="hover:underline hover:text-blue-500"
                 href="https://github.com/OctaEDLP00"
               >
                 Github
@@ -450,7 +846,7 @@
             </li>
             <li>
               <a
-                class='hover:underline hover:text-blue-500'
+                class="hover:underline hover:text-blue-500"
                 href="https://planetminecraft.com/member/mroctamc"
               >
                 PlanetMinecraft
@@ -458,8 +854,11 @@
             </li>
           </ul>
         </div>
-        <div id='list-pages' class='flex flex-wrap justify-evenly items-center p-2 max-w-screen'>
-          <ul class='flex gap-4 justify-evenly items-center p-2'>
+        <div
+          id="list-pages"
+          class="flex flex-wrap justify-evenly items-center p-2 max-w-screen"
+        >
+          <ul class="flex gap-4 justify-evenly items-center p-2">
             <li>
               <a
                 href="https://surviblia.com"

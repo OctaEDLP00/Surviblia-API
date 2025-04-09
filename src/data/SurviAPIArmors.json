@@ -1,0 +1,648 @@
+[
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:chainmail_helmet",
+    "name_tool": "Almofár Eterno",
+    "use_of_tool": "Armadura básica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Blazer Nitroglicerógino",
+    "use_of_tool": "Armadura básica contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "3" }],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Blindaje Antiderrumbamientos",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:iron_boots",
+    "name_tool": "Borceguí Flotolueno",
+    "use_of_tool": "Armadura básica contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:blast_protection", "lvl": "4" }],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Bombachos Explosivos",
+    "use_of_tool": "Armadura básica contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:feather_falling", "lvl": "4" },
+      { "id": "minecraft:protection", "lvl": "4" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Botas Polares Anti-Cerdos",
+    "use_of_tool": "Armadura básica contra pigmans",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Caparazón Antidisturbios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "4" }],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Casco NoTengoNombreCachi",
+    "use_of_tool": "Armadura para caza de mobs",
+    "version": "1.4"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "4" }],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Casco Polar Anti-Cerdos",
+    "use_of_tool": "Armadura básica contra pigmans",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Chaleco Antidisturbios",
+    "use_of_tool": "Armadura avanzada",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:thorns", "lvl": "2" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Chaleco de Espinas Congeladas",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Chaleco Refigerante",
+    "use_of_tool": "Armadura básica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Colisionador de Proyectiles",
+    "use_of_tool": "Armadura básica contra Proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:thorns", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Coraza Cataclísmica",
+    "use_of_tool": "Armadura avanzada de espinas",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "149",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:mending", "lvl": "1" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Corazón Mastodóntico",
+    "version": "1.9"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:chainmail_chestplate",
+    "name_tool": "Cota de Mallas Actualizada",
+    "use_of_tool": "Armadura básica contra el fuego",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_helmet",
+    "name_tool": "Cráneo de Centauro",
+    "use_of_tool": "Armadura básica",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Defelector de Metralla",
+    "use_of_tool": "Armadura avanzada contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:respiration", "lvl": "3" },
+      { "id": "minecraft:aqua_affinity", "lvl": "1" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Desionizador de H2O",
+    "use_of_tool": "Armadura de buceo avanzada",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Envoltura de Alto Rango",
+    "use_of_tool": "Armadura básica",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Escafandra Termo-Vulcánica",
+    "use_of_tool": "Armadura básica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:feather_falling", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:chainmail_boots",
+    "name_tool": "Escarpines Flotabilizadores",
+    "use_of_tool": "Armadura básica contra el fuego",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_leggings",
+    "name_tool": "Espinilleras de Guerra",
+    "use_of_tool": "Armadura básica",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "149",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:feather_falling", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:mending", "lvl": "1" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Eternabotas",
+    "use_of_tool": "Armadura avanzada",
+    "version": "1.9"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Evasor de Cauterizaciones",
+    "use_of_tool": "Armadura avanzada contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Explotabotas \"Smash & Run\"",
+    "use_of_tool": "Armadura avanzada contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:feather_falling", "lvl": "4" },
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Flotabotas",
+    "others": "La última version de las flotabotas tenia los mismos encantamientos + Depth Strider III",
+    "use_of_tool": "Armadura avanzda",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:iron_boots",
+    "name_tool": "Flotabotas Cortafuego",
+    "use_of_tool": "Armadura basica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:iron_boots",
+    "name_tool": "Flotabotas Estabilizadoras",
+    "use_of_tool": "Armadura básica contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:iron_boots",
+    "name_tool": "Flotabotas Metálicas",
+    "use_of_tool": "Armadura Básica",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" },
+      { "id": "minecraft:thorns", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Flotabotas Supernova",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Gafas de Jeb",
+    "others": "Sucesor del Gorro de Notch",
+    "use_of_tool": "Armadura avanzada",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Gorro de Notch",
+    "use_of_tool": "Armadura avanzada",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:chainmail_leggings",
+    "name_tool": "Grebas Inmunizadas",
+    "use_of_tool": "Armadura básica contra el fuego",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_leggings",
+    "name_tool": "Guetres Blindados",
+    "use_of_tool": "Armafura basica contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_leggings",
+    "name_tool": "Maillot para Demoliciones",
+    "use_of_tool": "Armadura básica contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Mallas Reforzadas",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Neovisor Vulcanológico",
+    "use_of_tool": "Armadura avanzada contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_helmet",
+    "name_tool": "Obstructor Cefálico",
+    "use_of_tool": "Armadura basica contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_chestplate",
+    "name_tool": "Pechera Refigerante",
+    "use_of_tool": "Armadura basica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "60",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Perneras Enteras",
+    "use_of_tool": "Armadura para cazar mobs",
+    "version": "1.4"
+  },
+  {
+    "apparition_episodes": "149",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:mending", "lvl": "1" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Perneras Permanentes",
+    "version": "1.9"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "4" }],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Perneras Polares Anti-Cerdos",
+    "use_of_tool": "Armadura Avanzada contra pigmans",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "4" }],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Peto Completo",
+    "use_of_tool": "Armadura para caza mobs",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "4" }],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Peto Polar Anti-Cerdos",
+    "use_of_tool": "Armadura avanzada contra pigmans",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Prótesis Balística",
+    "use_of_tool": "Armadura avanzada contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:thorns", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Protopantalones Cuánticos",
+    "use_of_tool": "Armadura avanzada de espinas",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Reactobotas Anti-Snipers",
+    "use_of_tool": "Armadura avanzada contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Repeledardos Cristalizado",
+    "use_of_tool": "Armadura Avanzada contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:iron_helmet",
+    "name_tool": "Ros Fulminante",
+    "use_of_tool": "Armadura basica contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "149",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:mending", "lvl": "1" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Sombrerete de Vu Bui",
+    "version": "1.9"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:projectile_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Sombrero Perdigonero",
+    "use_of_tool": "Armadura avanzada contra proyectiles",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:feather_falling", "lvl": "4" }
+    ],
+    "material": "minecraft:diamond_boots",
+    "name_tool": "Surcafuegos Dinamométricos",
+    "use_of_tool": "Armadura avanzada conta incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:blast_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_chestplate",
+    "name_tool": "Tecnoarmadura Electroactiva",
+    "use_of_tool": "Armadura avanzada contra explosiones",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:fire_protection", "lvl": "4" },
+      { "id": "minecraft:unbreaking", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_leggings",
+    "name_tool": "Termocinturon Nebulizador",
+    "use_of_tool": "Armadura avanzada contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:fire_protection", "lvl": "4" }],
+    "material": "minecraft:iron_leggings",
+    "name_tool": "vaqueros Aislantes",
+    "use_of_tool": "Armadura basica contra incendios",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:frost_walker", "lvl": "1" },
+      { "id": "minecraft:unbreaking", "lvl": "1" },
+      { "id": "minecraft:protection", "lvl": "1" }
+    ],
+    "material": "minecraft:leather_boots",
+    "name_tool": "Wordtear Footwear",
+    "use_of_tool": "Utilizadas como parte de la paleta (en un armor stand) para conseguir el bloque de end gateway",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [
+      { "id": "minecraft:protection", "lvl": "4" },
+      { "id": "minecraft:aqua_affinity", "lvl": "1" },
+      { "id": "minecraft:respiration", "lvl": "3" },
+      { "id": "minecraft:unbreaking", "lvl": "3" },
+      { "id": "minecraft:thorns", "lvl": "3" }
+    ],
+    "material": "minecraft:diamond_helmet",
+    "name_tool": "Yelmo de Titán",
+    "use_of_tool": "Armadura avanzada de espinas",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "3" }],
+    "material": "minecraft:iron_leggings",
+    "name_tool": "Guardapolvos de Excavador",
+    "version": "1.X"
+  },
+  {
+    "apparition_episodes": "",
+    "enchantments": [{ "id": "minecraft:protection", "lvl": "3" }],
+    "material": "minecraft:iron_boots",
+    "name_tool": "Eternobotas",
+    "version": "1.X"
+  }
+]

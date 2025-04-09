@@ -4,7 +4,7 @@ export interface Thumbnail {
   height: number
 }
 
-export interface Thumbnails {
+interface Thumbnails {
   default?: Thumbnail
   medium?: Thumbnail
   high?: Thumbnail
@@ -12,7 +12,7 @@ export interface Thumbnails {
   maxres?: Thumbnail
 }
 
-export interface PlaylistItem {
+interface PlaylistItem {
   episode_title: string
   episode_number: string
   version: string
@@ -21,14 +21,20 @@ export interface PlaylistItem {
 }
 
 export interface ParseArgsOptionConfig {
-  type: 'string' | 'boolean';
-  multiple?: boolean | undefined;
-  short?: string | undefined;
-  default?: string | boolean | Array<string> | Array<boolean> | undefined;
+  type: 'string' | 'boolean'
+  multiple?: boolean | undefined
+  short?: string | undefined
+  default?: string | boolean | Array<string> | Array<boolean> | undefined
 }
 
 export interface ParseArgsOptionsConfig {
-  [longOption: string]: ParseArgsOptionConfig;
+  [longOption: string]: ParseArgsOptionConfig
 }
 
-export declare function getInfoEpisodios(apiKey: string | null, playlistId: string | null): Error | undefined
+export declare function getInfoEpisodios(
+  apiKey: string,
+  playlistId: string
+): Error | unknown
+
+export type { PlaylistItem, Thumbnail, Thumbnails }
+

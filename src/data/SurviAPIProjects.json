@@ -1,501 +1,2126 @@
 {
-  "tierS+": [
+  "tierA": [
     {
-      "animations": "https://youtu.be/ZAWeXj2ZHpg",
       "blocks_used": [
-        "Obsidiana",
-        "Calaveras de Wither Skeleton",
-        "Endstone",
-        "Bloques de Oro",
-        "Cuarzo",
-        "Bloques de Redstone",
-        "Bloques de Slime"
+        "ice",
+        "blue_carpet",
+        "white_carpet",
+        "yellow_carpet",
+        "red_carpet",
+        "blue_wool",
+        "white_wool",
+        "quartz_slab",
+        "iron_bars"
       ],
-      "coords": { "x": "-520", "z": "89" },
+      "coords": {
+        "x": "367",
+        "z": "0"
+      },
+      "episode_number": ["48", "49", "120"],
+      "mechanisms_carried_out": [
+        "Mecanismo que empuja a los endermans con pistones cuando spawnean"
+      ],
+      "official_name_of_project": "Über Orber",
+      "others": [
+        "A pesar de haber presentado el Über Orber en el episodio 120, este no alcanza su forma final hasta el episodio 160, en el que Rich cambia una Wither Skeleton Skull por una Skeleton Skull"
+      ],
+      "project_biome": "End",
+      "project_objetives": "Tener Ender Pearls + Tener un Granja de Xp",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": "dirt",
+      "episode_number": "129",
+      "official_name_of_project": "Spawngea",
+      "others_name_of_project": "Hyper Spawnchunks",
+      "project_biome": [
+        "jungle",
+        "plains",
+        "swamp",
+        "ocean",
+        "taiga",
+        "extreme hills"
+      ],
+      "project_objetives": "Crear un gran zona plana en el spawn de Rich para ser un lienzo en blanco sobre el cual construir multiples proyectos",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "red_mushroom_block",
+        "brown_mushroom_block",
+        "oak_wood",
+        "dark_oak_wood",
+        "birch_wood",
+        "acacia_wood",
+        "jungle_wood",
+        "spruce_wood",
+        "iron_block",
+        "redstone_block",
+        "smooth_stone",
+        "smooth_sandstone",
+        "piston_head",
+        "sticky_piston_head",
+        "petrified_oak_planks",
+        "light_weighted_pressure_plate (gold)",
+        "stone_bricks",
+        "smooth_stone_slab",
+        "stone_brick_stairs",
+        "stone_brick_slab",
+        "chiseled_stone_bricks",
+        "oak_leaves",
+        "redstone_lamp (Lit)",
+        "beacon",
+        "glass",
+        "white_stained_glass_pane",
+        "yellow_stained_glass_pane",
+        "black_stained_glass_pane",
+        "oak_leaves",
+        "black_stained_glass",
+        "anvil",
+        "black_carpet"
+      ],
+      "coords": {
+        "x": "530",
+        "z": "-204"
+      },
+      "curiosities": [
+        "En el episodio 124 pica el subsuelo de los blocones",
+        "En el episodio 143 quita toda la bedrock del proyecto hasta la capa 1. Tambien amplia el perimetro y lo convierte en un octogono"
+      ],
+      "episode_number": ["109", "110"],
+      "mechanisms_carried_out": ["Data Value Changer"],
+      "official_name_of_project": "Blocones",
+      "project_biome": "taiga",
+      "project_objetives": "Conseguir y Almacenar bloques que no se pueden obtener directamente en modo supervivencia",
+      "version": "1.7.2"
+    },
+    {
+      "blocks_used": ["tnt_minecart", "tnt"],
+      "coords": {
+        "x": "0",
+        "z": "0"
+      },
+      "episode_number": "140",
+      "mechanisms_carried_out": "Explosiones stackeadas en minecarts con TNT",
+      "official_name_of_project": "Proyecto ⬚⬚⬚⬚⬚⬚⬚",
+      "others_name_of_project": [
+        "Proyecto Espacio",
+        "Proyecto ⬚⬚⬚⬚⬚⬚⬚",
+        "Proyecto ENSP"
+      ],
+      "project_biome": "End",
+      "project_objetives": "Destruir la isla del end para tener espacio y libertad para otros proyectos",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "glowstone",
+        "white_stained_glass",
+        "bone_block",
+        "brown_concrete",
+        "gold_block",
+        "yellow_concrete",
+        "stone_bricks",
+        "cobblestone_wall",
+        "cobblestone_stairs",
+        "stone_brick_stairs",
+        "stone_brick_slab",
+        "magma_block",
+        "light_gray_wool",
+        "gray_wool",
+        "netherrack",
+        "black_concrete",
+        "cobblestone",
+        "andesite",
+        "stone",
+        "light_gray_concrete",
+        "gray_concrete",
+        "light_gray_stained_glass",
+        "gray_stained_glass",
+        "black_stained_glass",
+        "diorite",
+        "end_rod",
+        "redstone_block",
+        "oak_leaves",
+        "orange_wool",
+        "red_wool",
+        "stone_button",
+        "polished_andesite",
+        "yellow_stained_glass",
+        "red_stained_glass",
+        "grass_path"
+      ],
+      "coords": {
+        "x": "-108",
+        "y": "172",
+        "z": "-2027"
+      },
+      "episode_number": "157",
+      "mechanisms_carried_out": "Tiny Hidden Staircase",
+      "official_name_of_project": "Cronódromo del Destino",
+      "others": [
+        "La construccion fue inspirada en la obra \"La persistencia de la memoria\" de Salvador Dalí",
+        "Primera construccion con efectos nube en el mundo",
+        {
+          "text": "Creditos a Codecrafted por el mecanismo de las escaleras ocultas",
+          "url": "https://youtube.com/watch?v=Ef95Pi-iqv4"
+        }
+      ],
+      "others_name_of_project": "Capsula del Tiempo 2022",
+      "project_biome": "taiga",
+      "project_objetives": "Construccion para almacenar y resguardar la tercera capsula del tiempo de survival",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "snow_block",
+        "ice",
+        "packed_ice",
+        "andesite",
+        "gray_concrete",
+        "oak_planks"
+      ],
+      "coords": {
+        "x": "-824",
+        "y": "63",
+        "z": "-640"
+      },
+      "episode_number": "165",
+      "official_name_of_project": "Paramo Helado de Piggers",
+      "others": "El bioma referencia en tanto la paleta de bloques, como tematica y alguna construccion al sueño de las Zanahorias Gigantes de Sunset Dreams(Mapa CTM) de ElRichMC",
+      "others_name_of_project": "Casa de Piggers",
+      "project_biome": "extreme hills",
+      "project_objetives": "Crear un bioma en el que Piggers estuviese a gusto",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "netherrack",
+        "stone_bricks",
+        "spawner[pig]",
+        "redstone_lamp",
+        "cyan_terracotta",
+        "gray_terracotta",
+        "obsidian",
+        "cobblestone_wall",
+        "end_crystal",
+        "bedrock",
+        "stone_brick_stairs",
+        "chiseled_stone_bricks",
+        "ender_chest",
+        "smooth_stone_slab",
+        "dispenser",
+        "redstone",
+        "armor_stand",
+        "observer",
+        "activator_rail",
+        "tripwire_hook",
+        "sticky_piston",
+        "hopper",
+        "cauldron",
+        "lever",
+        "redstone",
+        "redstone_block",
+        "gold_block",
+        "cake",
+        "stone_button",
+        "glowstone",
+        "red_stained_glass",
+        "comparator",
+        "repeater",
+        "beacon"
+      ],
+      "coords": {
+        "x": "433",
+        "z": "492"
+      },
+      "episode_number": "167",
+      "mechanisms_carried_out": [
+        "Expandable 1x1 pixel display",
+        "Relojes",
+        "Splitters"
+      ],
+      "official_name_of_project": "La Forja de Tiempo",
+      "others": [
+        "La construccion se encuentra inmensa en un stronghold, y tiene una estatua gigante de un endercrystal sobre la sala de los portales",
+        {
+          "text": "Creditos a u/vin97 por la idea de los armor stands",
+          "url": "https://www.reddit.com/r/redstone/comments/47rz21/simple_expandable_1x1_pixel_display_using_compact/"
+        }
+      ],
+      "project_biome": "ocean",
+      "project_objetives": [
+        "Celebrar proximos aniversarios de survival, y tener un lugar de paz en el mundo con una amplia variedad de musiquitas",
+        "Tambien es un lugar para crafteo de tartas y guardar algunos carteles random del mundo"
+      ],
+      "version": "1.12"
+    },
+    {
+      "blocks_used": ["packed_ice", "snow_block", "piston"],
+      "coords": {
+        "x": "-100",
+        "y": "70",
+        "z": "30555"
+      },
+      "episode_number": "168",
+      "mechanisms_carried_out": "Generador de biomas",
+      "official_name_of_project": "Los Rascahielos",
+      "others": "Termino este proyecto el dia 26 de Agosto de 2023",
+      "others_name_of_project": [
+        "Bioma de Ice Spikes",
+        "Cielo de Minecraft congelado"
+      ],
+      "project_biome": "Ice Spikes",
+      "project_objetives": "Conseguir un bioma de Ice Spikes gigantes",
+      "version": "1.12"
+    }
+  ],
+  "tierB": [
+    {
+      "blocks_used": [
+        "redstone_block",
+        "nether_bricks",
+        "iron_block",
+        "netherrack",
+        "orange_stained_glass"
+      ],
+      "coords": {
+        "x": "3367",
+        "z": "-204"
+      },
+      "episode_number": "111",
+      "mechanisms_carried_out": "Bounding Boxes",
+      "official_name_of_project": "Fortaleza Optomizada Infernal",
+      "others": "La construccion cuenta con 16 beacons y muchos jumping path (plataformas para llegar a otras plataformas aprovechando los efectos de speed II y jump boost II de los beacons), ademas de dispensadores de ender pearls y cristal naranja sobre la lava abajo del fortres. Tambien cuenta con ascensores de ender pearls de 128 bloques sobre el fort para despawnear magma cubes",
+      "others_name_of_project": ["F.O.I.", "Mini Incinerador"],
+      "project_biome": "nether",
+      "project_objetives": "Optimizar la caceria de wither skeletons",
+      "version": "1.7.2"
+    },
+    {
+      "blocks_used": [
+        "emerald_block",
+        "quartz_block",
+        "oak_planks",
+        "oak_slab",
+        "chest",
+        "hopper",
+        "glass",
+        "blue_carpet",
+        "stone_bricks",
+        "redstone_lamp",
+        "piston",
+        "nether_brick_stairs",
+        "iron_bars",
+        "oak_wood",
+        "gold_block",
+        "redstone_torch",
+        "stone_brick_stairs",
+        "glowstone"
+      ],
+      "coords": {
+        "x": "2727",
+        "z": "2850"
+      },
+      "curiosities": [
+        "En el episodio 170 repara la zona de caida de esqueletos y repone algunos bloques de la granja",
+        "En el episodio 170 visita los pasillos de la antigua triple granja de esqueletos, antes de la remodelacion del episodio 126"
+      ],
+      "episode_number": "126",
+      "mechanisms_carried_out": [
+        "T Flip Flop",
+        "Ultrait 4g",
+        "Zona de Exclusión"
+      ],
+      "official_name_of_project": "Catedral Esqueleto\n(Anteriormenete Granja de Calcio)",
+      "project_biome": "Nether",
+      "project_objetives": "Obtener el mayor loot posible con una granja triple de sus primos albinos",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "birch_slab",
+        "spruce_slab",
+        "birch_stairs",
+        "spruce_stairs",
+        "hopper",
+        "redstone_lamp",
+        "dropper"
+      ],
+      "coords": {
+        "x": "-55",
+        "z": "55"
+      },
+      "curiosities": [
+        "En el episodio 169 muestra un incendio que hubo en Fractalis.",
+        "En el episodio 170 repara los chunks quemados."
+      ],
+      "episode_number": "132",
+      "mechanisms_carried_out": "Carga de Chunks usando un hopper en el borde del mismo",
+      "official_name_of_project": "Proyecto Fractalis",
+      "project_biome": "spawnchunks",
+      "project_objetives": "Dejar cargados chunks permanentemente",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "ice",
+        "oak_sign",
+        "glass",
+        "water",
+        "green_terracotta",
+        "yellow_terracotta",
+        "villager",
+        "wither",
+        "acacia_stairs",
+        "redstone",
+        "dispenser"
+      ],
+      "coords": {
+        "x": "100",
+        "z": "0"
+      },
+      "curiosities": "En el episodio 170 dice que está rota, en desuso y no tiene interés en repararla porque tiene obsdiana de sobra",
+      "episode_number": "99",
+      "mechanisms_carried_out": "plataforma de spawn de end",
+      "mentions": ["100", "134", "145"],
+      "official_name_of_project": "Granja de Obsidiana",
+      "project_biome": "End",
+      "project_objetives": "Conseguir suficiente obsidiana para diferentes proyectos",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "terracotta",
+        "piston",
+        "sticky_piston",
+        "dispenser",
+        "dropper",
+        "birch_wood",
+        "glass",
+        "glowstone",
+        "dirt",
+        "obsidian"
+      ],
+      "curiosities": "En el episodio 170 confirma que está rota y que la quitará en algún momento",
+      "episode_number": "83",
+      "mechanisms_carried_out": [
+        "El aprovechar la explosión del wither atrapado en la bedrock del portal del end.",
+        "Mecanismo de Redstone (doble extensor de pistones)",
+        "Generador de Cobblestone"
+      ],
+      "official_name_of_project": "Granja Automática de Madera",
+      "project_biome": "End",
+      "project_objetives": "Obtener la suficiente madera para los demás proyectos",
+      "version": "1.6"
+    },
+    {
+      "blocks_used": [
+        "light_blue_terracotta",
+        "redstone_block",
+        "glass",
+        "comparator",
+        "piston",
+        "stone_slab",
+        "dispenser"
+      ],
+      "episode_number": "137",
+      "mechanisms_carried_out": "Timear Dispensers",
+      "official_name_of_project": "Impresora de Agua",
+      "project_biome": "Forest",
+      "project_objetives": "Despedir el año 2019 mostrando el texto \"Feliz 2020\"",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "powered_rail",
+        "hopper",
+        "furnace",
+        "chest_minecart",
+        "glass_bottle",
+        "smooth_stone_stairs",
+        "glass",
+        "chest",
+        "dropper",
+        "redstone"
+      ],
+      "coords": {
+        "x": "-3712",
+        "z": "-4500"
+      },
+      "curiosities": [
+        "Tiene un ghast (SGS - 008 Super Ghast Sweeper) dentro del proyecto, en el overworld.",
+        "Sin querer Rich hizo un save state en este proyecto al haber acumulado una ingente cantidad de botellas de agua."
+      ],
+      "episode_number": "138",
+      "official_name_of_project": "Hidro Receptor Infernal",
+      "others_name_of_project": "El chunk con 37500 entidades",
+      "project_biome": "Ocean",
+      "project_objetives": "Almacenar 37,5k de entidades en un solo chunk",
+      "records": [
+        "Ep138 (1.7) Crea el Hidro Receptor Infernal para proveer de botellas de agua un brewing stand que hace que el Incinerador funcione.",
+        "Ep174 (1.12) Obstaculiza la visión del Ghast de este proyecto teniendo en cuenta la nueva altura de visión del mob tras actualizar."
+      ],
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["terracotta", "glass"],
+      "curiosities": "En este proyecto consiguió una mascota inesperada para Rich, el Magma Cube Totem",
       "episode_number": "145",
-      "mechanisms_carried_out": [ "Autocrafters", "Fuente de los Deseos 2" ],
+      "mechanisms_carried_out": "Almacenamiento individualizado de ghasts",
+      "official_name_of_project": "Ghast Catcher",
+      "project_biome": ["Nether", "Mesa"],
+      "project_objetives": "Obtener los ghast necesarios para el incinerador",
+      "records": [
+        "Ep145 (1.7) Construye el Ghast Catcher para capturar y almacenar Ghasts que necesite para ciertos proyectos, como el Incinerador.",
+        "Ep174 (1.12) Usa varios Ghasts de reserva para reparar el Incinerador."
+      ],
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["glass", "smooth_stone"],
+      "curiosities": [
+        "Esta granja de oro fue usada para poder usar otra granja que produce oro (El incinerador), para después hacer otra granja de oro (Orogeddon).",
+        "En el episodio 170 confirma que está rota y dice que no tiene interés en repararlas ya que Orogeddon existe, de todas formas quiere dejarlas así como recuerdo."
+      ],
+      "episode_number": "145",
+      "mechanisms_carried_out": {
+        "mechanisms_name": "Tres The Gold Pan por Impulse",
+        "url": "https://youtube.com/watch?v=z-h0goQZvso"
+      },
+      "official_name_of_project": "Triple Gold Pan",
+      "project_biome": "Nether",
+      "project_objetives": "Obtener el oro necesario para el incinerador",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["end_stone_bricks", "water", "obsidian"],
+      "episode_number": "150",
+      "official_name_of_project": "Skeleton Trap Trap",
+      "others": "Consiguio el objectivo sin estar terminada",
+      "project_biome": "Ocean",
+      "project_objetives": "Conseguir wither skeletons jinetes con jack o' lantern",
+      "version": "1.9"
+    },
+    {
+      "blocks_used": [
+        "piston",
+        "sticky_piston",
+        "redstone",
+        "redstone_block",
+        "gray_concrete",
+        "slime_block",
+        "hopper",
+        "dropper",
+        "glass",
+        "bedrock",
+        "iron_trapdoor",
+        "redstone_lamp",
+        "chest",
+        "soul_sand",
+        "obsidian"
+      ],
+      "coords": {
+        "x": "321",
+        "y": "117",
+        "z": "180"
+      },
+      "episode_number": "155",
+      "mechanisms_carried_out": "Entity Cramming",
+      "official_name_of_project": "Auto Wither Killer",
+      "others": "Modelo de Fallen Breath",
+      "project_biome": "Nether",
+      "project_objetives": "Matar automaticamente miles de wither bosses para obtener miles de nether stars",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": "natural_blocks",
+      "coords": {
+        "x": "6150",
+        "z": "-1000"
+      },
+      "episode_number": "158",
+      "mechanisms_carried_out": "Instant tile ticks para mantener las lámparas de redstone encendidas mediante pressure plates constantemente presionadas",
+      "official_name_of_project": "La Chunktera",
+      "others": [
+        "Inicialmente era un proyecto en el cual Rich había trabajado solo en stream.",
+        "Fue oficializado en el episodio 158 de la serie."
+      ],
+      "project_biome": "Extreme Hills",
+      "project_objetives": "Mina natural para la extracción de \"minerales\" de la nueva versión 1.12",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "activator_rail",
+        "minecart",
+        "chest",
+        "redstone",
+        "redstone_torch",
+        "glass",
+        "red_stained_glass",
+        "oak_trapdoor",
+        "piston",
+        "hopper",
+        "obsidian",
+        "ladder",
+        "water",
+        "redstone_block",
+        "observer",
+        "cobweb",
+        "stone_bricks",
+        "flower_pot"
+      ],
+      "coords": {
+        "x": "1670",
+        "z": "1090"
+      },
+      "curiosities": [
+        "Tomó inspiración del cuadro \"Relatividad\", de M.C.Escher. Finalmente se alejó bastante del concepto para la decoración del proyecto.",
+        "Anteriormente era un proyecto de rango B, subió al rango A cuando fue decorado.",
+        "Encerró un aldeano en el almacén del proyecto, pero se murió así que llevó otro aldeano."
+      ],
+      "episode_number": "161",
+      "mechanisms_carried_out": "Spawn Reinforcement",
+      "official_name_of_project": "The Pathfinder",
+      "project_biome": ["Bosque", "Jungla"],
+      "project_objetives": "Conseguir chicken jockey con cabeza de calabaza y con Jack o' Lantern",
+      "records": [
+        "Ep 161 (1.12) Construye The Pathfinder",
+        "Ep 173 (1.12) Decora el perimetro"
+      ],
+      "version": "1.12"
+    }
+  ],
+  "tierC": [
+    {
+      "blocks_used": [
+        "sandstone",
+        "cobblestone_wall",
+        "iron_bars",
+        "smooth_stone",
+        "redstone_lamp",
+        "stone_bricks",
+        "terracotta"
+      ],
+      "coords": {
+        "x": "0",
+        "z": "0"
+      },
+      "curiosities": "KillerCreeper_55 ayudó un poco con el diseño del Nether hub.",
+      "episode_number": "83",
+      "official_name_of_project": "Nether Hub + Red Interdimensional",
+      "project_biome": "Nether",
+      "project_objetives": "Servir de nexo para los caminos del nether",
+      "records": [
+        "Ep143 (1.7) Amplía enormemente las dimensiones de los alrededores del Nether Hub eliminando toda la bedrock en una amplia zona cercana.",
+        "Ep174 (1.12) Mueve un aldeano al 0,0 del Nether, encima del Nether Hub y construye Fractalis 2 en esa zona."
+      ],
+      "version": "1.6"
+    },
+    {
+      "blocks_used": [
+        "oak_log",
+        "spruce_log",
+        "cobblestone_stairs",
+        "cobblestone",
+        "cobblestone_slab",
+        "cobblestone_wall",
+        "emerald_block",
+        "lapis_block",
+        "gold_block",
+        "chiseled_quartz_block",
+        "red_wool",
+        "lime_wool",
+        "furnace",
+        "piston",
+        "sticky_piston",
+        "repeater",
+        "torch",
+        "stone_button",
+        "lever",
+        "redstone_lamp"
+      ],
+      "coords": {
+        "x": "357",
+        "z": "-1038"
+      },
+      "episode_number": "67",
+      "official_name_of_project": "I.H.T (Instant Home Teleporter)",
+      "others": [
+        "El propósito del proyecto cambió, siendo el propósito original: Contener zombis destinados al mob switch e indicar de forma visual cuando el mob switch está encendido o apagado.",
+        "En el Ep67 hace el tótem en los Spawnchunks como un símbolo del mundo.",
+        "Entre el episodio 89 y el 90 quita el Tótem de los Spawnchunks para reconstruirlo en otro lugar.",
+        "El Ep91 crea el IHT.",
+        "En el episodio 170, Rich revela que el IHT no tiene ni tendrá uso ya que Forwarp existe.",
+        "En el episodio 174 Rich encuentra un uso para el tótem de Survival, ser el refugio para el tótem de magma cubes, una de sus mascotas."
+      ],
+      "others_name_of_project": "Totémtico Tótem",
+      "project_biome": "Swamp",
+      "project_objetives": "Por medio de redstone inalámbrica hacer un tp sin comandos al jugador a un punto específico del mundo, en este caso desde el tótem hacia la base.",
+      "version": "1.5"
+    },
+    {
+      "blocks_used": [
+        "glass",
+        "stone_bricks",
+        "spruce_leaves",
+        "spruce_log",
+        "end_stone",
+        "emerald_block",
+        "lapis_block",
+        "glowstone",
+        "redstone_lamp",
+        "glass_pane",
+        "obsidian",
+        "chiseled_stone_bricks",
+        "anvil",
+        "beacon",
+        "mycelium",
+        "iron_block"
+      ],
+      "coords": {
+        "x": "",
+        "z": ""
+      },
+      "curiosities": [
+        "Se ubica en el centro de su mundo (0,0)",
+        "En el episodio 158 dice que el NaN Block Loggy es digno de estar en Terra."
+      ],
+      "episode_number": ["45", "46", "47"],
+      "official_name_of_project": "Proyecto Terra",
+      "others": "Rich, wait a minute, ¿De verdad te has pasado 8 años sin actualizar y no se te ocurre mejor excusa para colocar un bloque de slime en el Proyecto Terra que la Bedrock Tower?",
+      "others_name_of_project": "Bumi Rancangan",
+      "project_biome": "Jungla",
+      "project_objetives": [
+        "Es una zona en la que guardar y preservar los trofeos que ElRichMC consiguió en su mundo Survival que, a partir de ahora, enumeraremos por orden de obtención:",
+        "Dragon Egg (Ep18).",
+        "Cactus de 6 (Ep28; robado por un enderman en el Ep93).",
+        "Mr Seta Picture (Ep34; por haber encontrado una Mushroom Island. En el Ep85 fue reemplazada por una vacaseta).",
+        "Spawner Roca (Ep38).",
+        "Betty III, (Ep44; una de las primeras ovejas rosas naturales encontrada).",
+        "Golden Apple (Ep61; encontrada en el tercer Stronghold del mundo)",
+        "Enchanted Golden Apple (Ep62).",
+        "Zombie Full Diamond (Ep84).",
+        "Zombie Pigman de Tormenta (Ep88).",
+        "Creeper Eléctrico natural (Ep89).",
+        "EnderCrystal Artificial (Ep103)",
+        "Cursed Wither Portal (Ep145).",
+        "Primer Diamante del End (Ep147).",
+        "Slime Block (Ep149; En conmemoración del episodio anterior, en el que usa uno para ver la Bedrock Tower desde dentro).",
+        "End Portal Artificial (Ep156)."
+      ],
+      "version": "1.4"
+    },
+    {
+      "blocks_used": ["#minecraft:logs", "lapis_block"],
+      "coords": {
+        "x": "1890",
+        "z": "6670"
+      },
+      "episode_number": ["125", "175", "176", "177"],
+      "mechanisms_carried_out": ["Dispensers de Fuegos Artificiales"],
+      "official_name_of_project": "Villa Nordica de ElRichMC",
+      "others": [
+        "La Cabaña nórdica de ElRichMC formó parte de la tercera despedida de año de su mundo.",
+        "Anteriormente conocido como Cabaña nórdica de ElRichMC; en el episodio 176 evolucionó a la Villa nórdica de ElRichMC tras haber construido Pet Buffet en ese episodio y el Molino de Survival en el anterior.",
+        "En el episodio 177 construyó el Señalizador Nórdico, el Puesto de Control de Laser Symphonia, Austral Atlas, la Chocotaberna y el Cuadrángulo de las Verduras."
+      ],
+      "others_name_of_project": "Anteriormente: Cabaña nórdica de ElRichMC",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": [
+        "Tras la evolución del proyecto en el epiusodio 176, ahora este proyecto consta de varias contrucciones listadas a continuación:",
+        "Cabaña Nórdica de ElRichMC: Cabaña que realiza en 2014 con motivo de despedir el año.",
+        "Molino de Aspafría: Realiza esta construcción porque quiere tener la construcción que todo el mundo tiene y para tener reservas de trigo en su mundo gracias a la nanofarm que hay en su interior.",
+        "Pet Buffet: Restaurante para mascotas que usa para hacer la comida de fin de año junto a sus mascotas más queridas.",
+        "Señalizador Nórdico: Baliza para indicar el terreno de la Villa Nórdica.",
+        "Puesto de Control de Laser Symphonia: Cabaña que conduce a la sala de mandos del proyecto Laser Symphonia.",
+        "Austral Atlas: Cabaña de información con mapa de Winter Star.",
+        "Chocotaberna: Un pequeño bar para tomar Chocorich.",
+        "El Cuadrángulo de las Verduras: Cabaña en la que está el end portal para regresar a Spawngea rápidamente (esto es una referencia al Triángulo de las Bermudas, lugar en el que desaparece mucha gente)."
+      ],
+      "version": ["1.7", "1.12"]
+    },
+    {
+      "blocks_used": [
+        "andesite",
+        "mossy_cobblestone",
+        "cobblestone_wall",
+        "glass",
+        "dirt",
+        "stone",
+        "cyan_terracotta",
+        "glowstone",
+        "oak_wood",
+        "oak_leaves",
+        "coal_ore",
+        "vine",
+        "iron_bars",
+        "fern",
+        "orange_tulip",
+        "azure_bluet",
+        "dark_oak_sapling",
+        "gray_dye",
+        "light_gray_dye",
+        "gravel",
+        "concrete (any color)",
+        "redstone",
+        "observer",
+        "slime_block",
+        "bookshelf",
+        "sea_lantern",
+        "lily_pad"
+      ],
+      "episode_number": "159",
+      "mechanisms_carried_out": [
+        "Piston Door",
+        "T-Flip Flop",
+        "Hipster Door",
+        "Dispensador de snacks para el gatito :3"
+      ],
+      "official_name_of_project": "Mansion de MrTiger Chuncks",
+      "others": [
+        "Los mecanismos del \"autopocionador\" y la invocación están debajo de la caseta. La invocación se realiza usando 2 yunques.",
+        "Al igual que en la caseta de Wuar IV, simbólicamente tiene una antorcha."
+      ],
+      "others_name_of_project": "Nuevo hogar de Mr. Tiger Chunks",
+      "project_biome": "Pantano",
+      "project_objetives": "Resguardar los más grandes tesoros del mundo.",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "sandstone_slab",
+        "sandstone_stairs",
+        "sandstone",
+        {
+          "description": "Aunque también se usan bloques para las distintas explicaciones técnicas o mecanismos de redstone."
+        }
+      ],
+      "coords": {
+        "x": "-2650",
+        "y": "64",
+        "z": "3360"
+      },
+      "curiosities": [
+        "La construcción se basa en la preset de minecraft que lleva el mismo nombre.",
+        "En el episodio 148 es la primera vez que Rich usa Redstone Ready, en aquel entonces no sabíamos que aquello era un proyecto."
+      ],
+      "episode_number": "160",
+      "mechanisms_carried_out": ["Limitador de pulso", "T Flip Flop"],
+      "official_name_of_project": "Readstone Ready",
+      "others": [
+        "Para la sala de cofres se basó en el diseño de un youtuber canadiense llamado EthosLab.",
+        "Las letras del cartel son diseño original de Rich (aunque es probable que ya alguien tenga el mismo o uno similar)."
+      ],
+      "others_name_of_project": "Zona de Explicaciones Tecnicas",
+      "project_biome": [
+        "Plains",
+        "Birch Forest",
+        "Forest",
+        "Jungle",
+        "Beach",
+        "Ocean",
+        "Swamp"
+      ],
+      "project_objetives": "Tener un amplio espacio para recopilar todos los mecanismos de redstones y explicaciones técnicas de la serie.",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "activator_rail",
+        "minecart",
+        "chest",
+        "redstone",
+        "redstone_torch",
+        "black_stained_glass",
+        "iron_trapdoor",
+        "piston",
+        "hopper",
+        "obsidian",
+        "soul_sand",
+        "dispenser",
+        "lever",
+        "water",
+        "slime_block",
+        "redstone_block",
+        "observer",
+        "white_concrete"
+      ],
+      "episode_number": "160",
+      "mechanisms_carried_out": "Tile Entity Remover",
+      "official_name_of_project": "Overworld Skull Converter",
+      "others": "Crédito a Smokey95, Earthcomputer y Myren por descubrir el Tile Entity Remover",
+      "others_name_of_project": "Permutador calaverilúrgico",
+      "project_objetives": "Permutar calaveras de wither skeleton por calaveras de esqueleto blanco",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "green_stained_glass",
+        "glass",
+        "yellow_stained_glass",
+        "black_stained_glass",
+        "oak_trapdoor",
+        "chest",
+        "obsidian",
+        "anvil"
+      ],
+      "coords": {
+        "x": "1322",
+        "z": "-1468"
+      },
+      "episode_number": "162",
+      "official_name_of_project": "Thundernet",
+      "others": "Contiene exactamente 518 células para el almacén y obtención de creepers eléctricos artficiales",
+      "others_name_of_project": "Cultivo de Creepers",
+      "project_biome": "Ocean",
+      "project_objetives": "Red de carga para obtener creeper eléctricos",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "red_stained_glass",
+        "yellow_stained_glass",
+        "blue_stained_glass",
+        "black_stained_glass",
+        "note_block",
+        "sticky_piston",
+        "redstone",
+        "redstone_block",
+        "redstone_torch",
+        "stone_bricks",
+        "repeater",
+        "beacon",
+        "gold_block",
+        "smooth_stone_slab",
+        "packed_ice",
+        "oak_planks",
+        "glass",
+        "snow",
+        "dispenser",
+        "firework"
+      ],
+      "coords": {
+        "x": "1890",
+        "z": "6670"
+      },
+      "curiosities": "Esta localizado frente a la Cabaña Nórdica de ElRichMC",
+      "episode_number": "164",
+      "mechanisms_carried_out": "Varios",
+      "official_name_of_project": "Laser Symphonia",
+      "others_name_of_project": "Show de Beacons",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": "Despedir los Años",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "stone_bricks",
+        "black_carpet",
+        "oak_trapdoor",
+        "minecart",
+        "villager",
+        "redstone"
+      ],
+      "coords": {
+        "x": "0",
+        "z": "-455"
+      },
+      "curiosities": "Como parece una hamburguesa (por las trapdoors), el endermite de en medio se llama endermeat",
+      "episode_number": "166",
+      "mechanisms_carried_out": "Mob switch en el End",
+      "official_name_of_project": "End Switch",
+      "project_biome": "End",
+      "project_objetives": "Carga de entidades en el end para evitar el spawn de endermans en otras partes de la dimension",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": ["ice", "hopper"],
+      "coords": {
+        "x": "0",
+        "z": "0"
+      },
+      "curiosities": "Relleno los hoppers del cargador de chunks con flechas",
+      "episode_number": "174",
+      "mechanisms_carried_out": "Carga de chunks usando un hopper en el borde de cada chunk en una malla de 10x10 chunks (100 chunks cargados)",
+      "official_name_of_project": "Fractalis 2",
+      "project_biome": "Nether (techo)",
+      "project_objetives": "Dejar cargados chunks del nether permanentemente para que el mob switch del Nether funcione correctamente",
+      "records": "Ep 174 (1.12) Fractalis 2 es construido",
+      "version": "1.12"
+    }
+  ],
+  "tierD": [
+    {
+      "blocks_used": [
+        "oak_log",
+        "stone_bricks",
+        "stone_brick_slab",
+        "stone_brick_stairs",
+        "stone",
+        "cobblestone",
+        "coal_block",
+        "stone_button",
+        "redstone",
+        "iron_bars",
+        "fern",
+        "podzol",
+        "cobblestone_wall",
+        "oak_fence_gate",
+        "oak_trapdoor",
+        "dispenser",
+        "hopper",
+        "oak_planks",
+        "comparator",
+        "chest",
+        "lever",
+        "brewing_stand",
+        "torch",
+        "netherrack",
+        "fire",
+        "glass",
+        "beacon",
+        "rail",
+        "detector_rail",
+        "powered_rail",
+        "minecart",
+        "anvil"
+      ],
+      "coords": {
+        "x": "-133",
+        "z": "62"
+      },
+      "episode_number": ["116", "117"],
+      "mechanisms_carried_out": ["Invocador de WuarIV", "Auto-pociones"],
+      "official_name_of_project": "Caseta de Wuar IV",
+      "others": [
+        "Los mecanismos del \"autopocionador\" y la invocacion estan debajo de la caseta. La invocacion se realiza usando 2 yunques",
+        "En el episodio 155, Rich apaga los fuegos de la caseta en conmemoracion al primer aniversario luctuoso de la muerte de Wuar IV",
+        "En el Episodio 170 dice que sabe que el mecanismo de teletranspote de Wuar IV está roto, pero no es importante repararlo aún"
+      ],
+      "others_name_of_project": "Casa de Wuar IV",
+      "project_biome": "Jungla",
+      "project_objetives": "Esteticos",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "stone_bricks",
+        "stone",
+        "observer",
+        "sticky_piston",
+        "slime_block"
+      ],
+      "episode_number": "154",
+      "mechanisms_carried_out": ["update supression", "save state"],
+      "official_name_of_project": "Activador de Instant Falling",
+      "others": "Utiliza metódo de Punchster2",
+      "project_biome": "Ocean",
+      "project_objetives": "Cancelacion de actualizaciones en un chunk para provocar instant falling",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "oak_log",
+        "dark_oak_log",
+        "oak_trapdoor",
+        "oak_stairs",
+        "dark_oak_stairs",
+        "oak_slab",
+        "dark_oak_slab",
+        "coal_block",
+        "cobblestone_wall",
+        "flower_pot",
+        "blue_orchid",
+        "piston",
+        "sticky_piston",
+        "green_terracotta",
+        "lime_terracotta",
+        "redstone_lamp (Lit)",
+        "grass_block",
+        "glowstone",
+        "redstone_block",
+        "chest",
+        "trapped_chest",
+        "oak_fence",
+        "oak_leaves",
+        "jungle_leaves",
+        "comparator",
+        "repeater"
+      ],
+      "coords": {
+        "x": "2155",
+        "z": "1337"
+      },
+      "curiosities": [
+        "En el episodio 170 repara algunos bloques que faltan en la granja y arregla un problema de congestion de hoppers que impide si buen funcionamiento",
+        "En el episodio 170 sustituye las poppies que habia en las macetas por las flores que da la granja"
+      ],
+      "episode_number": "104",
+      "mechanisms_carried_out": "Shifting Floor",
+      "official_name_of_project": "Granjas de Flores de Pantano",
+      "others_name_of_project": [
+        "Granja de flores de pantano",
+        "Granjea de Orquideas",
+        "Granja de Blue Orchids"
+      ],
+      "project_biome": "Swamp",
+      "project_objetives": "Tener mas tinte azul en el mundo a partir de las orquideas azules que se generan con el proyecto",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "oak_sign",
+        "obsidian",
+        "ender_chest",
+        "yellow_wool",
+        "black_wool",
+        "anvil"
+      ],
+      "episode_number": "64",
+      "mechanisms_carried_out": [
+        "Corrientes de agua para mover zombies y pasarlos por un portal",
+        "limite de mobs hostiles presentes en chunks cargados"
+      ],
+      "official_name_of_project": "Mob Switch 1.0",
+      "others": [
+        "Los primeros avances que hizo en este proyecto fue en un capitulo extra que hizo entre semana para no tener muchos mobs molestando mientras limpiaba el incinerador",
+        "A diferencia del actual, este mob switch estaba construido en los spawnchunks por lo que podia estar encendido siempre",
+        "El totemtico totem originalmente formaba parte de este proyecto, como almacen de zombies e indicador de si este estaba encendido o apagado"
+      ],
+      "project_biome": ["Jungla", "Pantano"],
+      "project_objetives": "Almacenar una gran cantidad de entidades en los spawn chunks para previnir el spawn de mobs hostiles en otras partes del mundo",
+      "version": "1.4"
+    },
+    {
+      "blocks_used": ["snow_block", "sticky_piston", "oak_slab"],
+      "coords": {
+        "x": "669",
+        "y": "64",
+        "z": "-223"
+      },
+      "episode_number": "39",
+      "mechanisms_carried_out": ["Circuitos de Redstone", "Formacion de Hielo"],
+      "official_name_of_project": "Granja de Hielo",
+      "others": [
+        "Granja rota en la 1.7 por estar hecha en bioma de Snowy Taiga previo a dicha version, ya que estos biomas pasaron a ser Taiga en la 1.7 debido al bug MC-31205 segun comenta en el episodio 94",
+        "En el episodio 106 desmantela esta granja (44:31)"
+      ],
+      "project_biome": "Taiga Nevada",
+      "project_objetives": "Bloques de Hielo",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": [
+        "water",
+        "white_stained_glass",
+        "terracotta",
+        "dark_oak_log",
+        "pink_stained_glass"
+      ],
+      "coords": {
+        "x": "-677",
+        "z": "665"
+      },
+      "curiosities": "El Mob Switch 3.0 se construyo en el episodio 143. El 21 de Agosto de 2023, en el episodio 168 de Survival, Rich añadio una pequeña mejora con la que conseguiría que este permanezca activado al cerrar y abrir el mundo. Con este cambio lo rebautizó como el Mob Switch 3.1",
+      "episode_number": "168 (143 para el Mob Switch 3.0)",
+      "mechanisms_carried_out": "Mob Switch",
+      "official_name_of_project": "Mob Switch 3.1",
+      "others_name_of_project": "Mob Switch (antiguamente Mob Switch 3.0)",
+      "project_biome": "Extreme Hills",
+      "project_objetives": "Evitar la carga de mobs hostiles en el overworld",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "iron_bars",
+        "glass",
+        "spruce_log",
+        "cut_sandstone",
+        "chiseled_sandstone",
+        "stone_bricks",
+        "birch_stairs",
+        "diamond_block",
+        "redstone_lamp",
+        "black_wool",
+        "birch_log",
+        "oak_fence",
+        "stone_brick_stairs",
+        "red_wool"
+      ],
+      "coords": {
+        "x": "1141",
+        "z": "-201"
+      },
+      "curiosities": [
+        "Usaba pociones de vida para matar a los zombies",
+        "En el episodio 170 revisa esta granja y dice que dejara su reparación para la 1.13 ya que tiene mecanismos relacionados con el agua"
+      ],
+      "episode_number": "38",
+      "mechanisms_carried_out": "Carriles de agua para movilizar a los zombies",
+      "official_name_of_project": "Granja de Zombies",
+      "others_name_of_project": ["Granja de Rare Drops", "Granja de Exp"],
+      "project_biome": "Forest Hills",
+      "project_objetives": "Experiencia, encantamientos y Rare Drops",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": [
+        "cobblestone",
+        "mossy_cobblestone",
+        "glowstone",
+        "iron_bars",
+        "rail",
+        "minecart"
+      ],
+      "coords": {
+        "x": "-526",
+        "y": "15",
+        "z": "2913"
+      },
+      "episode_number": "92",
+      "mechanisms_carried_out": ["Corrientes de Agua", "Block Swap"],
+      "official_name_of_project": "Mob Switch 2.0",
+      "others_name_of_project": "Mob Switch",
+      "project_biome": "Ocean",
+      "project_objetives": "Evitar la carga de Mobs hostiles en Overworld",
+      "version": "1.6"
+    },
+    {
+      "blocks_used": "ice",
+      "coords": {
+        "x": "1480",
+        "y": "66",
+        "z": "6168"
+      },
+      "curiosities": [
+        "Ene el episodio 163 se anuncia tambien el proyecto Winter Star, aunque no sabemos si Cotton Square es parte del mismo.",
+        "En el episodio 164 Rich construye una nueva sala bajo el Fjord Fort que tiene como funcionalidad dar un pequeño discurso de despedida del año",
+        "En el episodio 164 muere el aldeano de Pixel Styles y Rich dice que llamara Skinner al dependiente"
+      ],
+      "episode_number": "163",
+      "mechanisms_carried_out": "Mecanismo con light sensor para que se enciendan por la noche las luces de la plaza",
+      "official_name_of_project": "Cotton Square",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": [
+        "Cotton Square es un complejo de construcciones con distintas finalidades, de momento se compone de los siguientes",
+        "Pixel Styles: Una especie de tienda de disfraces o ropa y sera el lugar oficial para que Rich realice sus cambios de skins",
+        "Lumberjack & Woodpeckers: Almacen de arboles de navidad",
+        "Fjord Fort: Cabaña donde puede dormir, guardar items y fundir materiales",
+        "Cotton Square: Plaza con fuente congelada que tiene un mecanismo de redstone para encender las luces automaticamente al anochecer",
+        "Sala de Trono: Bajo el Fjord Fort hay una sala secreta con un trono desde el que Rich da el discurso de navidad cada año"
+      ],
+      "version": "1.12"
+    },
+    {
+      "blocks_used": ["ice", "chest", "snow"],
+      "episode_number": "168",
+      "mechanisms_carried_out": "Puerta Automatica",
+      "official_name_of_project": "IC-43S",
+      "others": "En este iglú es el lugar en el que esta The Snowbeing Gatekeeper, un golem de nieve para farmear bolas de este material",
+      "others_name_of_project": ["Iglú de Survival", "Granja de Nieve"],
+      "project_biome": "Ice Plains",
+      "project_objetives": "Tner una base cercana para el proyecto de los Rascahielos",
+      "version": "1.12"
+    }
+  ],
+  "tierS": [
+    {
+      "blocks_used": [
+        "end_stone",
+        "nether_bricks",
+        "redstone",
+        "oak_door",
+        "piston",
+        "sticky_piston",
+        "iron_bars",
+        "ice",
+        "repeater",
+        "comparator",
+        "glowstone",
+        "lava",
+        "water",
+        "nether_brick_slab",
+        "nether_brick_stairs",
+        "glass",
+        "glass_pane",
+        "oak_door",
+        "hopper",
+        "ender_chest",
+        "stone_presure_plate",
+        "oak_sign",
+        "torch",
+        "redstone_torch"
+      ],
+      "coords": {
+        "x": "-177",
+        "z": "188"
+      },
+      "curiosities": [
+        "En su momento fue el proyecto mas grande de Rich y el icono de su serie (2014)",
+        "Esta granja esta basada en la Lava Trench, diseñanada por Daniel Kotes (Saienai)",
+        "Rich y Dan se reunieron en contadas ocasiones para hacer cambios tecnicos a la granja dar con la configuracion deseada para el mundo de Rich",
+        "Todo lo malo que pasa en su mundo siempre es #CulpaDeLaGranjaDeHierro"
+      ],
+      "episode_number": "100",
+      "mechanisms_carried_out": "Granja de Iron Golems con stackeo de villas",
+      "official_name_of_project": "Ferrofactoria AEternalis",
+      "others_name_of_project": "Forja Metalizadora",
+      "project_biome": ["jungle", "swamp"],
+      "project_objetives": "Crear una granja de Hierro super eficiente que produzca 21k/h",
+      "records": [],
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "nether_bricks",
+        "glass",
+        "stone_bricks",
+        "gold_block",
+        "lapis_block",
+        "obsidian"
+      ],
+      "coords": {
+        "x": "5418",
+        "z": "-7660"
+      },
+      "curiosities": "Piggers tuvo origen en este proyecto",
+      "episode_number": ["54", "55", "56", "57", "135", "141"],
+      "mechanisms_carried_out": [
+        "Plataforma de Shiting",
+        "Auto Orden",
+        "Caida de Mobs"
+      ],
+      "official_name_of_project": "Multi-Dust",
+      "others_name_of_project": "Granja de Brujas",
+      "project_biome": ["jungle", "swamp"],
+      "project_objetives": "Obtener los drops de las brujas (azucar, palitos, glowstone, redstone, botellas, ojos de araña y polvora)",
+      "records": "",
+      "version": ["1.4", "1.7"]
+    },
+    {
+      "blocks_used": "tnt",
+      "coords": {
+        "x": "-468",
+        "z": "-601"
+      },
+      "curiosities": [
+        "En 2013, Rich dice que tardará unos 2 meses en finalizar el proyecto. Acaba tardando 7 años",
+        "En 2018, en el especial 333.333x3 subs muestra un teaser de la decoración de este proyecto",
+        "En el incinerador hay una granja de melones tambien"
+      ],
+      "episode_number": ["63", "114", "145", "174"],
+      "mechanisms_carried_out": [
+        "Explosion de TNT eficiente",
+        "Wither riper por RedstoneSpire",
+        "Autolooting 1.7 por Radixan"
+      ],
+      "official_name_of_project": "Incinerador",
+      "others_name_of_project": [
+        "Proyecto del Oro negro",
+        "Wither Incinerator",
+        "Granja de Wither Skeletons masiva de Survival",
+        "Incinerator Room"
+      ],
+      "project_biome": "nether",
+      "project_objetives": [
+        "Crear un perimetro sin bloques donde no so puedan spawnear mobs y maximar el spawneo de criaturas provenientes de una nether fortress ubicada dentro del perimetro, en concreto priorizar el spawneo de Wither Skeletons",
+        "Conseguir mas de 150k calaveras de Wither Skeleton para Orogeddon"
+      ],
+      "records": [],
+      "version": "1.4"
+    },
+    {
+      "blocks_used": ["end_stone", "netherrack", "redstone_block", "piston"],
+      "episode_number": "103",
+      "mechanisms_carried_out": "Mover los bloques hacia el oeste usando pistones",
+      "official_name_of_project": "Generador de EnderCrytals",
+      "others": "Fue el primer jugador en generar End Crystals en modo Supervivencia",
+      "project_biome": "End",
+      "project_objetives": "Generar End Crystals",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["end_stone", "bedrock", "end_portal"],
+      "coords": {
+        "x": "0",
+        "z": "0"
+      },
+      "curiosities": "En el episodio 170 elimina toda la redstone de alrededor de la Bedrock Tower, tambien elimina la endstone, antes simbolica del proyecto",
+      "episode_number": "148",
+      "mechanisms_carried_out": [
+        "Reutilizacion de huevo de Dragona",
+        "Catapulta de grava",
+        "Translocador de End Crystals"
+      ],
+      "official_name_of_project": "The Bedrock Tower",
+      "others": [
+        "Explicacion amimada del funcionamiento del proyecto",
+        "Creditos a Slowik por la idea de stackear portales, mas detalle en la descripcion del video de Rich en YouTube"
+      ],
+      "project_biome": "End",
+      "project_objetives": "Maximar la cantidad de portal block con la estetica deseada",
+      "version": ["1.8", "1.9"]
+    },
+    {
+      "episode_number": "136",
+      "mechanisms_carried_out": ["generacion de terreno", "downgrade"],
+      "official_name_of_project": "Sistema Perimetral",
+      "others": [
+        "Los chunks que genero en la 1.6 o inferior y que se muestran en este episodio es el sector perimetral alfa",
+        "Los chunks que pertenecen a la 1.7 es el sector perimetral beta"
+      ],
+      "project_biome": "todos",
+      "project_objetives": "Crear dos perimetros (el alfa con la 1.6 y el beta con la 1.7) de generación de terreno para no tener bordes molestos",
+      "space": "70k Chunks",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "slime_block",
+        "oak_leaves",
+        "piston",
+        "redstone_block",
+        "torch",
+        "end_stone",
+        "stone",
+        "gold_block"
+      ],
+      "episode_number": "147",
+      "mechanisms_carried_out": "Maquina voladora",
+      "official_name_of_project": "Generador automático de Ender Crystals y Diamiantes",
+      "others": {
+        "text": "Creditos a la primera persona en generar diamantes en el end",
+        "url": "https://youtube.com/watch?v=1zXf8H89ue4"
+      },
+      "project_biome": "End",
+      "project_objetives": "Generar diamantes y ender crystals en el end",
+      "version": "1.8"
+    },
+    {
+      "blocks_used": [
+        "end_gateway",
+        "black_stained_glass",
+        "nether_portal",
+        "end_portal_frame",
+        "ender_eye",
+        "end_crystal"
+      ],
+      "coords": {
+        "x": "0",
+        "z": "0"
+      },
+      "episode_number": "166",
+      "mechanisms_carried_out": [
+        "Reutilizacion del Huevo de la Dragona",
+        "Hyperlink"
+      ],
+      "official_name_of_project": "Forwarp",
+      "others": [
+        "Explicacion animada del funcionamiento del proyecto",
+        "https://youtube.com/watch?v=",
+        "https://youtube.com/watch?v=",
+        "https://youtube.com/watch?v=",
+        "https://youtube.com/watch?v=",
+        "https://youtube.com/watch?v=",
+        "https://youtube.com/watch?v="
+      ],
+      "project_biome": "End",
+      "project_objetives": [
+        "Enlazar farlands (world border) o cualquiera otra ubicacion del mundo con el spawn del end",
+        "Por el momento, los lugares o proyectos que ha enlazado mediante Forwarp son los siguientes:\n- Farlands\n- Universal Datatrap"
+      ],
+      "version": "1.12"
+    }
+  ],
+  "tierSplus": [
+    {
+      "animations": "https://youtube.com/watch?v=ZAWeXj2ZHpg",
+      "blocks_used": [
+        "obsidian",
+        "wither_skeleton_head",
+        "end_stone",
+        "gold_block",
+        "quartz_block",
+        "redstone_block",
+        "slime_block"
+      ],
+      "coords": {
+        "x": "-520",
+        "z": "89"
+      },
+      "episode_number": "145",
+      "mechanisms_carried_out": ["Autocrafters", "Fuente de los Deseos 2"],
       "official_name_of_project": "Orogeddon",
-      "project_biome": [ "extreme hills", "swamp", "plains" ],
+      "project_biome": ["extreme hills", "swamp", "plains"],
       "project_objetives": "Manzanas de Oro Encantadas y solucionar los problemas de Oro en general",
       "version": "1.7"
     },
     {
       "blocks_used": [
-        "Obsidiana",
-        "Bloques de Esmeralda",
-        "Cristal Verde",
-        "Cristal Amarrillo",
-        "Cristal Blanco",
-        "Hornos",
-        "Hoopers",
-        "Redstone",
-        "Cofres",
-        "Endstone",
-        "Pistones",
-        "Pistones Pegajosos",
-        "Comparadores",
-        "Repeaters",
-        "Bloques de Hierro",
-        "Bloques de Portales del Nether",
-        "Slabs de Piedra Cocinada",
-        "Lamparas de Redstone",
-        "Bloqies de Cuarzo",
-        "Escaleras de Curzo",
-        "Slabs de Cuarzo",
-        "Bloques de Hielo",
-        "Droppers",
-        "Bloques de Glowstone"
+        "obsidian",
+        "emerald_block",
+        "green_stained_glass",
+        "yellow_stained_glass",
+        "white_stained_glass",
+        "furnace",
+        "hopper",
+        "redstone",
+        "chest",
+        "end_stone",
+        "piston",
+        "sticky_piston",
+        "comparator",
+        "repeater",
+        "iron_block",
+        "nether_portal",
+        "smooth_stone_slab",
+        "redstone_lamp",
+        "quartz_block",
+        "quartz_stairs",
+        "quartz_slab",
+        "ice",
+        "dropper",
+        "glowstone"
       ],
+      "coords": {
+        "x": "-288",
+        "z": "471"
+      },
       "curiosities": "En el episodio 170 revela que esta lleno solo a 30%, tambien enseña que hay una congestión de hierro en algunos hoppers",
-      "coords": { "x": "-288", "z": "471" },
       "episode_number": "134",
       "mechanisms_carried_out": "DSD",
       "official_name_of_project": "Permutador Metalúrgico",
-      "others_names_of_project": "Permutador Metalúrgico",
-      "project_biome": "",
+      "project_biome": ["swamp", "plains", "extreme hills"],
       "project_objetives": "Almacenar 51 millones de items (iron ingot's)",
       "version": "1.7.2"
     },
     {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Universal Datatrap",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    }
-  ],
-  "tierS": [
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Ferrofactoria AEternalis",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Multi-Dust",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Incinerador",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Generador de EnderCrytals",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "The Bedrock Tower",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Sistema Perimetral",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Gnerador automático de EnderCrystals y Diamiantes",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Forwarp",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    }
-  ],
-  "tierA": [
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Über Orber",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Spawngea",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Blocones",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Proyecto",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Cronódromo del Destino",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Paramo Helado de Piggers",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "La Forja de Tiempo",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Los Rascahielos",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    }
-  ],
-  "tierB": [
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "F.O.I.",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Catedral Esqueleto",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Proyecto Fractalis",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Granja de Obsidiana",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Granja de Madera",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Impresora de Agua",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Hidro Receptor Infernal",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Ghast Catcher",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Triple Gold Pan",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Skeleton Trap Trap",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "Auto Wither Killer",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "La Chunktera",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "The Pathfinder",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    }
-  ],
-  "tierC": [
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    }
-  ],
-  "tierD": [
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
-    },
-    {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
+      "blocks_used": [
+        "obsidian",
+        "redstone_block",
+        "slime_block",
+        "piston",
+        "gold_block",
+        "lever",
+        "redstone_lamp",
+        "stone_brick_stairs",
+        "glass",
+        "white_stained_glass",
+        "stone_brick_slab",
+        "redstone",
+        "beacon",
+        "save_state",
+        "sand",
+        "observer",
+        "tnt"
+      ],
+      "coords": {
+        "x": "395",
+        "z": "8317"
+      },
+      "episode_number": "155",
+      "mechanisms_carried_out": [
+        "Save State",
+        "Falling Block Swap",
+        "Threads + Codigo asíncrono",
+        "Paralelismo (race condition)",
+        "Populacion",
+        "HashMap",
+        "Update Supression"
+      ],
+      "official_name_of_project": "Universal Datatrap",
+      "project_biome": "plains",
+      "project_objetives": [
+        "En el episodio 155 construyó esta colosal maquina con el propósito de obtener bloques de Bedrock para su mundo",
+        "Como Curiosidad, Rich dijo en un streaming el 03/08/2022 a las 22:26:40 que cambiaría el arte en un próximo episodio, el cual cambio en el episodio 156 (imagen 8). El proyecto sufrió múltiples fuentes de crasheos. Todo esto para facilitar la obtencion de algunos bloques aparentemente exclusivos del modo creativo como el command block. Gracias a la obtencion de este ultimo se origino el SVSG",
+        "En el episodio 166 hace una pequeña mejora al proyecto para generar bloques de nether portal con mayor facilidad, la finalidad de esto es llegar a Farlands. En este episodio muestra por primera vez el logo completo del proyecto (2º imagen)",
+        "En el episodio 170 enseña su rutina de matenimiento para Universal Datatrap",
+        "En el episodio 171 hace una nueva seccion del proyecto para overstackear items que por defecto se stackean de 16, como las enderpearls, snowballs, carteles, armors stands o huevos",
+        "En el episodio 179 se modifica la paleta y automatiza la obtencion de bloques de bedrock"
+      ],
+      "version": "1.12"
     }
   ],
   "tierUnranked": [
     {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
+      "blocks_used": [
+        "mossy_cobblestone",
+        "netherrack",
+        "nether_bricks",
+        "lapis_block",
+        "stone_bricks"
+      ],
+      "episode_number": "19",
+      "mechanisms_carried_out": {
+        "mechanisms_name": "2 Pistones con redstone",
+        "url": "https://youtube.com/watch?v=2cdXTAZhlnM"
+      },
+      "official_name_of_project": "Gusanator",
+      "others": "Fue la primer granja semi-automatica que construyó en survival",
+      "others_name_of_project": "Granja de Mélones",
+      "project_biome": "Plains",
+      "project_objetives": "Granja de Mélones",
+      "version": "1.3"
     },
     {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
-      "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
+      "blocks_used": ["lapis_block", "sandstone"],
+      "curiosities": [
+        "Fue la primera granja que construyó en el End",
+        "Fue el primer proyecto en ser mostrado con un trailer"
+      ],
+      "episode_number": "20",
+      "mechanisms_carried_out": "Dispensers",
+      "official_name_of_project": "Disyuntor de Endermans",
+      "project_biome": "End",
+      "project_objetives": "Es una zona para refugiarse de los endermans mientras los mata para xp",
+      "version": "1.3"
     },
     {
-      "animations": "",
-      "blocks_used": [ ],
-      "coords": { "x": "", "z": "" },
+      "blocks_used": [
+        "snow_block",
+        "sticky_piston",
+        "stone_brick_stairs",
+        "stone_bricks"
+      ],
+      "coords": {
+        "x": "1156",
+        "z": "7837"
+      },
+      "episode_number": "107",
+      "mechanisms_carried_out": [
+        "Circuitos de redstine",
+        "Formacion de hielo con bloques de nieve y agua"
+      ],
+      "official_name_of_project": "Granja de Hielo v3",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": "Bloques de Hielo",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["stone_bricks", "stone", "minecart", "piston"],
+      "curiosities": [
+        "No funcionó porque al salir del juego animales se caían del minecart",
+        "Así como el episodio 25 se llamo \"Chuletizador Fallido!\", Rich quiso hacer un episodio llamado \"Chuletizador Arreglado!\" en el que solucionase los errores del primer modelo",
+        "Esta fue la primera vez que Rich se aprovecho de un bug (railes flotantes) para hacer un mecanismo"
+      ],
+      "episode_number": "25",
+      "mechanisms_carried_out": "Minecart sobre Riel",
+      "official_name_of_project": "Chuletizador",
+      "project_biome": "Plains",
+      "project_objetives": "Es una granja de vacas y cerdos",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": [
+        "gray_terracotta",
+        "black_carpet",
+        "blue_carpet",
+        "coal_block",
+        "oak_pressure_plate",
+        "redstone_lamp (Lit)",
+        "cobblestone_wall",
+        "oak_trapdoor",
+        "white_stained_glass",
+        "quartz_block",
+        "quartz_pillar",
+        "quartz_stairs",
+        "quartz_slab",
+        "smooth_stone_slab",
+        "chest",
+        "trapped_chest"
+      ],
+      "coords": "No se Saben por el momento, en el episodio 163 pudimos ver que se encuentra cerca de Winter Star y Cotton Square",
+      "curiosities": "En el episodio 170 acude a la granja para revisar que en efecto funciona",
+      "episode_number": "107",
+      "mechanisms_carried_out": [
+        "Circuitos de Redstone",
+        "Formacion de flores con polvo de hueso",
+        "Shifting Floor"
+      ],
+      "official_name_of_project": "Granja de Flores Heladas",
+      "others_name_of_project": "Granja de Flores",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": "Obtener mas tintes y flores rojas y amarillas para el mundo a partir de las amapolas y dientes de leon que genera el proyecto",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "nether_bricks",
+        "iron_bars",
+        "glowstone",
+        "quartz_block"
+      ],
+      "coords": {
+        "x": "-374",
+        "z": "-1213"
+      },
+      "episode_number": "107",
+      "mechanisms_carried_out": "Encerrar blazers",
+      "official_name_of_project": "Mob Switch Infernal",
+      "project_biome": "Nether",
+      "project_objetives": "Que los monstruos no hagan spawn",
+      "records": "Ep174 (1.12) Crea Fractalis 2, um permaloader en 0'0 del Nether, esto arregla el Mob Switch del Nether",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["oak_log", "glass", "stone_bricks"],
+      "episode_number": "66",
+      "mechanisms_carried_out": [
+        "Pistones extensibles",
+        "Dispensers de lava",
+        "Dispensers de huevos"
+      ],
+      "official_name_of_project": "Granja de Pollos",
+      "others": "No funciono correctamente en ningun momento y tuvo que destruirla",
+      "project_biome": "Plains",
+      "project_objetives": "Obtener comida y plumas",
+      "version": "1.5"
+    },
+    {
+      "blocks_used": "slime_block",
+      "coords": [
+        {
+          "x": "2618",
+          "z": "-795"
+        },
+        {
+          "x": "2619",
+          "z": "-852"
+        },
+        {
+          "x": "2676",
+          "z": "-852"
+        },
+        {
+          "x": "2676",
+          "z": "-795"
+        }
+      ],
+      "episode_number": "146",
+      "official_name_of_project": "Monumento Pegajoso",
+      "others": [
+        "Los Elder Guardian del monumento se encuantran sobre el, alejados a una altura aproximada de mas de 50 bloques para evitar el debuff",
+        "Se obtuvieron 4 cofres dobles de prismarine tras picar todo el monumento",
+        "Es un monumento que ya se habia visitado con anterioridad en Survival 1.7 durante el episodio 115 \"Un Nuevo Mundo\", en este capitulo se creo un mundo con la seed en la version 1.8 con el proposito de encontrar monumentos para una futura granja"
+      ],
+      "project_biome": ["River", "Ocean"],
+      "project_objetives": "Extraer los bloques con los que estan formados los monumentos",
+      "version": "1.8"
+    },
+    {
+      "blocks_used": ["glass", "redstone", "cauldron", "arrow"],
+      "coords": {
+        "x": "456",
+        "z": "489"
+      },
+      "episode_number": "142",
+      "mechanisms_carried_out": "Data value changer",
+      "official_name_of_project": "Generador de End Portals",
+      "project_biome": "Ocean",
+      "project_objetives": "\"Duplicar\" los portales de su mundo",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["barrier", "powered_rail"],
+      "coords": {
+        "x": "2369",
+        "z": "7203"
+      },
+      "episode_number": "151",
+      "mechanisms_carried_out": [
+        {
+          "mechanisms_name": "Update Supression",
+          "url": "https://youtube.com/watch?v=mzfLHNeqjuY"
+        },
+        {
+          "mechanisms_name": "Chunk Save State",
+          "url": "https://youtube.com/watch?v=uw7vEGhKoH8"
+        },
+        {
+          "mechanisms_name": "Generacion de Barrier Block",
+          "url": "https://youtube.com/watch?v=zQUBR8dSUIA"
+        }
+      ],
+      "official_name_of_project": "Generador de Barrier Block",
+      "project_biome": "Cold Taiga",
+      "project_objetives": "Generar un barrier block en survival vanilla",
+      "version": "1.10"
+    },
+    {
+      "blocks_used": [
+        "stone_bricks",
+        "emerald_block",
+        "lapis_block",
+        "piston",
+        "rail",
+        "oak_door"
+      ],
+      "coords": {
+        "x": "-1487",
+        "z": "-1407"
+      },
+      "episode_number": ["58", "59", "65"],
+      "mechanisms_carried_out": "Granja de aldeanos",
+      "official_name_of_project": "Proyecto Berilo",
+      "others_name_of_project": ["Mercraftdona", "Librorium-Z"],
+      "project_biome": "Plains",
+      "project_objetives": "Obtener y clasificar aldeanos",
+      "version": "1.4"
+    },
+    {
+      "blocks_used": ["water", "ice"],
+      "curiosities": "Esta granja, junto a la granja de bruhas y la de slime, forma parte del Multi-Dust",
+      "episode_number": "141",
+      "official_name_of_project": "Granja de Calamares",
+      "others": "El diseño original de la granja es de JL2579",
+      "project_biome": "Swamp",
+      "project_objetives": "Ser una granja sencilla que genere suficientes Ink Sacks para las necesidades de Rich",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "stone_bricks",
+        "redstone_lamp",
+        "hopper",
+        "lava",
+        "glass",
+        "oak_sign"
+      ],
+      "curiosities": [
+        "La primera granja de slimes estuvo a pocos bloques de su casa y fue construida en el episodio 13",
+        "Esta granja, junto a la granja de brujas y la de calamares, forma parte del Multi-Dust"
+      ],
+      "episode_number": "141",
+      "official_name_of_project": "Granja de Slimes",
+      "others": "El diseño original es de Kaumaru102",
+      "project_biome": "Swamp",
+      "project_objetives": "Generar slimes para las futuras necesidades de Rich",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["ice", "sugar_cane", "black_wool", "lily_pad"],
+      "episode_number": "121",
+      "official_name_of_project": "Granja de Caña de Azucar",
+      "others": "El patron de colocacion del agua es el mas optimo para aprovechar el espacio en las granjas de caña de azucar",
+      "project_biome": "Plains",
+      "project_objetives": "Crear una granja extensa donde recolectar la caña de azucar que necesite",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "netherrack",
+        "redstone_torch",
+        "lever",
+        "repeater",
+        "stone_button",
+        "stone_presure_plate",
+        "piston",
+        "sticky_piston",
+        "obsidian",
+        "oak_log",
+        "oak_leaves"
+      ],
+      "episode_number": "131",
+      "mechanisms_carried_out": ["Data value changer"],
+      "official_name_of_project": "Gran Árbol Padre y Custodio del Árbol Primogenio",
+      "others": [
+        "El diseño del árbol fue obtenido de un torneo que hizo Rich para que la gente mandara diseños",
+        "En total se contemplaron 484 mundos para el torneo",
+        "Las hojas del árbol fueron obtenidas solo de arboles grandes antiguos",
+        "La construcción del árbol fue tan tediosa que llego a retrasar capitulos de Survival",
+        "El diseño del árbol es de KamiADN"
+      ],
+      "project_biome": "Forest",
+      "project_objetives": "Crear un momumento que simbolice la segunda etapa de su mundo supervivencia, siendo el árbol original un tributo a los origenes del mundo y el árbol exterior a la industrializacion del mismo",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["nether_bricks", "glass", "stone_brick_stairs", "piston"],
+      "curiosities": "El proyecto surge por la necesidad de almacenar rapidamente items producidos en el multi-dust antes que los hoppers existieran",
+      "episode_number": "61",
+      "mechanisms_carried_out": "Elevador de items",
+      "official_name_of_project": "Fuente de los Deseos",
+      "project_biome": "River",
+      "project_objetives": "Transportar los items generados por el proyecto Multi-Dust y soltarlos en un punto como si fueran una fuente",
+      "version": "1.4"
+    },
+    {
+      "blocks_used": [
+        "grass_block",
+        "cobblestone",
+        "stone",
+        "mossy_cobblestone"
+      ],
+      "coords": {
+        "x": "2744",
+        "z": "-5721"
+      },
+      "episode_number": ["69", "127"],
+
+      "official_name_of_project": "Mushroom Islands con Moais",
+      "others": [
+        "Todos los Moais miran al Este",
+        "Por simple que parezca, al contener tantas esmeraldas este es uno de los lugares donde se acumalan una gran cantidad de riquezas",
+        "Cada Moai tiene un cofre doble lleno de bloques de esmeralda en su interior",
+        "En cada cumpleaños de rich, se guarda de manera random una tarta dentro de esté"
+      ],
+      "project_biome": "Mushroom Island",
+      "project_objetives": "Transformar la primera Mushrrom Island de Rich, cubriendola totalmente de grass y construir Moais en ella, posteriormente seria el lugar seleccionado para almacenar una gran cantidad de esmeraldas, 1M, obtenidas de tradear con aldeanos",
+      "version": ["1.5", "1.7"]
+    },
+    {
+      "blocks_used": ["stone_bricks", "terracotta"],
+      "coords": {
+        "x": "-260",
+        "z": "-1600"
+      },
       "episode_number": "",
-      "mechanisms_carried_out": [ ],
-      "name_of_project": "",
-      "project_biome": "",
-      "project_objetives": "",
-      "version": ""
+      "official_name_of_project": "Mausoleo de los Fans",
+      "others": [
+        "Esta construccion no ha salido en ningun episodio por ahora. Ha empezado este proyecto en 2017, y ha estado construyendo diversas salas y pasillos del proyecto en directo hasta el momento, incluso ha estado construyendo durante un Twitch Rivals en la que participaba",
+        "Cuando empezo la construccion, en los directos de 2017, Rich se referia al proyecto como el agujero porque lo unico construido en aquel entonces eran las escalinatas de acceso y el agujero de bajada"
+      ],
+      "others_name_of_project": "El agujero",
+      "project_biome": "Extreme Hills",
+      "project_objetives": "Un lugar de reconocimiento a las personas que lo apoyaron a traves de los años",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "obsidian",
+        "piston",
+        "redstone_block",
+        "stone_bricks",
+        "oak_log",
+        "repeater",
+        "dispenser"
+      ],
+      "episode_number": "144",
+      "mechanisms_carried_out": "Encender portales con dispensers",
+      "official_name_of_project": "Pantalla Led v0.5",
+      "others": "Según lo que investigó, es la primera persona que hace una pantalla led usando portales del nether",
+      "project_biome": "Extreme Hills",
+      "project_objetives": "Despedir el año 2020",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "cobblestone",
+        "mossy_cobblestone",
+        "vine",
+        "green_terracotta",
+        "lime_terracotta",
+        "emerald_block",
+        "stone_bricks",
+        "red_carpet",
+        "flower_pot",
+        "grass_block",
+        "glowstone",
+        "stone",
+        "oak_trapdoor"
+      ],
+      "coords": {
+        "x": "-550",
+        "y": "75",
+        "z": "7914"
+      },
+      "curiosities": [
+        "En el episodio 170 repara los mecanismos de la granja",
+        "En el episodio 170 muestra un par de timelapses de la construccion de la granja, que datan del 27 de enero y 1 de febrero de 2015"
+      ],
+      "episode_number": "157",
+      "mechanisms_carried_out": [
+        "Circuito de redstone y formacion de flores con polvo de hueso",
+        "Shifting Floor"
+      ],
+      "official_name_of_project": "Granja de Flores",
+      "others_name_of_project": "Granja de Flores de Flower Forest",
+      "project_biome": "Flower Forest",
+      "project_objetives": "Obtener mas tintes y alliums para el mundo a partir de la flores que genera el proyecto",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": [
+        "obsidian",
+        "white_stained_glass",
+        "iron_block",
+        "redstone_block",
+        "beacon",
+        "ender_chest"
+      ],
+      "coords": {
+        "x": "-270",
+        "z": "8294"
+      },
+      "episode_number": "128",
+      "official_name_of_project": "Capsula del Tiempo",
+      "others": "Una oveja, denominada por rich como \"Oveja del Futuro\", entro en la capsula mientras la construia, El propio Rich dijo que si seguia viva se la llevaria como mascota",
+      "others_name_of_project": "Capsula del Tiempo 2017",
+      "project_biome": "Bosque",
+      "project_objetives": "Enviar un mensaje al Rich del Futuro (de 2017 a 2019)",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "obsidian",
+        "white_stained_glass",
+        "gold_block",
+        "iron_block",
+        "beacon",
+        "ender_chest"
+      ],
+      "coords": {
+        "x": "-270",
+        "z": "8294"
+      },
+      "episode_number": "134",
+      "official_name_of_project": "Capsula del Tiempo",
+      "others": "La oveja viajera que encapsuló en 2017 seguio viva hasta el año de apertura (2019). Rich no se la llevo como mascota ni le puso nombre, pero la tinto de naranja, al igual que otra que encontraba en la superficie. En 2022 las dos seguian con vida",
+      "others_name_of_project": "Capsula deL Tiempo 2019",
+      "project_biome": "Bosque",
+      "project_objetives": "Enviar un mensaje al Rich del futuro (del 2019 al 2022)",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": [
+        "sticky_piston",
+        "snow_block",
+        "obsidian",
+        "smooth_stone_slab",
+        "repeater"
+      ],
+      "coords": {
+        "x": "465",
+        "y": "64",
+        "z": "-225"
+      },
+      "curiosities": [
+        "Granja rota en 1.7 por estar hecha em bioma de Snowy Taiga previo a dicha version, ya que estos biomas pasaron a ser taiga en la 1.7 debido a un [BUG](https://.mojang.com/MC-31205) segun comenta en el episodio 94",
+        "En el episodio 106 dice que acaba de desmantelar los modulos de esta granja (44:20)"
+      ],
+      "episode_number": "90",
+      "mechanisms_carried_out": [
+        "Bad Switch",
+        "T-Flip Flop",
+        "Formacion de hielo con agua"
+      ],
+      "official_name_of_project": "Granja de Hielo v2",
+      "project_biome": "Taiga Nevada",
+      "project_objetives": "Obtencion de bloques de hielo",
+      "version": "1.6"
+    },
+    {
+      "blocks_used": [
+        "netherrack",
+        "mossy_cobblestone",
+        "stone_bricks",
+        "nether_brick_fence"
+      ],
+      "coords": "En su base",
+      "episode_number": "16",
+      "mechanisms_carried_out": "Uso de Pistones",
+      "official_name_of_project": "Granja de Nether Wart",
+      "others": "Fue la primera granja semi-automatica del mundo",
+      "others_name_of_project": "cultivo de Nether Wart",
+      "project_biome": "Plains",
+      "project_objetives": "Crear una pequeña zona en la que plantar y recolectar nether wart de forma semi-automatica",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": [
+        "stone_bricks",
+        "lapis_block",
+        "jack_o_lantern",
+        "oak_sign"
+      ],
+      "coords": {
+        "x": "-225",
+        "y": "36",
+        "z": "-120"
+      },
+      "episode_number": "13",
+      "official_name_of_project": "Granja Manual de Slime",
+      "others": ["Fue la primera granja del mundo", "Es el hogar de Jefferson"],
+      "project_biome": "Plains",
+      "project_objetives": "Conseguir slimes para pociones",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": [
+        "chest",
+        "iron_bars",
+        "stone_bricks",
+        "furnace",
+        "hopper",
+        "repeater"
+      ],
+      "coords": "Cerca al Spawn del mundo",
+      "episode_number": "66",
+      "mechanisms_carried_out": "ascensor de items",
+      "official_name_of_project": "Horno Automatico Hipster",
+      "others_name_of_project": "Horno automático",
+      "project_biome": "Jungle",
+      "project_objetives": "Ahorrar tiempo mientras se cocinan los items",
+      "version": "1.5"
+    },
+    {
+      "blocks_used": ["stone_bricks", "redstone_lamp"],
+      "coords": "Cerca a su base",
+      "episode_number": "31",
+      "official_name_of_project": "Granja de Patatas",
+      "others": "Originalmente la sala estaba al interperie y tenia un mecanismo para encender y apagar las luces para que asi los cultivos saltasen",
+      "others_name_of_project": "Cultivo de patatas (anteriormente de trigo)",
+      "project_biome": "Plains",
+      "project_objetives": "Conseguir comida",
+      "version": "1.3"
+    },
+    {
+      "blocks_used": "netherrack",
+      "episode_number": "139",
+      "official_name_of_project": "Nanofarm",
+      "others": "Rich ha diseñado una nanofarm de patatas falatando a su palabra y fallando a su comunidad tras años repitiendo en numerosas ocaciones que nunca haria una granja de patatas para conservar la escencia del juego. Para colmo, ha construido la nanofarm al lado de la granja manual de patatas, hiriendo asi sus sentimientos, (notese la broma)",
+      "others_name_of_project": "Nanofarm de patatas",
+      "project_biome": "Plains",
+      "project_objetives": "Conseguir muchas mas patatas para el mundo en menor tiempo perdiendo asi la escencia con la que el juego fue concebido...",
+      "version": "1.7"
+    },
+    {
+      "blocks_used": ["orange_concrete", "acacia_slab"],
+      "coords": {
+        "x": "-824",
+        "z": "-640"
+      },
+      "episode_number": "165",
+      "official_name_of_project": "Nanofarm de Survival",
+      "others": [
+        "Esta nanofarm esta situada en la segunda planta de la casa dorada de la madriguera de Piggers en Páramo Helado que Rich construyo",
+        "Rich ha diseñado una nanofarm de patatas falatando a su palabra y fallando a su comunidad tras años repitiendo en numerosas ocaciones que nunca haria una granja de patatas para conservar la escencia del juego. Para colmo, ha construido la nanofarm al lado de la granja manual de patatas, hiriendo asi sus sentimientos, (notese la broma)"
+      ],
+      "others_name_of_project": "Nanofarm de Zanahorias",
+      "project_biome": "Extreme Hills",
+      "project_objetives": "Conseguir zanahorias para una de las mejores comidas (zanahorias doradas) y otros usos",
+      "version": "1.12"
+    },
+    {
+      "blocks_used": ["oak_planks", "oak_log", "spruce_log", "glass"],
+      "coords": {
+        "x": "~ -824",
+        "y": "~ 63",
+        "z": "~ -640"
+      },
+      "episode_number": "53",
+      "official_name_of_project": "Cabaña de 2012",
+      "others": [
+        "Este fue el primer proyecto que hizo para despedir un año en su serie survival",
+        "Rich tomó 12 manzanas de oro referenciando a la tradicion de su pais (españa) de las uvas para dar paso al año nuevo",
+        "Tambien bebió una copita de champagne y un vaso de whisky"
+      ],
+      "others_name_of_project": "La Caseta de los Fireworks",
+      "project_biome": "Plains",
+      "project_objetives": "Pequeña casa para despedir el año 2012 y dar la bienvenida al 2013",
+      "version": "1.4"
     }
   ]
 }

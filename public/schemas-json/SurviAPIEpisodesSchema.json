@@ -1,0 +1,80 @@
+{
+  "$ref": "#/definitions/SurviAPIEpisodesVideos",
+  "definitions": {
+    "SurviAPIEpisodes": {
+      "additionalProperties": false,
+      "properties": {
+        "episode_number": {
+          "type": "string"
+        },
+        "episode_title": {
+          "type": "string"
+        },
+        "release_date": {
+          "type": "string"
+        },
+        "thumbnails": {
+          "$ref": "#/definitions/Thumbnails"
+        },
+        "version": {
+          "type": "string"
+        },
+        "video_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "episode_number",
+        "episode_title",
+        "thumbnails",
+        "version",
+        "video_id"
+      ],
+      "type": "object"
+    },
+    "SurviAPIEpisodesVideos": {
+      "items": {
+        "$ref": "#/definitions/SurviAPIEpisodes"
+      },
+      "type": "array"
+    },
+    "Thumbnail": {
+      "additionalProperties": false,
+      "properties": {
+        "height": {
+          "type": "number"
+        },
+        "url": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        }
+      },
+      "required": ["url", "width", "height"],
+      "type": "object"
+    },
+    "Thumbnails": {
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "$ref": "#/definitions/Thumbnail"
+        },
+        "high": {
+          "$ref": "#/definitions/Thumbnail"
+        },
+        "maxres": {
+          "$ref": "#/definitions/Thumbnail"
+        },
+        "medium": {
+          "$ref": "#/definitions/Thumbnail"
+        },
+        "standard": {
+          "$ref": "#/definitions/Thumbnail"
+        }
+      },
+      "required": ["default", "medium", "high", "standard"],
+      "type": "object"
+    }
+  }
+}

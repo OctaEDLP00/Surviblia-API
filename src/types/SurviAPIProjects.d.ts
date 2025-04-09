@@ -1,29 +1,38 @@
-import { Version } from './enum.ts'
-import { ArrStr, Biome, str } from './main.d.ts'
+import type { AllVersions, Biome } from './main.d.ts'
 
-export interface Coords { x: string; z: string }
+interface Coords {
+  x: string
+  y?: string
+  z: string
+}
 
-export interface TiersObjVal {
-  animations?: str
-  blocks_used: ArrStr
-  curiosity?: str
+interface Tiers {
+  animations?: string
+  blocks_used?: string | Array<string>
+  curiosity?: string
   coords: Coords
-  episode_number: str | ArrStr
-  mechanisms_carried_out: ArrStr
-  official_name_of_project: str
-  others?: str
+  episode_number: string | Array<string>
+  mechanisms_carried_out: Array<string>
+  mentions?: string | Array<string>
+  official_name_of_project: string
+  others_name_of_project?: string
+  others?: string
   project_biome: Biome | Array<Biome>
-  project_objetives: str
-  record?: ArrStr
-  version: Version | Array<Version>
+  project_objetives: string | Array<string>
+  records?: Array<string>
+  version: AllVersions | Array<AllVersions>
+  space?: string
 }
 
 interface SurviAPIProjects {
-  tierSplus: Array<TiersObjVal>
-  tierS: Array<TiersObjVal>
-  tierA: Array<TiersObjVal>
-  tierB: Array<TiersObjVal>
-  tierC: Array<TiersObjVal>
-  tierD: Array<TiersObjVal>
-  tierUnranked: Array<TiersObjVal>
+  tierSplus: Array<Tiers>
+  tierS: Array<Tiers>
+  tierA: Array<Tiers>
+  tierB: Array<Tiers>
+  tierC: Array<Tiers>
+  tierD: Array<Tiers>
+  tierUnranked: Array<Tiers>
 }
+
+export type { Coords, SurviAPIProjects, Tiers }
+export default { Coords, Tiers, SurviAPIProjects }

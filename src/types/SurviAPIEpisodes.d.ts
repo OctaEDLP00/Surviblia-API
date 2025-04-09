@@ -15,7 +15,7 @@ interface Thumbnails {
 export interface SurviAPIEpisodes {
   episode_number: string
   episode_title: string
-  thumbnails: Thumbnails,
+  thumbnails: Thumbnails
   version: string
   videoId: string
 }
@@ -23,3 +23,6 @@ export interface SurviAPIEpisodes {
 export interface SurviAPIEpisodesVideos {
   episodes_videos: Array<SurviAPIEpisodes>
 }
+
+export type { SurviAPIEpisodes, SurviAPIEpisodesVideos }
+export default { SurviAPIEpisodesVideos, SurviAPIEpisodes }

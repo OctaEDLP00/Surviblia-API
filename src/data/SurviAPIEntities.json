@@ -1,0 +1,39 @@
+{
+  "player": [
+    {
+      "apparition_episodes": "118",
+      "entity": "minecraft:player",
+      "name_player": "OmniRich",
+      "others": [
+        "Es la primera cuenta secundaria de Rich en Minecraft",
+        "Su skin es una camara cinematografica"
+      ],
+      "use_of_tool": "OmniRich es una cuenta secundaria de Rich que sirve como herramienta para ayudar al filmado de la serie mediante grabaciones desde angulos complicados y timelapses",
+      "version": "1.7"
+    }
+  ],
+  "zombies": [
+    {
+      "alias": "Mendified Zombie",
+      "apparition_episodes": "162",
+      "domestication": "En un desierto bajo Universal Datatrap",
+      "entity": "minecraft:zombie",
+      "last_seen": "En su Shield Durability Remover Station, debajo del Universal Datatrap en el episodio 162",
+      "name_mob": "Mendified Zombie",
+      "others": "Es un Zombie que fue usado para obtener varios escudos con 3 de Damage(Daño)",
+      "state": "Vivo",
+      "version": "1.12"
+    },
+    {
+      "alias": "Shieldestroyers",
+      "apparition_episodes": "162",
+      "domestication": "En una pradera bajo Universal Datatrap",
+      "entity": "minecraft:zombie",
+      "last_seen": "En su Shield Durability Remover Station, debajo del Universal Datatrap en el episodio 162",
+      "name_mob": "Shieldestroyers",
+      "others": "Son 3 Zombies equipados con una espada de diamante de Sharpness V (Llamada Shield Waster) que dueron empleados para obtener varios escudos con 3 de Damage. Uno de ellos es zurdo",
+      "state": "Vivo",
+      "version": "1.12"
+    }
+  ]
+}

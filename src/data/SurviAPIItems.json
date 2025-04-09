@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "apparition_episodes": "121",
+      "enchantments": [
+        { "id": "minecraft:projectile_protection", "lvl": "4" },
+        { "id": "minecraft:smite", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:lure", "lvl": "3" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:aqua_affinity", "lvl": "1" },
+        { "id": "minecraft:power", "lvl": "5" },
+        { "id": "minecraft:knockback", "lvl": "2" }
+      ],
+      "material": "minecraft:book",
+      "name_tool": "Libro del Creador",
+      "others": "Para crearlo Rich busco cual es la cantidad maxima de encantamientos que se puede poner a un ítem",
+      "use_of_tool": "Tener un libro para crear una herramienta OP rápidamente",
+      "version": "1.7"
+    },
+    {
+      "apparition_episodes": "",
+      "material": "minecraft:book",
+      "name_tool": "Cuaderno de Exloracion",
+      "use_of_tool": "Libro para anotar coordenadas y zonas de interés",
+      "version": "1.X"
+    }
+  ],
+  "elytras": [
+    {
+      "apparition_episodes": "49",
+      "enchantments": [
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "material": "minecraft:elytra",
+      "name_tool": "Orbitamundos",
+      "version": "1.9"
+    },
+    {
+      "apparition_episodes": "149",
+      "enchantments": [{ "id": "minecraft:unbreaking", "lvl": "3" }],
+      "material": "minecraft:elytra",
+      "name_tool": "Primera Elytra de Survival 1.9",
+      "others": "Al principio solo se les pone el encantamiento de Unbreaking III y luego off camera las renombra",
+      "version": "1.9"
+    }
+  ],
+  "maps": [
+    {
+      "apparition_episodes": "",
+      "material": "minecraft:map",
+      "name_tool": "Mapamundi 0,0",
+      "use_of_tool": "Ubicar zona de 0,0",
+      "version": "1.X"
+    }
+  ],
+  "shulkers": [
+    {
+      "apparition_episodes": "156",
+      "material": "minecraft:shulker_box",
+      "name_tool": "⚠ Tech Trash ⚠",
+      "others": "(Shulker Roja)",
+      "use_of_tool": "Almacen de ítems utilizados para minecraft técnico, móvil",
+      "version": "1.12"
+    },
+    {
+      "apparition_episodes": "157",
+      "material": "minecraft:shulker_box",
+      "name_tool": "⌚ Time Travel Parcel ⌚",
+      "others": "Es la primera shulker blanca creada en el mundo; Es la tercera cápsula del tiempo, es la primera que no es un cofre",
+      "use_of_tool": "Es la cápsula del tiempo que debe ser abierta el 01/08/2027",
+      "version": "1.12"
+    },
+    {
+      "apparition_episodes": "152",
+      "material": "minecraft:shulker_box",
+      "name_tool": "♾ Wither Box ♾",
+      "others": "Se generaron 15 en el episodio 152 y una adicional en el episodio 153; Utilizo extracto de carbon(dye;ink_sack) para su confeccion",
+      "use_of_tool": "Almacen de ítems multiuso y movil",
+      "version": "1.11"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "shovel": [
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Desenterrador de Delicias",
+      "material": "minecraft:diamond_shovel",
+      "enchantments": [
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:silk_touch", "lvl": "1" }
+      ],
+      "use_of_tool": "Pala principal Silk Touch en el anterior arco de survival",
+      "others": "Predecesor de Desentierrajoyas"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Desentierrajoyas",
+      "material": "minecraft:diamond_shovel",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "use_of_tool": "Pala principal Silk Touch en el arco actual de survival",
+      "others": "Sucesor de Desenterrador de Delicias"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Instrumento del Enterrador",
+      "material": "minecraft:diamond_shovel",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Pala principal en un arco anterior de survival",
+      "others": "Predecesor del Instrumento del Terraformador"
+    },
+    {
+      "apparition_episodes": "158",
+      "version": "1.12",
+      "name_tool": "Instrumento del Terraformador",
+      "material": "minecraft:diamond_shovel",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:mending", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Pala Principal en el arco actual de Survival",
+      "others": "Sucesor del Instrumento del Entrrador"
+    }
+  ],
+  "hoes": [
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Germinador Infinito",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "apparition_episodes": "157",
+      "version": "1.12",
+      "name_tool": "Deforestador Galáctico",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "use_of_tool": "Hacha principal en uno de los arcos de Survival",
+      "others": "Sucesor del Deforestador Planetario; El nombre inicial era Deforastor Galactico (por un error inicial, el cual fue corregido en el episodio 157 y oficializado en el episodio 158)"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Deforestador Omnipotente",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Hacha principal en uno de los arcos de Survival",
+      "others": "Predecesor del Omnitrozador Supremo"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Deforestador Planetario",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Hacha principal en uno de los arcos de Survival",
+      "others": "Predecesor de Deforastor Galáctico"
+    },
+    {
+      "apparition_episodes": "157",
+      "version": "1.12",
+      "name_tool": "Ejecutor de Entidades",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "others": "Sucesor de la Guillotina del Instructor"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Falce de la Fortuna",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:fortune", "lvl": "3" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:sharpness", "lvl": "5" }
+      ],
+      "use_of_tool": "Hacha principal de fortuna en el mundo",
+      "others": "Predecesor de la Guadaña Invocadora"
+    },
+    {
+      "apparition_episodes": "157",
+      "version": "1.12",
+      "name_tool": "Guadaña Invocadora",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:mending", "lvl": "1" },
+        { "id": "minecraft:fortune", "lvl": "3" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Hacha principal de fortuna en el mundo",
+      "others": "Sucesor del Falce de la Fortuna"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Guillotina del Instructor",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:sharpness", "lvl": "5" }
+      ],
+      "others": "Predecesor del Ejecutor de Entidades"
+    },
+    {
+      "apparition_episodes": [ "157", "175" ],
+      "version": "1.12",
+      "name_tool": "Omnitrozador Supremo",
+      "material": "minecraft:diamond_axe",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:mending", "lvl": "1" },
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Hacha principal de Silk Touch en el mundo",
+      "others": "Sucesor del Deforestador Omnipotente"
+    }
+  ],
+  "pickaxe": [
+    {
+      "apparition_episodes": "135",
+      "version": "1.7",
+      "name_tool": "Chunk Norich",
+      "material": "minecraft:wooden_pickaxe",
+      "enchantments": [ { "id": "minecraft:silk_touch", "lvl": "1" } ],
+      "use_of_tool": "Picar el ultimo bloque del Multi-Dust"
+    },
+    {
+      "apparition_episodes": "140",
+      "version": "1.7",
+      "name_tool": "Endeater",
+      "material": "minecraft:gold_pickaxe",
+      "use_of_tool": "Picar el ultimo bloque del End"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Ender Quatum",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Proyecto Terra; Pico principal del mundo",
+      "others": "Predecesor de Perimetrizador Ligero"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Gran Pico de la 1.9",
+      "material": "minecraft:iron_pickaxe",
+      "use_of_tool": "Cuenta la leyenda que fue un pico utilizado solo en streams para identificar/picar bloques fantasmas en la verison 1.9",
+      "others": "Aparece en el episodio 153 y logra el advancement Isn't It Iron Pick"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Instacristalizador",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "2" },
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "2" }
+      ]
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Mi Primer Fortuna 3",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [ { "id": "minecraft:fortune", "lvl": "3" } ],
+      "use_of_tool": "Picar ores con el máximmo beneficio",
+      "others": "No me pone nombre en el capitulo 13 de survival 1.3;En el anterior intento obtiene un pico de fortuna(fortune) 2 irrompibilidad(unbreaking) 3 y efficiencia(efficiency) 4"
+    },
+    {
+      "apparition_episodes": "149",
+      "version": "1.9",
+      "name_tool": "Perimetrizador Ligero",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "use_of_tool": "Pico principal",
+      "others": "Sucesor de Elder Quantum como herramienta principal"
+    },
+    {
+      "apparition_episodes": "66",
+      "version": "1.5",
+      "name_tool": "Quartzeador Desalmado",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:fortune", "lvl": "3" },
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "use_of_tool": "Picar cuarzo"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Taladros de exquisiteces",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:efficiency", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:silk_touch", "lvl": "1" }
+      ]
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Tulenadora de Suscripciones",
+      "material": "minecraft:diamond_pickaxe",
+      "enchantments": [
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:efficiency", "lvl": "3" }
+      ]
+    }
+  ],
+  "shears": [
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Desmantelador de Mineshafts",
+      "material": "minecraft:shears",
+      "enchantments": [
+        { "id": "minecraft:silk_touch", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:efficiency", "lvl": "4" }
+      ],
+      "use_of_tool": "Tijeras para obtener Cobwebs"
+    },
+    {
+      "apparition_episodes": "",
+      "version": "1.X",
+      "name_tool": "Esquiladora de Estepicursores",
+      "material": "minecraft:shears",
+      "enchantments": [
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ]
+    }
+  ],
+  "shield": [
+    {
+      "apparition_episodes": "162",
+      "version": "1.12",
+      "name_tool": "Steve Head Hype!",
+      "material": "minecraft:shield",
+      "enchantments": [ { "id": "minecraft:mending", "lvl": "1" } ],
+      "use_of_tool": "Fue usado para conseguir la primera cabeza de Steve del mundo con la ayuda de Universal Datatrap",
+      "others": "Fue el primer escudo con 3 de damage del mundo"
+    }
+  ]
+}

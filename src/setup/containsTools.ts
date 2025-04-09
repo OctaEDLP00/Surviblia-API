@@ -1,5 +1,8 @@
-import SurviAPIData from '@data/SurviAPI.json'
+import SurviAPITools from '@/data/SurviAPITools.json'
 
-export function containsTools(tool: string | RegExp): string | undefined {
-  return Object.keys(SurviAPIData.tools).find(t => t.match(tool))
+function containsTools(tool: string | RegExp): string | undefined {
+  return Object.keys(SurviAPITools).find((t) => t.match(tool))
 }
+
+export { containsTools }
+export default containsTools

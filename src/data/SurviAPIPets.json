@@ -1,0 +1,616 @@
+{
+  "officials": [
+    {
+      "alias": "Lopi",
+      "apparition_pet": "Episodios 1, 2, 3, 4, 5",
+      "domestication": "En una noche, en el bosque de al lado de la casa con el único hueso del inventario.",
+      "episode_number": "1",
+      "last_see": "Muere defendiendo a su amo.",
+      "name_pet": "Lobagnus Philips",
+      "others": [
+        "Tiene un tumba",
+        "En el Intermedio del episodio 165, Lopi hace aparición en forma de fantasma junto a Rich, Piggers, Mr. Tiger Chunks, Jefferson y los fantasmas de Guadrado I, Guadrado II, Guadrado III y Wuar IV."
+      ],
+      "specie": "Lobo",
+      "state": "Muerto",
+      "version": "1.3"
+    },
+    {
+      "alias": "Guadrado",
+      "apparition_pet": "Ep 8",
+      "domestication": "En una Taiga, de noche",
+      "episode_number": "8",
+      "last_see": [
+        "Guadrado se pierde desde el punto de domesticación hasta la casa.",
+        "En el Episodio 44, Rich contó que encontró a Guadrado mientras exploraba, intentó traerlo a casa por el portal del End pero desapareció por un bug por el que las entidades no podían atravesar portales."
+      ],
+      "name_pet": "Guadrado I",
+      "others": [
+        "Tiene una tumba.",
+        " En el Intermedio del episodio 165, Guadrado I hace aparición en forma de fantasma junto a Rich, Piggers, Mr. Tiger Chunks, Jefferson y los fantasmas de Lobagnus Philips, Guadrado II, Guadrado III y Wuar IV."
+      ],
+      "specie": "Lobo",
+      "state": "Muerto",
+      "version": "1.3"
+    },
+    {
+      "alias": "Guadrado II",
+      "apparition_pet": "Episodios 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 32, 33",
+      "domestication": "En el bosque cerca de la casa, en el medio de la lluvia",
+      "episode_number": "8",
+      "last_see": "En el episodio 33, muere en una columna de lava en la cueva.",
+      "name_pet": "Guadrado II, mejor que Guadrado I",
+      "others": [
+        "Tiene una tumba.",
+        "En el Ep33 (8:04) le dice \"En algún capítulo jugaré contigo\".",
+        "En el Intermedio del episodio 165, Guadrado II hace aparición en forma de fantasma junto a Rich, Piggers, Mr. Tiger Chunks, Jefferson y los fantasmas de Lobagnus Philips, Guadrado I, Guadrado III y Wuar IV."
+      ],
+      "specie": "Lobo",
+      "state": "Muerto",
+      "version": "1.3"
+    },
+    {
+      "apparition_pet": "Ep 16",
+      "domestication": "En la granja de slimes",
+      "episode_number": "16",
+      "last_see": "Muere en el ep16 intentando subir la escalera de la granja de slimes.",
+      "name_pet": "Gelatino",
+      "others": ["Tiene una tumba.", "Es la mascota más efímera."],
+      "specie": "Slime",
+      "state": "Muerto",
+      "version": "1.3"
+    },
+    {
+      "apparition_pet": "Episodio 32, 37, 100, [...], 156, 159...",
+      "domestication": "El 09/09/2012, en el tercer stream de Twitch, un enderman lo deposita en la granja de slimes.",
+      "episode_number": "32",
+      "last_see": "En la primera granja de slimes, episodio 159.",
+      "name_pet": "Jefferson",
+      "others": "Sufrió daños en el episodio 37.",
+      "specie": "Bloque de Grass",
+      "state": "De reposo (Vivo)",
+      "version": "1.3"
+    },
+    {
+      "apparition_pet": "Episodios 37, 40, 41, 42, 43, 44, 45, 46, 61, 62, 63, 64, 65",
+      "domestication": "En la jungla del spawn, spawnea frente a Rich.",
+      "episode_number": "37",
+      "last_see": "Sentado junto a la cama frente al Proyecto Berilo. El episodio 65 termina con Leopardus Vandals junto a la cama y el episodio siguiente inicia en el mismo lugar sin la mascota.",
+      "name_pet": "Leopardus Vandals",
+      "others": "Es un gatp de tipo \"Atigrado Rojo\"",
+      "specie": "Ocelote",
+      "state": "Desconocido, apararentemente muerto. Hay una teoria de que ha despawneado.",
+      "version": "1.3"
+    },
+    {
+      "apparition_pet": "En el episodio 44, 47, 162 [...]",
+      "domestication": "Encontrada en tundra nevada (Ep44).",
+      "episode_number": "44",
+      "last_see": "En el Proyecto Terra, expuesta como trofeo del mundo.",
+      "name_pet": "Betty III",
+      "specie": "Oveja Rosa Natural",
+      "state": "Viva",
+      "version": "1.4"
+    },
+    {
+      "apparition_pet": [
+        "El James original aparece en el episodio 46 y 47",
+        "Su copia, en cambio, aparece en los episodios 47, 48, 49, 50, 51, 53, 56, 58 y 59"
+      ],
+      "curiosities": [
+        "James desapareció de su casa al actualizar a la versión 1.4.2 (Previo al Ep47, fuera de cámaras). En el episodio 47, Rich se encontró a James en el Nether, por lo que probablemente se hayan \"duplicado\" por un bug. En ese momento Rich se dio cuenta de que el James que estaba en casa era la copia y decidió dejar al original en el Nether (22:05).",
+        "Rich estaba grabando un tutorial en peaceful (\"Ascensor de items para la 1.5\") y por error entró a su mundo Survival con esa dificultad aplicada. El clon de James desapareció al abrir el mundo (11 de Febrero de 2013, a las 23:30h aprox, día anterior a la subida del Ep60).",
+        "El James original, que seguía en el Nether, murió por un Ghast al intentar traerlo al Overworld para sustituir al James original que acababa de morir (Off-camera, entre el Ep59-60)."
+      ],
+      "domestication": "En la nether fortress",
+      "episode_number": "46",
+      "last_see": [
+        "El original fue visto por última vez en el episodio 47, cuando Rich se dio cuenta que se habían \"duplicado\". Este murió fuera de cámaras entre el Ep59-60.",
+        "El clon de James pudimos verlo en el episodio 59 por última vez, antes de que muriese off-camera entre el 59 y el 60."
+      ],
+      "name_pet": "James",
+      "others": ["Tiene un tumba en el mundo", "Armor de cuero tintada"],
+      "specie": "Wither Skeleton",
+      "state": "Muerto",
+      "version": "1.4"
+    },
+    {
+      "apparition_pet": "James aparece en el episodio 60, y del 60 al 64",
+      "domestication": "Lo trajo de camaras entre el episodio 59 y 60, tras la desaparicion del clon de James y la muerte de James original",
+      "episode_number": "60",
+      "last_see": "James II desaparecio en el episodio 65 (8:05)",
+      "name_pet": "James II",
+      "others": "Tiene tumba en el mundo",
+      "specie": "Wither Skeleton",
+      "state": "Muerto",
+      "version": "1.4"
+    },
+    {
+      "apparition_pet": "Desde el episodio 67 hasta el 70, y del 72 al 74",
+      "domestication": "En la mina de diamantes de Rich",
+      "episode_number": "67",
+      "last_see": "Muere en el episodio 74 a manos de Rich con una pocion",
+      "name_pet": "Poppy",
+      "others": [
+        "Rich dejó su Survival AFK un momento y cuando volvió había un zombie amigable enfrente suya.",
+        "Es un zombie con el atributo de CanPickUpLoot al que Rich le dropeó un casco de oro y una poción de visión nocturna. Posteriormente lo reequipó con armor de cuero tintada.",
+        "Fue usado para convertir a los aldeanos del Receptor Esmeráldico",
+        "Fue uno de los 7 mobs con tumba. Su tumba es la única que no tiene cartel. Esto ocurrió porque Rich dijo que la pondría más tarde y nunca lo hizo."
+      ],
+      "specie": "Zombie",
+      "state": "Muerto",
+      "version": "1.5"
+    },
+    {
+      "apparition_pet": "Los episodios 82, 83 y 85. Tambien del 87 al 89",
+      "domestication": "En una pradera",
+      "episode_number": "82",
+      "last_see": "Episodio 89 en el Proyecto Terra, en el episodio 90 no esta donde lo dejaron (6:50)",
+      "name_pet": "Mr. Felpudo",
+      "others": [
+        "Tiene 28 puntos de vida y un salto máximo de dos bloques completos.",
+        "Antes de tener la armadura de diamante actual, fue equipado con una de hierro y una de oro."
+      ],
+      "specie": "Caballo White Sooty (Blanco Hollinoso)",
+      "state": "Desaparecido, aparentemente muerto",
+      "version": "1.6"
+    },
+    {
+      "alias": "Guadrado III",
+      "apparition_pet": "Ep 116",
+      "domestication": "En el bosque, cerca de una taiga",
+      "episode_number": "116",
+      "last_see": "En el FOI, en el episodio 116, luchando contra 5 Wither Skeletons",
+      "name_pet": "Guadrado III, mejor que Guadrado II y Guadrado I",
+      "others": "Ene el intermedio del episodio 165 Guadrado III hace un aparicion en forma de fantasma junto a Rich, Piggers, Mr Tiger Chunks, Jefferson y los fantasmas de LObagnus Philips Guadrado I Guadrado II y Wuar IV",
+      "specie": "Lobo",
+      "state": "Muerto",
+      "version": "1.7"
+    },
+    {
+      "alias": "Wuar IV",
+      "apparition_pet": "Desde el episodio 116 hasta su muerte off camera el 6 de julio de 2021, poco antes del Ep 145",
+      "domestication": "Fue domesticado el 24 de Agosto de 2014 en una Mega Taiga con un hueso real de Wither Skeleton",
+      "episode_number": "116",
+      "last_see": "Se desconoce el motivo de muerte, pero segun palabras de Rich, en un futuro lo sabremos",
+      "name_pet": "Guadrado IV, mejor que Guadrado III, Guadrado II y Guadrado I juntos",
+      "others": [
+        "Tiene el collar de color negro",
+        "Fue la primera mascota en tener su propio hogar, y la unica junto a Mr.Tiger Chunks y Piggers",
+        "Al principio su nombre iba a ser Guadrado IV, pero Rich pensó que Guar IV también quedaba bien, además se parecía a War IV, así que combinó los dos nombres y le puso Wuar IV como apodo, aunque el nombre real siempre será Guadrado IV, mejor que Guadrado III, Guadrado II y Guadrado I juntos.",
+        "En el episodio 144, Rich dice que desde que actualizó a la 1.7.8 Wuar IV está enfermo, es muy longevo y se ha hecho viejo. Wuar IV ya no responde a la llamada de Rich aunque sigue ladrando y comiendo.",
+        "En el Intermedio del episodio 165, Wuar IV hace aparición en forma de fantasma junto a Rich, Piggers, Mr. Tiger Chunks, Jefferson y los fantasmas de Lobagnus Philips, Guadrado I, Guadrado II y Guadrado III.",
+        "Rich hace una silla para él en la sala VIP de Pet Buffet y reconfirma que era la mascota más importante de su mundo en el episodio 176."
+      ],
+      "specie": "Lobo",
+      "state": "Muerto",
+      "version": "1.7"
+    },
+    {
+      "apparition_pet": "Desde el episodio 134. Episodio 138, 156, 159, 160, 161, 162, 163, 165, 175, 176",
+      "domestication": "Picando los ultimos chunks del Multi-Dust en directo",
+      "episode_number": "En un directo de Twitch el 25-11-2018 (Entre el episodio 133 y 134)",
+      "last_see": "Oficialmente en el episodio 176, en la sala VIP del Pet Buffet",
+      "name_pet": "Piggers",
+      "others": [
+        "Su nombre proviene de la palabra Pig (Cerdo en inglés) + el conocido meme Poggers, que denota emoción o asombro por algo.",
+        "Aunque podemos ver a Piggers en el episodio 134 no lo muestra oficialmente hasta el episodio 138.",
+        "Fuera de cámaras, entre el episodio 161 y 162, Rich saca a pasear a Rich y este le muerde pierna pues parece estar celoso de otras mascotas. Entre el episodio 162 y 163 Piggers vuelve a morder a Rich, esta vez la otra pierna. Rich decide llevarle a Cotton Square para que pase frío como castigo. En el episodio 165, Rich construye el Páramo Helado de Piggers, en el que está la madriguera de Piggers. Un loooooooreeee.",
+        "En el Intermedio del episodio 165, Piggers hace aparición junto a Rich, Mr. Tiger Chunks, Jefferson y la forma fantasmal de Lobagnus Philips, Guadrado I, Guadrado II, Guadrado III y Wuar IV.",
+        "En un directo de Twitch, el día 12 de agosto de 2023 a las 16:49 en España, Rich saludó al hermano de Piggers justo antes de matarlo. Después de esto, confirmó que era canon. (Clip)",
+        "En el episodio 175, Piggers deja bajo el árbol de navidad 5 shulker boxes llenas de zanahorias doradas para Rich",
+        "En el episodio 176 Rich confirma que Piggers, junto a Mr. Tiger Chunks y Wuar IV son las 3 mascotas más importantes de su mundo.",
+        "En el episodio 176 está en la comida de fin de año e informa a Rich sobre los extraños sucesos que están ocurriendo en el mundo y las partículas que alteran todo, Rich le pide que le informe si se entera de algo más."
+      ],
+      "specie": "Cerdo",
+      "state": "Vivo",
+      "version": "1.7"
+    },
+    {
+      "apparition_pet": "En los episodios 134 139 145 161 173 175 176",
+      "domestication": "Off Camera. nay hay informacion sobre ello",
+      "episode_number": "134",
+      "last_see": "En el episodio 175 (30:28), en una capsula de cristal, detras del tablon de tareas en Spawngea, cerca de la casa",
+      "name_pet": "Floda",
+      "curiosities": "Floda viene de su bifronte Adolf, que a su vez es una referencia a la mascota del mismo nombre de la serie \"Un creeper en casa\" de su buen amigo Kakytron.",
+      "records": [
+        "A pesar de aparecer en el episodio 134, no fue hasta el Ep139 cuando lo mostró como mascota.",
+        "Estuvo desaparecido desde el episodio 139 y fue encontrado en el episodio 145.",
+        "En el episodio 161 Rich encierra a Floda en una cápsula de cristal, en Spawngea.",
+        "En el episodio 173 revela que quiere que Floda se convierta en un creeper eléctrico natural."
+      ],
+      "specie": "Crepper",
+      "state": "Vivo",
+      "version": "1.7"
+    },
+    {
+      "apparition_pet": "En una screenshot que Rich publicó en Twitter.",
+      "domestication": "Según la información recopilada del episodio 139, probablemente sea un gato de la antigua granja de hierro del spawn, que se coló en los pasillos del infierno.",
+      "episode_number": "Off-Stream, entre el episodio 137 y 138",
+      "last_see": "En la misma screenshot de antes.",
+      "name_pet": "Schörichnger",
+      "others": "Schörichnger es la única mascota que hemos visto a pesar de no aparecer en ningún episodio ni directo de Twitch. Lo hemos visto gracias a un tweet de Rich.",
+      "specie": "Gato",
+      "state": "Muerto",
+      "version": "1.7"
+    },
+    {
+      "alias": "Tenebrator",
+      "apparition_pet": "Desde el episodio 140. Episodio 159, 170, 171, 176...",
+      "domestication": "En la plataforma de cristal del End, en medio del vacío.",
+      "episode_number": "140",
+      "last_see": "En el episodio 176, en su minecart en el End.",
+      "name_pet": "Tenebrator I",
+      "others": [
+        "Está en un minecart y tiene un bloque de TNT en la mano.",
+        "En el episodio 153 Rich respawnea a la dragona y Tenebrator recibe daño con agua (27:12).",
+        "En el episodio 159 Rich cura a Tenebrator usando un par de pociones de vida (36:39).",
+        "En el episodio 171, después de que Rich empezase a overstackear enderpearls, Tenebrator I parece enfadarse con él y no le quiere mirar a la cara (1:04:20).",
+        "En el episodio 176 Rich va a visitar a Tenebrator I, pero este sigue evitando el contacto visual con Rich."
+      ],
+      "specie": "Enderman",
+      "state": "Vivo",
+      "version": ""
+    },
+    {
+      "apparition_pet": "Ninguna",
+      "domestication": "En uno de los primeros Nether Fortress en los que Rich farmeaba, en las proximidades del Incinerador.",
+      "episode_number": "Off-camera, entre el episodio 144 y 145.",
+      "last_see": "Nunca pudimos verlo, pero en el episodio 151 Rich nos muestra el último lugar en el que lo había dejado.",
+      "name_pet": "Blast",
+      "others": "Es la única mascota que no hemos podido ver, ni siquiera en una foto por Twitter. Conocemos su existencia por un tweet de Rich.",
+      "specie": "Blaze",
+      "state": "Ni el propio Rich sabe si ha muerto o dónde está.",
+      "version": "1.7"
+    },
+    {
+      "alias": "Tótem de Magma Cubes",
+      "apparition_pet": "Episodio 145, 153, 174.",
+      "domestication": "En el Ghast Catcher, en un bioma de mesa.",
+      "episode_number": "145",
+      "last_see": "En el episodio 174, al lado del tótem de Survival, en su nuevo rincón.",
+      "name_pet": "Magma Cube Totem",
+      "others": [
+        "Es la única mascota que es realmente una combinación de varios mobs juntos, siendo estos 5 magma cubes.",
+        "En el episodio 174 mueve a los Magma Cubes de forma individual y los monta en forma de tótem para disponerlos verticalmente en un rincón al lado del tótem de Survival.",
+        "De abajo hacia arriba, los nombres de cada uno son Magmagoo, Blobgord, Sloom, Glapsolapsus y Globglobgabgalab.",
+        "El nombre de Globglobgabgalab es una referencia a este vídeo y tiene su propia entrada como mascota."
+      ],
+      "specie": "Magma Cube",
+      "state": "Vivos (5/5)",
+      "version": "1.7"
+    },
+    {
+      "apparition_pet": "Episodio 145",
+      "domestication": "En el ghast catcher, en un bioma de mesa.",
+      "episode_number": "145",
+      "last_see": "En el episodio 145, cerca del ghast catcher.",
+      "name_pet": "Globglobgabgalab",
+      "others": "El nombre de esta mascota es una referencia a un antiguo meme que se originó a raiz de una escena del filme Strawinsky and the Mysterious House en la que un gusano antropomórfico de nombre \"Globglobgabgalab\" cantaba sobre su amor por los libros.",
+      "specie": "Magma Cube",
+      "state": "Vivo",
+      "version": "1.7"
+    },
+    {
+      "alias": "Jugador",
+      "apparition_pet": "Episodio 149",
+      "domestication": "A escasos metros de la base.",
+      "episode_number": "149",
+      "last_see": "Al final del episodio 149, en uno de los pasillos de la base de Rich.",
+      "name_pet": "Player 2",
+      "specie": "Zombie",
+      "state": "No Muerto",
+      "version": "1.9"
+    },
+    {
+      "alias": "Wither Rider de Halloween.",
+      "apparition_pet": "Episodios 150 y 151",
+      "domestication": "En el Nether, tras haberlo invocado en Halloween con ayuda de la Skeleton Trap Trap.",
+      "episode_number": "150",
+      "last_see": "En el episodio 151.",
+      "name_pet": "Ghost Wither Rider",
+      "others": "Es la mascota teórica y estadísticamente más complicada de obtener en todo su Survival.",
+      "specie": "Caballo esqueleto Wither.",
+      "state": "Vivo",
+      "version": "1.9"
+    },
+    {
+      "apparition_pet": "Episodio 150.",
+      "domestication": "Capturado en episodio 150.",
+      "episode_number": "150",
+      "last_see": "En episodio 150 atrapado en la Skeleton trap trap.",
+      "name_pet": "Wither Skeleton Rider Zurdo",
+      "others": "Es un mob extremadamente raro debido a que para obtenerlo es necesario generar trampas esqueleto en el Overworld y activarlas en el Nether, haciendo esto se tiene una probabilidad muy baja de que un esqueleto sea zurdo.",
+      "specie": "Wither Skeleton",
+      "state": "Vivo",
+      "version": "1.9"
+    },
+    {
+      "apparition_pet": "En los episodios 151, 159, 162, 170, 171, 172, 175...",
+      "domestication": "En una tundra nevada alejada de Spawngea.",
+      "episode_number": "151",
+      "last_see": "En Spawngea, en una barca cerca del cultivo de patatas.",
+      "name_pet": "Bearminator",
+      "others": "Su nombre es una referencia al oso del mismo nombre de la saga de videojuegos Crash Bandicoot.",
+      "specie": "Oso Polar",
+      "state": "Vivo",
+      "version": "1.10"
+    },
+    {
+      "apparition_pet": "Episodios 153, 155, 156, 157, 158, 159, 160, 176.",
+      "domestication": "En Spawngea",
+      "episode_number": "153",
+      "last_see": "Oficialmente en el Episodio 176, en en la cena de fin de año en Pet Buffet.",
+      "name_pet": "Mr. Tiger Chunks",
+      "others": [
+        "Es un gato del tipo \"Atigrado Rojo\".",
+        "Junto al difunto WuarIV es la única mascota que tiene una construcción propia.",
+        "En el episodio 159 descubrimos que las comidas favoritas de Mr. Tiger Chunks son los Snacks (Raw Fish), Snacks Gourmet (Raw Salmon), Snacks Premium (Clownfish), y los Snacks Picantes (Pufferfish), aunque no es tan fan de estos últimos.",
+        "Aparece en la animación del intermedio del episodio 165 junto a Rich, Piggers, Jefferson y los fantasmas de Lobagnus Philips, Guadrado I, Guadrado II, Guadrado III y Wuar IV.",
+        "En el episodio 175, Mr. Tiger Chunks deja una carta para Rich en la que le avisa de que no podrá mantener los secretos del mundo ocultos por mucho más.",
+        "En el episodio 176 Rich confirma que Mr. Tiger Chunks, junto a Piggers y Wuar IV son las 3 mascotas más importantes de su mundo.",
+        "En el episodio 176 está en la comida de fin de año e informa a Rich sobre los extraños sucesos que están ocurriendo en el mundo y las partículas que alteran todo, Rich le pide que le informe si se entera de algo más"
+      ],
+      "specie": "Ocelote",
+      "state": "Vivo",
+      "version": "1.12"
+    },
+    {
+      "alias": "Wendy, una creeper diferente. Wendinga.",
+      "apparition_pet": "En el episodio 173, 175, 176.",
+      "domestication": "En el episodio 173, en las coordenadas -55 63 555, al lado del Permutador Metalúrgico.",
+      "episode_number": "173",
+      "last_see": "En el episodio 175 [30:28], en una cápsula de cristal, detrás del tablón de tareas de Spawngea.",
+      "name_pet": "Wendy",
+      "records": "En el episodio 173 pone una nametag a Wendy y la guarda en una cápsula esperando a que se cargue eléctricamente.",
+      "curiosities": [
+        "Wendy es un diminutivo de Wendinga, que es una referencia al término inventado por su amigo KillerCreeper_55.",
+        "Al principio, para que no se despawnease, la nombró como \"?\""
+      ],
+      "specie": "Crepper",
+      "state": "Vivo",
+      "version": "1.12"
+    },
+    {
+      "alias": "El último gólem",
+      "apparition_pet": "En el episodio 178.",
+      "domestication": "En el episodio 178, en la Ferrofactoría Aeternalis.",
+      "episode_number": "178",
+      "last_see": "En el episodio 178 [1:34:38], en una jaula de vallas, al lado de la casa de Rich.",
+      "name_pet": "Ferrocrátor",
+      "specie": "Iron Golem",
+      "state": "Vivo",
+      "records": [
+        "Ep178 [21:18] espera a que se genere el último golem de la granja de hierro antes de pararla para siempre y le pone nametag.",
+        "Ep178 [23:24] lleva al gólem hasta la antigua cerca de Piggers al lado de su casa.",
+        "Ep178 [42:48] cambia el suelo de su jaula y le cambia el nombre a Ferrocrátor."
+      ],
+      "curiosities": [
+        "Fue el último golem generado por la Ferrofactoría Aeternalis.",
+        "Antes de Ferrocrátor se generó otro gólem, el penúltimo, pero Rich lo mató al no haberlo grabado bien."
+      ],
+      "version": "1.12"
+    }
+  ],
+  "unofficials": [
+    {
+      "apparition_pet": "En el episodio 16",
+      "domestication": "En la granja de slimes",
+      "episode_number": "16",
+      "last_see": "Rich lo matasegundos despues de haberle puesto el nombre",
+      "name_pet": "Tomas",
+      "others": [
+        "En realidad no deberia considerarse como mascota, pero qui esta, puesto que Rich le ha asignado un nombre",
+        "Tomas rompe la espada de Rich en el espadazo de su muerte"
+      ],
+      "specie": "Slime",
+      "state": "Muerto",
+      "version": "1.3"
+    },
+    {
+      "apparition_pet": "En los episodios 44 y 47",
+      "domestication": "En una tundra nevada, en el episodio 44",
+      "episode_number": "44",
+      "last_see": "Muere al intentar transportarla via nether en el episodio 47",
+      "name_pet": "Betty",
+      "others": "Es la primera oveja rosa que Rich encuantra de forma natural es su mundo Survival",
+      "specie": "Oveja Rosa Natural",
+      "state": "Muerta",
+      "version": "1.4"
+    },
+    {
+      "apparition_pet": "En los episodios 44 y 47",
+      "domestication": "En una tundra nevada, en el episodio 44",
+      "episode_number": "44",
+      "last_see": "Muere al intentar transportarla via nether en el episodio 47",
+      "name_pet": "Betty II",
+      "specie": "Oveja Rosa Natural",
+      "state": "Muerta",
+      "version": "1.4"
+    },
+    {
+      "apparition_pet": "Ep 39",
+      "domestication": "En una taiga nevada cercana a la primera granja de hielo (Ep 39)",
+      "episode_number": "39",
+      "last_see": "En el episodio 39, antes de que sucumbieran ante la espada de Rich",
+      "name_pet": "Tomas, Pancho y Jose",
+      "others": [
+        "Tomás, Pancho y José fueron tres lobos temporales a los que Rich dio nombre para defenderse de una horda de mobs durante la noche.",
+        "Uno de los tres murió a manos de otro de ellos tras haber atacado a Rich. Los dos restantes los mató Rich después de pasar la noche.",
+        "El propio Rich dice que no los considera mascotas."
+      ],
+      "specie": "Lobos",
+      "state": "Muertos",
+      "version": "1.3"
+    },
+    {
+      "alias": "Mini Piggy Cabezón",
+      "apparition_pet": "Ep 49",
+      "domestication": "En el End, cerca del Disyuntor de Endermans (Ep 49)",
+      "episode_number": "49",
+      "last_see": "En el suelo del End, en el episodio 49",
+      "name_pet": "Mini Piggy",
+      "others": "Literalmente aparece solo 7 segundos en toda la serie",
+      "specie": "Cerdo",
+      "state": "Desconocido",
+      "version": "1.4"
+    },
+    {
+      "alias": "Piggy",
+      "apparition_pet": "Episodio 48, 49 y 73",
+      "domestication": "Aparece por primera vez en el episodio 48, no sabemos de donde viene",
+      "episode_number": "73",
+      "last_see": "En el End, antes de golpearse contra el suelo del End y morir de forma fatal",
+      "name_pet": "D. Piggy",
+      "others": "Fue usado para obtener el logro \"Cuando los cerdos vuelen\"",
+      "specie": "Cerdo",
+      "state": "Muerto",
+      "version": "1.5"
+    },
+    {
+      "apparition_pet": "Ep 77",
+      "domestication": "En la granja de aldeanos",
+      "episode_number": "77",
+      "last_see": "Sofocandose en bedrock en el episodio 77 al intentar subir al techo del Nether",
+      "name_pet": "Freddie, Bob y Max",
+      "others": [
+        "Freddie es carnicero, Bob es herrero y Max es clérigo.",
+        "Curiosamente Rich no se equivocó al nombrarlos ninguna vez durante el episodio.",
+        "A pesar de que el episodio en el que aparecen (Ep.77) se llama Freddie Bob y Max, el orden en el que mueve a los aldeanos es el de Freddie Max y Bob. El orden de muerte sí coincide con el nombre del episodio."
+      ],
+      "specie": "Aldeanos",
+      "state": "Muertos",
+      "version": "1.5"
+    },
+    {
+      "apparition_pet": "En el episodio 77 y 102",
+      "domestication": "En la granja de aldeanos",
+      "episode_number": "77",
+      "last_see": [
+        "En la villa del techo del Nether, en el episodio 102",
+        "En el episodio 143 Rich destruye el breeder de aldeanos, pero Freddie II , Bob III y Max II ya no estan allí"
+      ],
+      "name_pet": "Freddie II, Bob III y Max II",
+      "others": [
+        "Tanto Freddie II como Bob III y Max II fueron herreros.",
+        "Bob II era un aldeano clérigo a diferencia de su antecesor herrero. Bob II murió sofocado en bedrock y fue reemplazado por otro herrero llamado Bob III.",
+        "Freddie II funcionó como activador de la villa y Bob III y Max II ejercieron como sujetos de reproducción y repoblación de la villa del techo del Nether."
+      ],
+      "specie": "Aldeanos",
+      "state": "Desconocido, probablemente muertos",
+      "version": "1.5"
+    },
+    {
+      "alias": "Caballo",
+      "apparition_pet": "Desde el episodio 121 hasta el 124",
+      "domestication": "En medio de Spawngea, fuera de camaras, mientras Rich estaba aburrido.",
+      "episode_number": "121",
+      "last_see": "En el episodio 124, cerca de la Ferrofactoria Aeternalis",
+      "name_pet": "Crepper Eléctrico (Caballo)",
+      "others": "Lo renombro como Creeper Eléctrico dos veces, la primera fuera de camaras. La segunda en el epeisodio 124, en medio de una tormenta al querer renombrar un creeper eléctrico",
+      "specie": "Caballo castaño rubio Appaloosa de copo de nieve (Flaxen chestnut snowflake Appaloosa)",
+      "state": "Desconocido",
+      "version": "1.7"
+    },
+    {
+      "alias": "Aldeano perfecto",
+      "apparition_pet": "Desde el Ep 102",
+      "domestication": "En un modulo de cria de aldeanos temporal de spawngea, cerca de la ferrofactoria Aeternalis",
+      "episode_number": "102",
+      "name_pet": "Timoteo I",
+      "others": [
+        "Es un aldeano herrero de profesion que da esmeraldas a cambio de hierro en el tradeo 26 (el ultimo tradeo)",
+        "Su nombre es una mezcla entre la palabra \"Timo\" + el nombre \"Teo\""
+      ],
+      "specie": "Aldeano",
+      "state": "Muerto",
+      "version": "1.7"
+    },
+    {
+      "alias": "Aldeano Perfecto",
+      "apparition_pet": "Desde el Ep 102",
+      "domestication": "En un modulo de cria de aldeanos temporal de spawngea, cerca de la ferrofactoria Aeternalis",
+      "episode_number": "102",
+      "name_pet": "Timoteo II",
+      "others": [
+        "Es un aldeano herrero de profesion que da esmeraldas a cambio de hierro en el tradeo 26 (el ultimo tradeo)",
+        "Su nombre es una mezcla entre la palabra \"Timo\" + el nombre \"Teo\""
+      ],
+      "specie": "Aldeano",
+      "state": "Muerto",
+      "version": "1.7"
+    },
+    {
+      "apparition_pet": "Desde el episodio 133. Episodios 159, 160, 161, 162, 163, 167, 170...",
+      "domestication": "En una pradera lejana a Spawngea.",
+      "episode_number": "133",
+      "last_see": "Cerca de la base, libre por Spawngea, cerca de la Ferrofactoria Aeternalis en el episodio 170",
+      "name_pet": "Hopper",
+      "others": [
+        "Su nombre iba a ser Esperanza",
+        "Antiguamente, desde el episodio 133 hasta 166, Hopper era una mascota oficial.",
+        "En el episodio 167, Rich libera a hopper y deja de ser una mascota oficial"
+      ],
+      "specie": "Caballo gris sucio con pintos (Dapple Gray Paint)",
+      "state": "Libre, probablemante vivo",
+      "version": "1.7"
+    },
+    {
+      "alias": "NaN Block",
+      "apparition_pet": "Ep 148",
+      "domestication": "en el centro de Spawngea",
+      "episode_number": "148",
+      "last_see": "En 0;0 del mundo, bajo Spawngea y el proyecto Fractalis",
+      "name_pet": "Loggy",
+      "others": [
+        "No es considerada mascota pero tiene nombre propio",
+        "Rich lo llamo asi debido a que Dinnerbone le da ese nombre.",
+        "En el episodio 155, Loggy emite particulas azules (3:15)"
+      ],
+      "specie": "Oak Log",
+      "state": "Vivo",
+      "version": "1.8"
+    },
+    {
+      "apparition_pet": "Ep 145",
+      "episode_number": "145",
+      "last_see": "En el episodio 145",
+      "name_pet": "Super Ghast Sweeper",
+      "others": "Son los ghast que usa el incinerador para empujar los wither skeletons.",
+      "specie": "Ghast",
+      "state": "Vivos",
+      "version": "1.8"
+    },
+    {
+      "alias": "endermites",
+      "apparition_pet": "146",
+      "episode_number": "146",
+      "last_see": "En el episodio 146",
+      "name_pet": "Endermites [MC-1], [MC-2], [MC-3]",
+      "others": "Sus nombres vienen de la nomenclatura de bugs de minecraft, a Rich no le gustan por lo que guardó esos 3 por si algún día encuentra un propósito diferente a la interacción con los endermans.",
+      "specie": "Endermites",
+      "state": "Vivos",
+      "version": "1.8"
+    },
+    {
+      "alias": "Tendero en el Vivero",
+      "apparition_pet": "En el episodio 163, 175.",
+      "domestication": "En Cotton Square.",
+      "episode_number": "163",
+      "last_see": "Episodio 175 [2:39], en el mostrador de Lumberjack & Woodspeckers.",
+      "name_pet": "Spruce Willis",
+      "others": "Spruce Willis era un zombie que fue transformado en Aldeano",
+      "specie": "Aldeano",
+      "state": "Vivo",
+      "version": "1.12"
+    },
+    {
+      "apparition_pet": "",
+      "episode_number": "",
+      "name_pet": "Endermeat",
+      "specie": "",
+      "state": "",
+      "version": ""
+    }
+  ]
+}

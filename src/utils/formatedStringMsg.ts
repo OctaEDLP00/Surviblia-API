@@ -1,6 +1,6 @@
 import { styleText } from 'node:util'
 
-export function formatedStringMsg(PORT: string | number): string {
+function formatedStringMsg(PORT: string | number): string {
   const localURL = `http://localhost:${PORT}`
   const networkURL = `http://192.168.0.11:${PORT}`
   const localMsgFormated = `${styleText(['cyan', 'underline'], 'Local:')}`
@@ -8,3 +8,6 @@ export function formatedStringMsg(PORT: string | number): string {
   const msg = `${localMsgFormated} ${localURL}\n\n${networkMsgFormated} ${networkURL}`
   return msg
 }
+
+export { formatedStringMsg }
+export default formatedStringMsg

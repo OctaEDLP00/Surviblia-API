@@ -1,0 +1,192 @@
+{
+  "bow": [
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:power", "lvl": "4" },
+        { "id": "minecraft:flame", "lvl": "1" },
+        { "id": "minecraft:infinity", "lvl": "1" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "Arco de ElRichMC",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:power", "lvl": "3" },
+        { "id": "minecraft:flame", "lvl": "1" },
+        { "id": "minecraft:infinity", "lvl": "1" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "Arco Incinerante",
+      "use_of_tool": "Encender la TNT para crear la gran explosion en el incinerador",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:power", "lvl": "5" },
+        { "id": "minecraft:flame", "lvl": "1" },
+        { "id": "minecraft:punch", "lvl": "2" },
+        { "id": "minecraft:infinity", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "Ballesta de Spider Jockey",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "149",
+      "enchantments": [
+        { "id": "minecraft:punch", "lvl": "2" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:infinity", "lvl": "1" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "Puchshot Maker",
+      "use_of_tool": "Utilizado para impulsarse y poder planear con las elytras antes de la llegada de los cohetes en la version 1.10 al modo survival",
+      "version": "1.9"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:power", "lvl": "5" },
+        { "id": "minecraft:infinity", "lvl": "1" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "Sr.Arco",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "152",
+      "enchantments": [
+        { "id": "minecraft:power", "lvl": "5" },
+        { "id": "minecraft:flame", "lvl": "1" },
+        { "id": "minecraft:infinity", "lvl": "1" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:punch", "lvl": "2" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "material": "minecraft:bow",
+      "name_tool": "⧼ Ultrasupresor de Spawns ⧽",
+      "others": "Su primer nombre fue Ultrasupresor de Spawns (sin los simbolos)",
+      "version": "1.9"
+    }
+  ],
+  "fishing_rod": [
+    {
+      "apparition_episodes": "155",
+      "enchantments": [
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "material": "minecraft:fishing_rod",
+      "name_tool": "Reubicador Hexaédrico",
+      "others": "Lo usa en el episodio 156, para re ubicar rodos los bloques \"ilegales\" conseguidos en survival, en especial en su forma de falling block",
+      "use_of_tool": "Conseguir bloque de bedrock como item",
+      "version": "1.12"
+    }
+  ],
+  "sword": [
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:smite", "lvl": "5" },
+        { "id": "minecraft:looting", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Botinificador de Ultratumba",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "157",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:looting", "lvl": "3" },
+        { "id": "minecraft:unbreaking", "lvl": "3" },
+        { "id": "minecraft:mending", "lvl": "1" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Botinificador Infinito",
+      "others": "Sucesor de Botinificador Masivo",
+      "use_of_tool": "Espada principal del mundo",
+      "version": "1.12"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "5" },
+        { "id": "minecraft:looting", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Botinificador Masivo",
+      "others": "Predecesor de Botinificador Infinito",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:bane_of_arthropds", "lvl": "5" },
+        { "id": "minecraft:looting", "lvl": "3" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Diseccionador de Tarántulas",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "3" },
+        { "id": "minecraft:looting", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Espada Anti Cerdos (sin nombre)",
+      "use_of_tool": "Espada contra Pigmans",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [
+        { "id": "minecraft:smite", "lvl": "5" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Espada de Zerdios",
+      "use_of_tool": "Espada contra Pigmans",
+      "version": "1.X"
+    },
+    {
+      "apparition_episodes": "63",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "4" },
+        { "id": "minecraft:unbreaking", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Masacrador de Adminium",
+      "version": "1.4"
+    },
+    {
+      "apparition_episodes": "152",
+      "enchantments": [
+        { "id": "minecraft:sharpness", "lvl": "4" },
+        { "id": "minecraft:looting", "lvl": "3" }
+      ],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "\"On a hurry\"",
+      "others": "Sigue usandola hasta hoy (Ep.155); En el episodio 153 se ve con nuevos encantamientos (Sharpness V, looting III, Unbreaking III)",
+      "use_of_tool": "Espada \"temporal\" (Ep.152 minuto 3:03 craftea la espada y menciona que solo tendra \"una tarea y listo\") aunque la sigue usando... xD",
+      "version": "1.9"
+    },
+    {
+      "apparition_episodes": "",
+      "enchantments": [{ "id": "minecraft:sharpness", "lvl": "5" }],
+      "material": "minecraft:diamond_sword",
+      "name_tool": "Shield Waster",
+      "others": "Los Shieldestroyers fueron los portadores de tres ejemplares de esta espada",
+      "use_of_tool": "Obtener escudos con 3 de damage para la posterior obtencion de las cabezas con el mismo nivel de damage",
+      "version": "1.X"
+    }
+  ]
+}

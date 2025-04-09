@@ -1,0 +1,100 @@
+{
+  "$ref": "#/definitions/Endpoints",
+  "definitions": {
+    "Endpoints": {
+      "items": {
+        "$ref": "#/definitions/Paths"
+      },
+      "type": "array"
+    },
+    "Paths": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "endpoint": {
+          "type": "string",
+          "default": ""
+        },
+        "method": {
+          "enum": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+          "default": "GET"
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "examples": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string",
+                "default": ""
+              },
+              "type": "array",
+              "default": []
+            },
+            {
+              "type": "string",
+              "default": ""
+            },
+            {
+              "items": {
+                "type": "object",
+                "properties": {
+                  "comments": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "default": ""
+                      },
+                      {
+                        "items": {
+                          "type": "string",
+                          "default": ""
+                        },
+                        "type": "array",
+                        "default": []
+                      }
+                    ]
+                  },
+                  "example": {
+                    "anyOf": [
+                      {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      {
+                        "type": "string",
+                        "default": ""
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "example"
+                ],
+                "default": {}
+              },
+              "default": [],
+              "type": "array"
+            }
+          ]
+        },
+        "parameters": {
+          "items": {
+            "$ref": "#/definitions/Paths"
+          },
+          "type": "array"
+        }
+      },
+      "required": ["description", "endpoint"],
+      "type": "object",
+      "default": {}
+    }
+  }
+}

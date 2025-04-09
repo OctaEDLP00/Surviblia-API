@@ -1,0 +1,22 @@
+{
+  "$ref": "#/definitions/SurviAPIEpisodesExtended",
+  "definitions": {
+    "EpisodesInfo": {
+      "properties": {
+        "episode_number": {
+          "type": "string"
+        },
+        "release_date": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SurviAPIEpisodesExtended": {
+      "items": {
+        "$ref": "#/definitions/EpisodesInfo"
+      },
+      "type": "array"
+    }
+  }
+}

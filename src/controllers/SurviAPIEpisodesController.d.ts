@@ -1,7 +1,7 @@
-import { SurviAPIEpisodesModel } from '@/models/SurviAPIEpisodes.models'
+import type { SurviAPIEpisodesModel } from '@/models/SurviAPIEpisodesModel.d'
 import type { Request, Response } from 'express'
 
-export interface ISurviAPIEpisodesController {
+interface ISurviAPIEpisodesController {
   surviEpisodesModel: SurviAPIEpisodesModel
   /** @async */
   getAllEpisodes: (req: Request, res: Response) => Promise<void>
@@ -14,3 +14,5 @@ export interface ISurviAPIEpisodesController {
   /** @async */
   getAllEpisodesTitle: (req: Request, res: Response) => Promise<void>
 }
+
+export type { ISurviAPIEpisodesController }

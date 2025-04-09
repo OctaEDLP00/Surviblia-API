@@ -1,0 +1,89 @@
+{
+  "$ref": "#/definitions/SurviAPIExtras",
+  "definitions": {
+    "FanArts": {
+      "default": [],
+      "items": {
+        "$ref": "#/definitions/Values"
+      },
+      "type": "array"
+    },
+    "Memes": {
+      "default": [],
+      "items": {
+        "$ref": "#/definitions/Values"
+      },
+      "type": "array"
+    },
+    "Values": {
+      "anyOf": [
+        {
+          "default": {},
+          "properties": {
+            "src": {
+              "type": "string",
+              "default": ""
+            },
+            "alt": {
+              "type": "string",
+              "default": ""
+            },
+            "width": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "default": ""
+                },
+                {
+                  "type": "number",
+                  "default": 0
+                }
+              ]
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "default": ""
+                },
+                {
+                  "type": "number",
+                  "default": 0
+                }
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "height",
+            "width",
+            "src"
+          ],
+          "type": "object"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": ["id"]
+        }
+      ]
+    },
+    "SurviAPIExtras": {
+      "properties": {
+        "fan_arts": {
+          "$ref": "#/definitions/FanArts"
+        },
+        "memes": {
+          "$ref": "#/definitions/Memes"
+        }
+      },
+      "required": ["fan_arts", "memes"],
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,359 @@
+[
+  {
+    "method": "GET",
+    "description": "Returns all endpoints of the Surviblia API",
+    "endpoint": "/"
+  },
+  {
+    "method": "GET",
+    "description": "Returns all Armors of the serie Survival of ElRichMC",
+    "endpoint": "/armors",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "Returns all specific armor of a specific material",
+        "endpoint": "/:armor/{:material}",
+        "name": "armors and material"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:armor"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:armor"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:armor"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:armor"
+  },
+  {
+    "method": "GET",
+    "description": "Returns all Tools of the serie Survival of ElRichMC",
+    "endpoint": "/tools",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "Returns all the specific tools for a specific material",
+        "endpoint": "/:tool/{:material}",
+        "name": "tool and material"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:tool"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:tool"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:tool"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:tool"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/weapons",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "",
+        "endpoint": "/:weapon/{:material}",
+        "name": "weapon and material"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:weapon"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:weapon"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:weapon"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:weapon"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/items",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "",
+        "endpoint": "/:item",
+        "name": "item"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:item"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:item"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:item"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:item"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/entities",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "",
+        "endpoint": "/:entity",
+        "name": "entity"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:entity"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:entity"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:entity"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:entity"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/projects",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "",
+        "endpoint": "/:tier_name",
+        "name": "tiern name",
+        "parameters": [
+          {
+            "method": "GET",
+            "description": "",
+            "endpoint": "/:project_name",
+            "name": "tier name and project name"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      "{{API_URL}}/projects",
+      "{{API_URL}}/projects/:tier_name",
+      "{{API_URL}}/projects/:tier_name/:project_name"
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:project"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:project"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:project"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:project"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/pets",
+    "parameters": [
+      {
+        "name": "",
+        "description": "",
+        "endpoint": "/officials"
+      },
+      {
+        "name": "",
+        "description": "",
+        "endpoint": "/official",
+        "parameters": [
+          {
+            "description": "",
+            "name": "",
+            "method": "GET",
+            "endpoint": "/:name"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "description": "",
+        "endpoint": "/unofficials"
+      },
+      {
+        "name": "",
+        "description": "",
+        "endpoint": "/unofficial",
+         "parameters": [
+          {
+            "description": "",
+            "name": "",
+            "method": "GET",
+            "endpoint": "/:name"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:pets"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:pets"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:pets"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:pets"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/calc"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/cinematicas"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/animaciones"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/lore"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/clips"
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:calc"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:calc"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:calc"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:calc"
+  },
+  {
+    "method": "GET",
+    "description": "",
+    "endpoint": "/svsg",
+    "parameters": [
+      {
+        "method": "GET",
+        "description": "",
+        "endpoint": "/info",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "description": "",
+    "endpoint": "/post/:svsg"
+  },
+  {
+    "method": "PATCH",
+    "description": "",
+    "endpoint": "/post/:svsg"
+  },
+  {
+    "method": "PUT",
+    "description": "",
+    "endpoint": "/post/:svsg"
+  },
+  {
+    "method": "DELETE",
+    "description": "",
+    "endpoint": "/post/:svsg"
+  }
+]

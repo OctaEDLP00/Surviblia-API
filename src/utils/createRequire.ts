@@ -1,2 +1,6 @@
 import { createRequire } from 'node:module'
-export const require = createRequire(import.meta.url)
+
+const require = createRequire(import.meta.url)
+
+export { require }
+export default require

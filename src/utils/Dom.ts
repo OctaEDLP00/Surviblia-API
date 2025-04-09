@@ -1,25 +1,22 @@
 type TagName = keyof HTMLElementTagNameMap
 
 type Attributes<T extends TagName> = Partial<HTMLElementTagNameMap[T]> & {
-  [key: string]: any
+  [key: string]: unknown
 }
 
 interface IDOM {
-  $query: (selector: string) => Element | null
-  $queryAll: (selector: string) => NodeListOf<Element>
+  $query: <T extends HTMLElement>(selector: string) => T | null
+  $queryAll: <T extends HTMLElement>(selector: string) => NodeListOf<T>
   $id: (id: string) => HTMLElement | null
   $clsName: (cls: string) => HTMLCollectionOf<Element>
   $byName: (name: string) => void
   $byTagName: (tagName: string) => void
-
   $create: <T extends TagName>(
     tag: T,
     attrs?: Attributes<T>
   ) => HTMLElementTagNameMap[T]
-
-  $append: (children: Element, father: Element | HTMLElement) => void
+  $append(children: Element, father: Element | HTMLElement): void
   $remove: (el: Element) => void
-  $aEL: (el: Element, typeEvent: string, callbackfn: () => void) => void
 }
 
 /**
@@ -37,37 +34,46 @@ interface IDOM {
  *  // this Reference document.getElemtByID()
  *  D.id('<id>')
  * ```
-*/
+ */
 class DOM implements IDOM {
-  $query: (selector: string) => Element | null
-  $queryAll: (selector: string) => NodeListOf<Element>
+  $query: <T extends HTMLElement>(selector: string) => T | null
+  $queryAll: <T extends HTMLElement>(selector: string) => NodeListOf<T>
   $id: (id: string) => HTMLElement | null
   $clsName: (cls: string) => HTMLCollectionOf<Element>
   $byName: (name: string) => void
   $byTagName: (tagName: string) => void
-
   $create: <T extends TagName>(
     tag: T,
     attrs?: Attributes<T>
   ) => HTMLElementTagNameMap[T]
-
   $append: (children: Element, father: Element | HTMLElement) => void
   $remove: (el: Element) => void
-  $aEL: (el: Element, typeEvent: string, callbackfn: () => void) => void
 
   constructor() {
-    this.$query = selector => document.querySelector(selector)
-    this.$queryAll = selector => document.querySelectorAll(selector)
-    this.$id = id => document.getElementById(id)
-    this.$clsName = cls => document.getElementsByClassName(cls)
-    this.$byName = name => document.getElementsByName(name)
-    this.$byTagName = tagName => document.getElementsByTagName(tagName)
-    this.$create = (tag, attrs) => Object.assign(document.createElement(tag), attrs)
-    this.$append = (children, father = document.body) => children instanceof Array ? children.map(ch => father.appendChild(ch)) : father.appendChild(children)
-    this.$remove = element => element.remove()
-    this.$aEL = (element, typeEvent, callbackfn) => element.addEventListener(typeEvent, callbackfn)
+    this.$query = (selector) => document.querySelector(selector)
+
+    this.$queryAll = (selector) => document.querySelectorAll(selector)
+
+    this.$id = (id) => document.getElementById(id)
+
+    this.$clsName = (cls) => document.getElementsByClassName(cls)
+
+    this.$byName = (name) => document.getElementsByName(name)
+
+    this.$byTagName = (tagName) => document.getElementsByTagName(tagName)
+
+    this.$create = (tag, attrs) =>
+      Object.assign(document.createElement(tag), attrs)
+
+    this.$append = (children, father = document.body) =>
+      children instanceof Array
+        ? children.map((ch) => father.appendChild(ch))
+        : father.appendChild(children)
+
+    this.$remove = (element) => element.remove()
   }
 }
 
-export default DOM
 export { DOM }
+export type { Attributes, TagName }
+export default DOM

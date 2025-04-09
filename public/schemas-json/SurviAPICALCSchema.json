@@ -1,0 +1,499 @@
+{
+  "$ref": "#/definitions/SurviAPICALC",
+  "definitions": {
+    "Animaciones": {
+      "default": {},
+      "properties": {
+        "anounncements_patreon": {
+          "$ref": "#/definitions/AnounncementsPatreon_Animaciones"
+        },
+        "general_animations": {
+          "$ref": "#/definitions/GeneralAnimations_Animaciones"
+        },
+        "intermediate": {
+          "$ref": "#/definitions/Intermediate_Animaciones"
+        },
+        "intro": {
+          "$ref": "#/definitions/Intro_Animaciones"
+        },
+        "others": {
+          "$ref": "#/definitions/Others_Animaciones"
+        },
+        "particle_hype": {
+          "$ref": "#/definitions/ParticleHype_Animaciones"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+
+    "AnounncementsPatreon_Animaciones": {
+      "items": {
+        "default": {},
+        "properties": {
+          "credits": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "descriptive_title": {
+            "default": "",
+            "type": "string"
+          },
+          "episode_number": {
+            "default": "",
+            "type": "string"
+          },
+          "references": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": [
+          "episode_number",
+          "descriptive_title",
+          "references",
+          "credits"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+
+    "Cinematicas": {
+      "default": {},
+      "properties": {
+        "general_cinematics": {
+          "$ref": "#/definitions/GeneralCinematics_Cinematicas"
+        },
+        "others": {
+          "$ref": "#/definitions/Others_Cinematicas"
+        },
+        "projects_presentations": {
+          "$ref": "#/definitions/ProjectsPresentations_Cinematicas"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+
+    "Clips": {
+      "default": {},
+      "properties": {
+        "emoji": {
+          "$ref": "#/definitions/Emoji_Clips"
+        },
+        "explication": {
+          "$ref": "#/definitions/Explication_Clips"
+        },
+        "general_clips": {
+          "$ref": "#/definitions/GeneralClips_Clips"
+        },
+        "holiday": {
+          "$ref": "#/definitions/Holiday_Clips"
+        },
+        "macedonia": {
+          "$ref": "#/definitions/Macedonia_Clips"
+        },
+        "mecenas": {
+          "$ref": "#/definitions/Mecenas_Clips"
+        },
+        "meme": {
+          "$ref": "#/definitions/Meme_Clips"
+        },
+        "others": {
+          "$ref": "#/definitions/Others_Clips"
+        },
+        "outro": {
+          "$ref": "#/definitions/Outro_Clips"
+        },
+        "reference": {
+          "$ref": "#/definitions/Reference_Clips"
+        },
+        "resume": {
+          "$ref": "#/definitions/Resume_Clips"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+
+    "Emoji_Clips": {},
+    "Explication_Clips": {},
+    "Flashbacks_Lore": {},
+    "GeneralAnimations_Animaciones": {},
+
+    "GeneralCinematics_Cinematicas": {},
+
+    "GeneralClips_Clips": {},
+    "GeneralLore_Lore": {
+      "default": [],
+      "items": {
+        "default": {},
+        "properties": {
+          "description": {
+            "default": "",
+            "type": "string"
+          },
+          "episode_number": {
+            "default": "",
+            "type": "string"
+          },
+          "references": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "related_pets": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "related_places": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/GeneralLore_Lore_RelatedPlaces",
+                "default": ""
+              },
+              {
+                "default": [],
+                "items": {
+                  "$ref": "#/definitions/GeneralLore_Lore_RelatedPlaces",
+                  "default": ""
+                },
+                "type": "array"
+              }
+            ]
+          }
+        },
+        "required": ["description", "episode_number", "related_places"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+
+    "GeneralLore_Lore_RelatedPlaces": {
+      "enum": [
+        "Spawngea",
+        "Orogeddon",
+        "Caseta de Wuar IV",
+        "Ferrofactoria Aeternalis",
+        "Proyecto Terra",
+        "Arbol de Survival",
+        "Casa de ElRichMC",
+        "Permutador Metalurgico",
+        "Blocones",
+        "FOI",
+        "Incinerador",
+        "Nether Hub",
+        "Bedrock Tower",
+        "Universal Datatrap",
+        "Cronódromo del Destino",
+        "Disyuntor de Endermans",
+        "Granja de Endermans",
+        "Ürber Orber",
+        "Generador de End",
+        "Proyector Fractalis",
+        "Granja de Madera",
+        "Proyecto Farlands",
+        "La Forja del Tiempo",
+        "Subconsciente de la Creatividad"
+      ],
+      "type": "string"
+    },
+    "Holiday_Clips": {},
+    "Intermediate_Animaciones": {
+      "default": [],
+      "items": {
+        "default": {},
+        "properties": {
+          "appartion_episodes": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "description": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "first_apparition": {
+            "default": "",
+            "type": "string"
+          },
+          "related_pets": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          }
+        },
+        "require": ["appartion_episodes", "description", "first_apparition"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+
+    "Intro_Animaciones": {
+      "items": {
+        "default": {},
+        "properties": {
+          "apparition_episodes": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "description": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "first_apparition": {
+            "default": "",
+            "type": "string"
+          },
+          "references": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": ["first_apparition", "apparition_episodes", "description"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+
+    "Lore": {
+      "default": {},
+      "properties": {
+        "flashbacks": {
+          "$ref": "#/definitions/Flashbacks_Lore"
+        },
+        "general_lore": {
+          "$ref": "#/definitions/GeneralLore_Lore"
+        },
+        "others": {
+          "$ref": "#/definitions/Others_Lore"
+        },
+        "pets": {
+          "$ref": "#/definitions/Pets_Lore"
+        }
+      },
+      "required": ["general_lore"],
+      "type": "object"
+    },
+
+    "Macedonia_Clips": {},
+    "Mecenas_Clips": {
+      "additionalProperties": {
+        "$ref": "#/definitions/Months_Mecenas_Clips"
+      },
+      "properties": {
+        "19": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "20": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "21": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "22": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "23": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "24": {
+          "$ref": "#/definitions/Months_Mecenas_Clips"
+        },
+        "Oct-17/Jun-19": {
+          "type": "string"
+        }
+      },
+      "required": ["24", "23", "22", "21", "20", "19", "Oct-17/Jun-19"],
+      "type": "object"
+    },
+    "Meme_Clips": {},
+
+    "Months_Mecenas_Clips": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "type": "object"
+    },
+    "Others_Animaciones": {},
+    "Others_Cinematicas": {},
+    "Others_Clips": {},
+    "Others_Lore": {},
+    "Outro_Clips": {},
+    "ParticleHype_Animaciones": {
+      "items": {
+        "default": {},
+        "properties": {
+          "description": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "episode_number": {
+            "type": "string"
+          },
+          "place": {
+            "anyOf": [
+              {
+                "default": "",
+                "type": "string"
+              },
+              {
+                "default": [],
+                "items": {
+                  "default": "",
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            ]
+          },
+          "related_pets": {
+            "type": "string"
+          }
+        },
+        "required": ["episode_number", "description", "place"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "Pets_Lore": {},
+    "ProjectsPresentations_Cinematicas": {},
+    "Reference_Clips": {},
+    "Resume_Clips": {},
+    "SurviAPICALC": {
+      "default": {},
+      "properties": {
+        "animations": {
+          "$ref": "#/definitions/Animaciones"
+        },
+        "cinematics": {
+          "$ref": "#/definitions/Cinematicas"
+        },
+        "clips": {
+          "$ref": "#/definitions/Clips"
+        },
+        "lore": {
+          "$ref": "#/definitions/Lore"
+        }
+      },
+      "required": ["animations", "cinematics", "clips", "lore"],
+      "type": "object"
+    }
+  }
+}
