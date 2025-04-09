@@ -6,21 +6,17 @@
     "bierner.emojisense",
     "kisstkondoros.vscode-gutter-preview",
     "wix.vscode-import-cost",
-    "xabikos.javascriptsnippets",
     "christian-kohler.npm-intellisense",
     "christian-kohler.path-intellisense",
     "pflannery.vscode-versionlens",
-    "dbaeumer.vscode-eslint",
     "yoavbls.pretty-ts-errors",
-    "bradlc.vscode-tailwindcss",
     "humao.rest-client",
-    "chakrounanas.turbo-console-log",
     "bierner.markdown-preview-github-styles",
     "yzhang.markdown-all-in-one",
     "rapidapi.vscode-rapidapi-client",
     "rapidapi.vscode-services",
     "tobermory.es6-string-html",
-    "bashmish.es6-string-css",
-    "zjcompt.es6-string-javascript"
+    "mikestead.dotenv",
+    "oven.bun-vscode"
   ]
 }

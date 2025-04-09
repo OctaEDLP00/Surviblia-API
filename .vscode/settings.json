@@ -1,14 +1,104 @@
 {
   "IDX.aI.enableInlineCompletion": true,
-  "explorer.fileNesting.patterns": {
-    "SurviAPI.controller.ts": "SurviAPIController.d.ts",
-    "SurviAPIEpisodes.controller.ts": "SurviAPIEpisodesController.d.ts",
-    "SurviAPIProjects.controller.ts": "SurviAPIProjectsController.d.ts",
-    "SurviAPI.models.ts": "SurviAPIModel.d.ts",
-    "SurviAPIEpisodes.models.ts": "SurviAPIEpisodesModel.d.ts",
-    "SurviAPIProjects.models.ts": "SurviAPIProjectsModel.d.ts",
-    "containsTools.ts": "${basename}.d.ts",
-    "createRequire.ts": "createRequire.d.ts"
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
   },
-  "biome.enabled": true
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "biome.enabled": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    // controllers and models
+    "SurviAPI.controller.ts": "SurviAPIController.d.ts",
+    "SurviAPI.models.ts": "SurviAPIModel.d.ts",
+    "SurviAPIArmors.controller.ts": "SurviAPIArmorsController.d.ts",
+    "SurviAPIArmors.models.ts": "SurviAPIArmorsModel.d.ts",
+    "SurviAPICALC.controller.ts": "SurviAPICALCController.d.ts",
+    "SurviAPICALC.models.ts": "SurviAPICALCModel.d.ts",
+    "SurviAPIEndpoints.controller.ts": "SurviAPIEndpointsController.d.ts",
+    "SurviAPIEndpoints.models.ts": "SurviAPIEndpointsModel.d.ts",
+    "SurviAPIEntities.controller.ts": "SurviAPIEntitiesController.d.ts",
+    "SurviAPIEntities.models.ts": "SurviAPIEntitiesModel.d.ts",
+    "SurviAPIEpisodes.controller.ts": "SurviAPIEpisodesController.d.ts",
+    "SurviAPIEpisodes.models.ts": "SurviAPIEpisodesModel.d.ts",
+    "SurviAPIItems.controller.ts": "SurviAPIItemsController.d.ts",
+    "SurviAPIItems.models.ts": "SurviAPIItemsModel.d.ts",
+    "SurviAPIPets.controller.ts": "SurviAPIPetsController.d.ts",
+    "SurviAPIPets.models.ts": "SurviAPIPetsModel.d.ts",
+    "SurviAPIProjects.controller.ts": "SurviAPIProjectsController.d.ts",
+    "SurviAPIProjects.models.ts": "SurviAPIProjectsModel.d.ts",
+    "SurviAPISVSG.controller.ts": "SurviAPISVSGController.d.ts",
+    "SurviAPISVSG.models.ts": "SurviAPISVSGModel.d.ts",
+    "SurviAPISchema.controller.ts": "SurviAPISchemaController.d.ts",
+    "SurviAPISchema.models.ts": "SurviAPISchemaModel.d.ts",
+    "SurviAPITools.controller.ts": "SurviAPIToolsController.d.ts",
+    "SurviAPITools.models.ts": "SurviAPIToolsModel.d.ts",
+    "SurviAPIWeapons.controller.ts": "SurviAPIWeaponsController.d.ts",
+    "SurviAPIWeapons.models.ts": "SurviAPIWeaponsModel.d.ts",
+    "SurviAPIWithoutCategory.controller.ts": "SurviAPIWithoutCategoryController.d.ts",
+    "SurviAPIWithoutCategory.models.ts": "SurviAPIWithoutCategoryModel.d.ts",
+
+    "containsTools.ts": "${basename}.d.ts",
+    "createRequire.ts": "createRequire.d.ts",
+
+    "src/scripts/*.cjs": "${capture}.d.ts"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/src/data/SurviAPIEpisodes.json"],
+      "url": "/public/schemas-json/SurviAPIEpisodesSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIProjects.json"],
+      "url": "/public/schemas-json/SurviAPIProjectsSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIPets.json"],
+      "url": "/public/schemas-json/SurviAPIPetsSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPICALC.json"],
+      "url": "/public/schemas-json/SurviAPICALCSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPISVSG.json"],
+      "url": "/public/schemas-json/SurviAPISVSGSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIImagesAndInfo.json"],
+      "url": "/public/schemas-json/SurviAPIImagesAndInfoSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIExtras.json"],
+      "url": "/public/schemas-json/SurviAPIExtrasSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIEndpoints.json"],
+      "url": "/public/schemas-json/SurviAPIEndpointsSchema.json"
+    },
+    {
+      "fileMatch": ["/src/data/SurviAPIEpisodesExtended.json"],
+      "url": "/public/schemas-json/SurviAPIEpisodesExtendedSchema.json"
+    },
+    {
+      "fileMatch": ["/biome.{json,jsonc}"],
+      "url": "https://biomejs.dev/schemas/1.9.4/schema.json"
+    },
+    {
+      "fileMatch": ["/public/schemas-json/*.json"],
+      "url": "http://json-schema.org/draft-07/schema#"
+    }
+  ],
+  "markdown.validate.ignoredLinks": [
+    "#top",
+    "#acknowledgement",
+    "#endpoints",
+    "#api_documentation",
+    "#built_using",
+    "#authors",
+    "#usage",
+    "#project_structure"
+  ]
 }

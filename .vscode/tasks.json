@@ -1,18 +1,32 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Install dependencies",
-      "type": "shell",
-      "command": "pnpm install",
-      "presentation": {
-        "reveal": "silent"
-      },
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "detail": "Instala todas las dependencias usando pnpm"
-    }
-  ]
+	"tasks": [
+		{
+			"dependsOrder": "sequence",
+			"detail": "Instala todas las dependencias usando pnpm",
+			"group": {
+				"isDefault": true,
+				"kind": "build"
+			},
+			"label": "Install dependencies",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+			"script": "install",
+			"type": "npm"
+		},
+		{
+			"presentation": {
+				"reveal": "silent"
+			},
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+			"script": "start",
+			"type": "npm"
+		}
+	],
+	"version": "2.0.0"
 }
