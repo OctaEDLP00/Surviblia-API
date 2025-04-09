@@ -1,86 +1,50 @@
-<style>
+<h1 align="center">Surviblia Rest API</h1>
 
-</style>
-
-<h1 align="center">
-  Surviblia Rest API
-</h1>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-disabled-red.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
+<div align="center" id=description>
+  <strong>API REST</strong> de
+  <strong>"Surviblia | Wiki del survival de ElRichMC"</strong>
+  <br>
+  donde encontraras la mayor informacion de la serie de Survival
+  <br>
+  del ElRichMC de habla hispana en enseñar sobre tecnico
 </div>
 
----
+[![STATUS](https://img.shields.io/badge/status-enabled-green.svg)]()
+[![LICENCE](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-<p align="center">
-
-Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
-
-</p>
-
-<br/>
-
-<details>
-  <summary>📝 Table of Contents</summary>
+<details open>
+  <summary>📝 Tabla de Contenido</summary>
   <br>
   <ol>
     <li>
-      <a
-        href='#project_structure'
-      >Project Structure</a>
+      <a href='#project_structure'
+      >Estructura del Proyecto</a>
     </li>
     <li>
-      <a
-        href='#usage'
-      >Usage</a>
+      <a href='#usage'
+      >Uso</a>
     </li>
     <li>
-      <a
-        href='#api_documentation'
-        >Api Documentation</a>
+      <a href='#api_documentation'
+      >Documentacion de la API</a>
     </li>
     <li>
-      <a
-        href='#endpoints'
+      <a href='#endpoints'
       >Endpoints</a>
     </li>
     <li>
-      <a
-        href='#built_using'
-      >Built Using</a>
+      <a href='#built_using'
+      >Construido usando</a>
     </li>
     <li>
-      <a
-        href='#authors'
-      >Authors</a>
+      <a href='#authors'
+      >Author/es</a>
     </li>
     <li>
-      <a
-        disabled
-        href='#acknowledgement'
+      <a href='#acknowledgement'
       >Acknowledgments</a>
     </li>
   </ol>
-  <ul>
-    <li>
-      <a
-        href='./TODO.md'
-      >TODO</a>
-    </li>
-    <li>
-      <a
-        href='./CONTRIBUTING.md'
-      >CONTRIBUTING</a>
-    </li>
-    <li>
-      <a
-        href='./CHANGELOG.md'
-      >CHANGELOG</a>
-    </li>
-  </ul>
 </details>
 
 <br/>
@@ -98,37 +62,76 @@ Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
 | | | └─ MinecraftRegular.otf
 | | | └─ MinecraftRegular.ttf
 | | | └─ MinecraftRegular.woff2
+| | | └─ MinecraftRegular.zip (all Minecraft fonts)
 | | | └─ SgaSmoothRegular.woff2
 | | └─ image/
 | | | └─ Logo-Surviblia-1-12-(11235x3000).png
 | | | └─ Logo-Surviblia-1-12-(256x256).ico
 | | | └─ Logo-Surviblia-1-12-(3000x3000).png
 | | └─ js/
-| | | └─ add.mjs
-| | | └─ const.mjs
-| | | └─ document.mjs
-| | | └─ variable.mjs
+| |   └─ add.mjs
+| |   └─ const.mjs
+| |   └─ document.mjs
+| |   └─ variable.mjs
 | └─ favicon.webp
-├─ restClient/
-| └─ api.http
 ├─ src/
 | ├─ controllers/
 | | └─ SurviAPI.controller.ts
+| | | └─ SurviAPIController.d.ts
+| | └─ SurviAPICALC.controller.ts
+| | | └─ SurviAPICALCController.d.ts
 | | └─ SurviAPIEpisodes.controller.ts
+| | | └─ SurviAPIEpisodesController.d.ts
+| | └─ SurviAPIPets.controller.ts
+| | | └─ SurviAPIPetsController.d.ts
+| | └─ SurviAPIProjects.controller.ts
+| | | └─ SurviAPIProjectsController.d.ts
+| | └─ SurviAPISVSG.controller.ts
+| |   └─ SurviAPISVSGController.d.ts
 | ├─ data/
 | | └─ SurviAPI.json
 | | └─ SurviAPIEpisodes.json
+| | └─ SurviAPIPets.json
+| | └─ SurviAPIProjects.json
+| | └─ SurviAPICALC.json
+| | └─ SurviAPISVSG.json
 | ├─ middlewares/
 | | └─ cors.ts
 | ├─ models/
 | | └─ SurviAPI.model.ts
+| | | └─ SurviAPIModel.d.ts
+| | └─ SurviAPICALC.model.ts
+| | | └─ SurviAPICALCModel.d.ts
 | | └─ SurviAPIEpisodes.model.ts
+| | | └─ SurviAPIEpisodesModel.d.ts
+| | └─ SurviAPIPets.model.ts
+| | | └─ SurviAPIPetsModel.d.ts
+| | └─ SurviAPIProjects.model.ts
+| | | └─ SurviAPIProjectsModel.d.ts
+| | └─ SurviAPISVSG.model.ts
+| |   └─ SurviAPISVSGModel.d.ts
 | ├─ router/
 | | └─ SurviAPIRouter.ts
 | └─ schemas/
-| | └─ SurviAPIEpisodesSchema.ts
-| | └─ SurviAPISchema.ts
-| | └─ utils.ts
+| | └─ json/
+| | | └─ SurviAPISchema.json
+| | | └─ SurviAPICALCSchema.json
+| | | └─ SurviAPIEpisodesSchema.json
+| | | └─ SurviAPIPetsSchema.json
+| | | └─ SurviAPIProjectsSchema.json
+| | | └─ SurviAPISVSGSchema.json
+| | └─ zod/
+| |   └─ SurviAPIEpisodesSchema.ts
+| |   └─ SurviAPISchema.ts
+| |   └─ utils.ts
+| └─ scripts/
+| | └─ geInfoEpisodios.cjs
+| | └─ geInfoEpisodios.d.ts
+| | └─ index.cjs
+| | └─ parseInfoPublishedAt.cjs
+| | └─ parseInfoPublishedAt.d.ts
+| | └─ parseInfoTitle.cjs
+| | └─ parseInfoTitle.d.ts
 | └─ setup/
 | | └─ acceptedOrigins.ts
 | | └─ containsTools.ts
@@ -141,16 +144,19 @@ Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
 | | └─ main.d.ts
 | | └─ SurviAPI.d.ts
 | | └─ SurviAPIEpisodes.d.ts
+| | └─ SurviAPIPets.d.ts
+| | └─ SurviAPIProjects.d.ts
+| | └─ SurviAPICALC.d.ts
+| | └─ SurviAPISVSG.d.ts
 | └─ utils/
-| | └─ const.ts
-| | └─ enum.ts
-| | └─ main.d.ts
-| | └─ SurviAPI.d.ts
-| | └─ SurviAPIEpisodes.d.ts
+| | └─ createRequire.ts
+| | └─ Dom.ts
+| | └─ formatedStringMsg.ts
+| | └─ logs.ts
+| | └─ readFile.ts
+| | └─ sanitize.ts
+| | └─ setHeaderOnStatic.ts
 | └─ views/
-| | └─ css/
-| | | └─ main.css
-| | | └─ font.css
 | | └─ add.html
 | | └─ delete.html
 | | └─ font.html
@@ -158,24 +164,22 @@ Una Simple REST API de *`"Surviblia | Wiki del survival de ElRichMC"`*<br/>
 | | └─ patch.html
 | | └─ put.html
 | | └─ tailwind.config.js
+| | └─ update.html
 | └── index.ts
-└─ package.json/
+└─ .env
+| └─ .env.test
+└─ .gitignore
 | └─ .editorconfig
-| └─ .eslintrc
-| └─ .eslintignore
-| └─ .gitignore
-| └─ .prettierignore
-| └─ .prettierrc.cjs
-| └─ CHANGELOG.md
+└─ biome.jsonc
+└─ LICENSE
+└─ package.json
+└─ README.md/
 | └─ CONTRIBUTING.md
 | └─ INFO_FALTANTE.md
-| └─ LICENSE
-| └─ README.md/
-| └─ tsconfig.json
-└─/
+└─ tsconfig.json
 ```
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
@@ -219,49 +223,114 @@ export const MobsEndpoint = 'https://api.surviblia.com/api/mobs'
 // Archivo ubicado en lib/FetchSurviAPI.js
 // creando un funcion asycrona esta puede estar en un archivo por separado
 // el cual despues vas a tener que importar de la siguiente manera
-// import {FetchSurviAPI} from '../lib/FetchSurviAPI.mjs'
+// import {FetchSurviAPI} from '../lib/FetchSurviAPI.js'
 
-// fetchSurviAPI.mjs
-export const FetchSurviAPI = async (url) => await fetch(url)
+// fetchSurviAPI.js usando async/await
+export const fetchSurviAPI = async (url) => await fetch(url)
+// fetchSurviAPI.js sin usar async/await
+// (manejo de la promesa con .then() y .catch())
+export const fetchSurviAPI = (url) => fetch(url)
 ```
 
 <br>
 <br>
 
-En el caso de que estes haciendo una pagina con (html, css y javascript) tendras que hacerlo de esta manera o poniendo el tag script con el atributo type en __module__
+En el caso de que estes haciendo una pagina con (HTML, CSS y JavaScript) tendras que hacerlo de esta manera o poniendo la tag &lt;script&gt;&lt;/script&gt; (o desde archivo externo) con el atributo type en __module__
 
 <br>
 <br>
 
-```mjs
-  <script type="module">
-    // llamada a la api y pintado en el body del html
-  </script>
+```html
+<!-- desde HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module">
+      // llamada a la api y pintado en el body del html
+    </script>
+  </head>
+  <body>
+    <!-- tu estructura HTML -->
+  </body>
+</html>
+```
+<br> desde archivo externo que deberas de linkear en tu archivo html usando la tag &lt;script&gt;&lt;/script&gt;
+
+```html
+<!-- desde HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- linkeo de tu archivo js -->
+    <script
+      type="module"
+      src="./scripts/archivo.js"
+    ></script>
+  </head>
+  <body>
+    <!-- tu estructura HTML -->
+  </body>
+</html>
+```
+```js
+// archivo externo
+import { Endpoint } from './const/index.js'
+import FetchSurviAPI from './lib/FetchSurviAPI.js'
+
+// tu codigo aqui...
 ```
 
 <br>
 <br>
 
 1. Crear un archivo con extension `.mjs (Modulos JavaScript)` para poder usar el __Top Level Await__
-  - dentro del archivo haras lo siguiente:
+- dentro del archivo haras lo siguiente:
 
 <br>
 <br>
 
 ```mjs
-  // Primera Forma solo usando fetch sin crear la funcion de fetchSurviAPI
-  import { Endpoint } from './const/index.js'
-  import FetchSurviAPI from './lib/FetchSurviAPI.js'
+// Primera Forma solo usando fetch sin crear la funcion de fetchSurviAPI
+import { Endpoint } from './const/index.js'
 
- // deberas manejas los errores usando try catch
+// deberas manejas los errores usando try catch
 
-  try {
-    const response = await FetchSurviAPI(Endpoint)
-    const data = await response.json()
-    return data
-  } catch (e) {
+try {
+  const response = await fetch(Endpoint)
+  if (!response.ok) {
+
+  }
+  const data = await response.json()
+  return data
+} catch (e) {
+  if (e instanceof Error) {
+    console.error(`Ha ocurrido un Error ${e.message}`)
+  } else {
     console.error(`Ha ocurrido un Error ${e}`)
   }
+}
+
+// o puedes usar los then para manejar los datos y catch para los errores
+
+fetch(Endpoint)
+  .then(res => {
+    if (res.ok) {
+      /* transformamos la respuesta a json*/
+      res.json();
+    } else {
+      // si la respuesta no es ok
+    }
+  })
+  .then(data => {
+    // aca ya no viene la data de la api y ya la podremos usar para imprimir en el HTML
+  })
+  .catch(err => {
+    if (err instanceof Error) {
+      console.error(err.message);
+    } else {
+      console.error(err)
+    }
+  });
 ```
 
 ```mjs
@@ -277,9 +346,9 @@ const response = await FetchSurviAPI(Endpoint)
 // ...
 ```
 
-2. Si usas [Node.js](https://nodejs.org/) deberas seguir estos pasos
+1. Si usas [Node.js](https://nodejs.org/) deberas seguir estos pasos
 
-- Si no tienes instalado node puedes hacerlo desde la pagina oficial descargando el paquete o instalador segun el sistema operativo ***(Instalar la version LTS)*** y siguiendo las instrucciones o instalando fnm (Fast Node Manager) o nvm (Node Version Manager)
+- Si no tienes instalado node puedes hacerlo desde la pagina oficial descargando el paquete o instalador segun el sistema operativo ***(Instalar la version LTS)*** y siguiendo las instrucciones o instalando [fnm]() (Fast Node Manager) o usando comandos de [nvm]() (Node Version Manager) ya preinstalado con node
 
 - usando fnm
 <!-- con linux, mac o windows -->
@@ -303,8 +372,8 @@ brew install fnm
 <!-- Windows -->
 Con Windows con cualquiera de los siguientes instaladores
 - winget (ya instalado en window por defecto)
-- [scoop](https://)
-- [choco](https://)
+- [scoop](https://scoop.com/)
+- [choco](https://chocolatey.com)
 ```sh
 winget install Schinz.fnm
 # o
@@ -358,7 +427,7 @@ yarn install #<dependencies>
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
@@ -399,7 +468,7 @@ Lo que obtendras al hacer la llamada:
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
@@ -427,30 +496,48 @@ Lo que obtendras al hacer la llamada:
   - GET `/api/items/:item/:material`
 
   ### Mobs
-  - GET `/api/mobs`
-  - GET `/api/mobs/:mob` (**aun no añanido**)
+  - GET `/api/entities`
+  - GET `/api/entities/:entity` (**aun no añanido**)
 
-  ### Add
-  - GET `/api/add`
+  ### Episodes
+  - GET `/api/episodes`
+  - GET `/api/episodes/episode`
+  - GET `/api/episodes/version`
+  - GET `/api/episodes/versions`
+  - GET `/api/episodes/titles`
+
+  ### Tiers
+  - GET `/api/tiers`
+  - GET `/api/tiers/:tier`
+  - GET `/api/tiers/:tier/:project`
+
+  ### POST
+  - POST `/api/post/:type`
+  ### PATCH
+  - PATCH `/api/patch/:type`
+  ### PUT
+  - PUT `/api/put/:type`
+  ### DELETE
+  - DELETE `/api/delete/:type`
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
 ## ⛏️ Built Using <a id="built_using"></a>
 
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [NodeJS](https://nodejs.org/en/) - Server Environment
 - [Express](https://expressjs.com/) - Server Framework
 - [Typescript](https://typescriptlang.org/) - Super Set of Java Script
-- [Pnpm](https://pnpm.io/installation/) - Package Manager
-- [ts-node-dev](https://github.com/whitecolor/ts-node-dev/) - Compiler TS and Executon Engine
-- [ts-standrad](https://github.com/standard/ts-standard/) - Eslint of TS style Standard (whitout comma, use a single quote, etc)
+- [PNPM](https://pnpm.io/installation/) - Package Manager
+- [Tsx](https://tsx.com/) - Compiler TS and Executon Engine
+- [BiomeJS](https://biomejs.com/) - Formatter and Lint
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
@@ -458,21 +545,20 @@ Lo que obtendras al hacer la llamada:
 
 - [@OctaEDLP00](https://github.com/OctaEDLP00) - Idea & Initial work
 
-See also the list of [CONTRIBUTORS](https://github.com/OctaEDLP00/API_THEME/contributors) who participated in this project.
+See also the list of [CONTRIBUTORS](https://github.com/OctaEDLP00/SurviAPI/contributors) who participated in this project.
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
 
 ## 🎉 Acknowledgements <a id="acknowledgement"></a>
 
 - Pagina Oficial de la [Wiki del Survival de ElRichMC](https://surviblia.com/)(Oficial)
-- Rediseño de la pagina Oficial de la [Wiki del Survival de ElRichMC](https://)(NO OFICIAL)
 
 <br/>
 
-<div align='center'>
+<div align='right'>
   🔝 <a href='#top'>Back to top</a>
 </div>
