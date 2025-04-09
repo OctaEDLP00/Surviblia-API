@@ -1,6 +1,43 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "assists": {
+    "actions": {
+      "source": {
+        "sortJsxProps": "on",
+        "useSortedKeys": "on"
+      }
+    },
+    "enabled": true,
+    "ignore": ["node_modules", "_trash", "src/schemas/json/*.jsonc"]
+  },
+  "formatter": {
+    "attributePosition": "multiline",
+    "enabled": true,
+    "formatWithErrors": true,
+    "ignore": ["node_modules", "_trash"],
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80,
+    "useEditorconfig": true
+  },
+  "javascript": {
+    "assists": {
+      "enabled": true
+    },
+    "formatter": {
+      "quoteProperties": "asNeeded",
+      "quoteStyle": "single",
+      "semicolons": "asNeeded",
+      "trailingCommas": "es5"
+    },
+    "linter": {
+      "enabled": true
+    }
+  },
   "json": {
+    "assists": {
+      "enabled": true
+    },
     "formatter": {
       "enabled": true
     },
@@ -12,35 +49,28 @@
       "allowTrailingCommas": false
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
   "linter": {
     "enabled": true,
+    "ignore": ["node_modules", "_trash"],
     "rules": {
+      "complexity": {
+        "noStaticOnlyClass": "off"
+      },
       "recommended": true,
+      "style": {
+        "noNonNullAssertion": "off"
+      },
       "suspicious": {
         "noDebugger": "error",
         "noDuplicateCase": "error",
-        "noEmptyInterface": "off"
+        "noDuplicateClassMembers": "warn",
+        "noEmptyInterface": "off",
+        "useIsArray": "off"
       }
     }
   },
-  "formatter": {
+  "organizeImports": {
     "enabled": true,
-    "indentStyle": "space",
-    "indentWidth": 2,
-    "lineEnding": "lf",
-    "lineWidth": 80,
-    "formatWithErrors": true,
-    "attributePosition": "multiline"
-  },
-  "javascript": {
-    "formatter": {
-      "quoteProperties": "asNeeded",
-      "quoteStyle": "single",
-      "semicolons": "asNeeded",
-      "trailingCommas": "es5"
-    }
+    "ignore": ["node_modules", "_trash"]
   }
 }
