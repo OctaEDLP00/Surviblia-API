@@ -17,6 +17,27 @@
     "rapidapi.vscode-services",
     "tobermory.es6-string-html",
     "mikestead.dotenv",
-    "oven.bun-vscode"
+    "oven.bun-vscode",
+    "biomejs.biome",
+    "aaron-bond.better-comments",
+    "ultram4rine.vscode-choosealicense",
+    "alburdette619.docthis-core",
+    "mrmlnc.vscode-duplicate",
+    "grapecity.gc-excelviewer",
+    "miguelsolorio.fluent-icons",
+    "ctcuff.font-preview",
+    "github.vscode-pull-request-github",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "ms-vscode.live-server",
+    "unifiedjs.vscode-mdx",
+    "ibm.output-colorizer",
+    "thomascsd.vscode-readme-pattern",
+    "miguelsolorio.symbols",
+    "bradlc.vscode-tailwindcss",
+    "plievone.vscode-template-literal-editor",
+    "marcoq.vscode-typescript-to-json-schema"
   ]
 }
