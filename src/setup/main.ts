@@ -5,7 +5,13 @@ import PORT from '@/setup/port.ts'
 import type { ICreateRouterConfig } from '@/types/type.d'
 import { formatedStringMsg } from '@/utils/formatedStringMsg.ts'
 import { staticOptions } from '@/utils/setHeaderOnStatic.ts'
-import express, { static as _static, json } from 'express'
+import express, {
+  type Request, 
+  type Response, 
+  static as _static, 
+  json 
+} from 'express'
+import { join } from 'node:path'
 
 const publicPath = 'public'
 
@@ -16,6 +22,10 @@ function createAPP(config: ICreateRouterConfig) {
   app.use(json())
   app.use(corsMiddleware())
   app.use(loggerMiddleware)
+  app.use('/favicon.png', (_req: Request, res: Response) => {
+    res.set('Content-Type', 'image/png')
+    res.sendFile(join(import.meta.dirname, 'favicon.png'));
+  });
   app.use(_static(publicPath, staticOptions))
   app.disable('x-powered-by')
   app.use(
@@ -25,7 +35,6 @@ function createAPP(config: ICreateRouterConfig) {
       surviCALCModel: config.surviCALCModel,
       surviPetsModel: config.surviPetsModel,
       surviSVSGModel: config.surviSVSGModel,
-      surviEndpointModel: config.surviEndpointModel,
       surviSchemaModel: config.surviSchemaModel,
       surviArmorsModel: config.surviArmorsModel,
       surviEntitiesModel: config.surviEntitiesModel,
@@ -37,10 +46,7 @@ function createAPP(config: ICreateRouterConfig) {
   )
 
   app.listen(PORT, (error) => {
-    if (error) {
-      throw error
-    }
-
+    if (error) throw error
     console.clear()
     console.log(msg)
   })

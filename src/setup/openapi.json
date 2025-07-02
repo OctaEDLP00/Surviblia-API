@@ -1,0 +1,1597 @@
+{
+  "components": {
+    "requestBodies": {
+      "Armors": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/SurviAPIArmors"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "CALC": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPICALC"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Episodes": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIEpisodes"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "EpisodesExtended": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIEpisodesExtended"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Extras": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIExtras"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Items": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIItems"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Pets": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIPets"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "SVSG": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPISVSG"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Tools": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPITools"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "Weapons": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPIWeapons"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      },
+      "WithoutCategory": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "items": {
+                "$ref": "#/components/schemas/SurviAPITools"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "description": "",
+        "required": true
+      }
+    },
+    "schemas": {
+      "SurviAPIArmors": {
+        "$ref": "/schemas-json/SurviAPIArmorsSchema.json",
+        "xml": {
+          "name": "SurviAPIArmors"
+        }
+      },
+      "SurviAPICALC": {
+        "$ref": "/schemas-json/SurviAPICALCSchema.json",
+        "xml": {
+          "name": "SurviAPICALC"
+        }
+      },
+      "SurviAPIEndpoints": {
+        "$ref": "/schemas-json/SurviAPIEndpointsSchema.json",
+        "xml": {
+          "name": "SurviAPIAEnpoints"
+        }
+      },
+      "SurviAPIEntities": {
+        "$ref": "/schemas-json/SurviAPIEntitiesSchema.json",
+        "xml": {
+          "name": "SurviAPIEntities"
+        }
+      },
+      "SurviAPIEpisodes": {
+        "$ref": "/schemas-json/SurviAPIEpisodesSchema.json",
+        "xml": {
+          "name": "SurviAPIEpisodes"
+        }
+      },
+      "SurviAPIEpisodesExtended": {
+        "$ref": "/schemas-json/SurviAPIEpisodesExtendedSchema.json",
+        "xml": {
+          "name": "SurviAPIEpisodesExtended"
+        }
+      },
+      "SurviAPIExtras": {
+        "$ref": "/schemas-json/SurviAPIAExtrasSchema.json",
+        "xml": {
+          "name": "SurviAPIAExtras"
+        }
+      },
+      "SurviAPIItems": {
+        "$ref": "/schemas-json/SurviAPIItemsSchema.json",
+        "xml": {
+          "name": "SurviAPIItems"
+        }
+      },
+      "SurviAPIPets": {
+        "$ref": "/schemas-json/SurviAPIPetsSchema.json",
+        "xml": {
+          "name": "SurviAPIPets"
+        }
+      },
+      "SurviAPIProjects": {
+        "$ref": "/schemas-json/SurviAPIProjectsSchema.json",
+        "xml": {
+          "name": "SurviAPIProjects"
+        }
+      },
+      "SurviAPISVSG": {
+        "$ref": "/schemas-json/SurviAPISVGSSchema.json",
+        "xml": {
+          "name": "SurviAPISVSG"
+        }
+      },
+      "SurviAPITools": {
+        "$ref": "/schemas-json/SurviAPIToolsSchema.json",
+        "xml": {
+          "name": "SurviAPITools"
+        }
+      },
+      "SurviAPIWeapons": {
+        "$ref": "/schemas-json/SurviAPIWeaponsSchema.json",
+        "xml": {
+          "name": "SurviAPIWeapons"
+        }
+      },
+      "SurviAPIWithoutCategory": {
+        "$ref": "/schemas-json/SurviAPIWithoutCategorySchema.json",
+        "xml": {
+          "name": "SurviAPIWithoutCategory"
+        }
+      }
+    }
+  },
+  "info": {
+    "contact": {
+      "email": "octavio.pincha@gmail.com"
+    },
+    "description": "API Docs Surviblia Wiki of the Survival of ElRichMC",
+    "license": {
+      "name": "MIT",
+      "url": "https://mit-license.org"
+    },
+    "termsOfService": "",
+    "title": "Surviblia API | Endpoints",
+    "version": "1.0.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/animaciones": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/armors": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/armors/{armor}/{:material}": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/calc": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/cinematicas": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/clips": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/entities": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/entities/{:entity}": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/episodes": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/episodes/episode/{:episode}": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/episodes/episode/:version": {
+"delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/episodes/titles": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/episodes/versions": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/items": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/items/:item": {
+     "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/lore": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/pets": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/pets/official/:name": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/pets/officials": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/pets/unofficial/:name": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/pets/unofficials": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/projects": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/projects/:tier_name/:project_name": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/projetcs/:tier_name": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/schemas": {
+      "get": {
+        "operationId": "",
+        "requestBody": {
+          "$ref": "#/components/requestBodies/Schemas"
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Schemas"
+        ]
+      }
+    },
+    "/schemas/{:schemasName}": {
+      "get": {
+        "description": "",
+        "operationId": "",
+        "parameters": [
+          {
+            "description": "",
+            "explode": true,
+            "in": "path",
+            "name": "schemasName",
+            "required": true,
+            "schema": {
+              "$ref": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Pet"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "Invalid status value"
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Schemas"
+        ]
+      }
+    },
+    "/svsg": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/svsg/solutions": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/svsg/solutions/:episode_number": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/tools": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/tools/:tool/{:material}": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/weapons": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/weapons/:weapon/{:material}": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/without-category": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    },
+    "/without-category/:item": {
+      "delete": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "get": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "patch": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "post": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      },
+      "put": {
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "summary": "",
+        "tags": []
+      }
+    }
+  },
+  "servers": [
+    {
+      "description": "Development Server Firebase Studio",
+      "url": "https://9000-idx-surviblia-api-1746215954337.cluster-uf6urqn4lned4spwk4xorq6bpo.cloudworkstations.dev"
+    },
+    {
+      "url": "http://localhost:{port}",
+      "description": "Local Server"
+    }
+  ],
+  "tags": [
+    {
+      "description": "",
+      "name": "Schemas"
+    },
+    {
+      "description": "",
+      "name": "Armors"
+    },
+    {
+      "description": "",
+      "name": "Tools"
+    },
+    {
+      "description": "",
+      "name": "Weapons"
+    },
+    {
+      "description": "",
+      "name": "Items"
+    },
+    {
+      "description": "",
+      "name": "Entities"
+    },
+    {
+      "description": "",
+      "name": "Episodes"
+    },
+    {
+      "description": "",
+      "name": "Projects"
+    },
+    {
+      "description": "",
+      "name": "Pets"
+    },
+    {
+      "description": "",
+      "name": "CALC"
+    },
+    {
+      "description": "",
+      "name": "SVSG"
+    },
+    {
+      "description": "",
+      "name": "Without_Category"
+    }
+  ]
+}

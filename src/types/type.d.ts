@@ -16,7 +16,6 @@ interface ICreateRouterConfig {
   surviPetsModel: SurviAPIPetsModel
   surviCALCModel: SurviAPICALCModel
   surviSVSGModel: SurviAPISVSGModel
-  surviEndpointModel: SurviAPIEndpointsModel
   surviSchemaModel: SurviAPISchemaModel
   surviArmorsModel: SurviAPIArmorsModel
   surviToolsModel: SurviAPIToolsModel

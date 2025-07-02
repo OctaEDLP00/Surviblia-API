@@ -1,5 +1,4 @@
 {
-  "IDX.aI.enableInlineCompletion": true,
   "[json]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -87,8 +86,12 @@
       "url": "https://biomejs.dev/schemas/1.9.4/schema.json"
     },
     {
-      "fileMatch": ["/public/schemas-json/*.json"],
+      "fileMatch": ["/public/schemas-json/OpenAPISpecificationSchema.json"],
       "url": "http://json-schema.org/draft-07/schema#"
+    },
+    {
+      "fileMatch": ["/src/setup/openapi.json"],
+      "url": "/public/schemas-json/OpenAPISpecificationSchema.json"
     }
   ],
   "markdown.validate.ignoredLinks": [
@@ -100,5 +103,10 @@
     "#authors",
     "#usage",
     "#project_structure"
-  ]
+  ],
+  "files.autoSave": "off",
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true
 }

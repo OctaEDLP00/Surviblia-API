@@ -1,0 +1,130 @@
+{
+  "title": "JSON Schema OpenAPI (Swagger)",
+  "description": "",
+  "type": "object",
+  "definitions": {
+    "Components": {
+      "type": "object",
+      "properties": {
+        "requestBodies": {
+          "type": "object",
+          "properties": {
+            
+          }
+        },
+        "schemas": {
+          "type": "object",
+          "properties": {
+
+          }
+        }
+      }
+    },
+    "Info": {
+      "type": "object",
+      "properties": {
+        "contact": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            }
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "license": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "enum": [
+                "MIT"
+              ]
+            },
+            "url": {
+              "type": "string",
+              "format": "uri-reference"
+            }
+          }
+        },
+        "termsOfService": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "Tags": {
+
+    },
+    "Servers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri-reference"
+          },
+          "variables": {
+            "type": "object",
+            "properties": {
+              "default": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "enum": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": ["default"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["url"],
+      "additionalProperties": false
+    },
+    "Paths": {
+      
+    }
+  },
+  "properties": {
+    "components": {
+      "$ref": "#/definitions/Components"
+    },
+    "info": {
+      "$ref": "#/definitions/Info"
+    },
+    "openapi": {
+      "type": "string",
+      "enum": [
+        "3.1.0"
+      ],
+      "default": "3.1.0"
+    },
+    "paths": {
+      "$ref": "#/definitions/Paths"
+    },
+    "servers": {
+      "$ref": "#/definitions/Servers"
+    },
+    "tags": {
+      "$ref": "#/definitions/Tags"
+    }
+  }
+}

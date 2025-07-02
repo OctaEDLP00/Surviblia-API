@@ -1,6 +1,5 @@
 import SurviAPIArmorsController from '@/controllers/SurviAPIArmors.controller.ts'
 import SurviAPICALCController from '@/controllers/SurviAPICALC.controller.ts'
-import SurviAPIEndpointController from '@/controllers/SurviAPIEndpoints.controller.ts'
 import SurviAPIEntitiesController from '@/controllers/SurviAPIEntities.controller.ts'
 import SurviAPIEpisodesController from '@/controllers/SurviAPIEpisodes.controller.ts'
 import SurviAPIItemsController from '@/controllers/SurviAPIItems.controller.ts'
@@ -14,6 +13,8 @@ import SurviAPIWithoutCategoryController from '@/controllers/SurviAPIWithoutCate
 import type { ICreateRouterConfig } from '@/types/type.d.ts'
 import type { Router as IRouter } from 'express'
 import { Router } from 'express'
+import swaggerUI from 'swagger-ui-express'
+import schemaSwagger from '@/setup/openapi.json'
 
 function createRouter(config: ICreateRouterConfig): IRouter {
   const router = Router()
@@ -51,14 +52,11 @@ function createRouter(config: ICreateRouterConfig): IRouter {
   const SSVSGCtrl = new SurviAPISVSGController({
     surviSVSGModel: config.surviSVSGModel,
   })
-  const SCtrlEndpoint = new SurviAPIEndpointController({
-    surviEndpointModel: config.surviEndpointModel,
-  })
   const SShemaCtrl = new SurviAPISchemaController({
     surviSchemaModel: config.surviSchemaModel,
   })
 
-  router.get('/', SCtrlEndpoint.getEndpoints)
+  router.use('/', swaggerUI.serve, swaggerUI.setup(schemaSwagger))
   router.get('/schemas', SShemaCtrl.getSchemas)
   router.get('/schemas/:schema', SShemaCtrl.getSchema)
   /** Armors routes */
